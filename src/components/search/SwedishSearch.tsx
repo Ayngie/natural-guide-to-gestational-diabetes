@@ -2,17 +2,48 @@ import { SearchField } from "./SearchField";
 import { StyledSearchSection, StyledArticle } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph } from "../styles/StyledTexts";
 import { StyledLoader } from "../styles/search/StyledLoader";
+import { useState, useEffect } from "react";
+import { getSLVData } from "../../services/getSLVData";
 
 interface IEnglishSearchProps {
-  swedishFood: string;
   isLoading: boolean;
-  searchHasBeenDone: boolean;
-  errorFetching: boolean;
-  setSwedishFood: (text: string) => void;
   setIsLoading: (textInputEntered: boolean) => void;
 }
 
-export const SwedishSearch = ({swedishFood, isLoading, searchHasBeenDone, errorFetching, setSwedishFood, setIsLoading}:IEnglishSearchProps) => {
+export const SwedishSearch = ({ isLoading, setIsLoading}:IEnglishSearchProps) => {
+  const [swedishFood, setSwedishFood] = useState<string>("");
+  const [swedishSearchHasBeenDone, setSwedishSearchHasBeenDone] = useState<boolean>(false);
+  const [swedishErrorFetching, setSwedishErrorFetching] = useState<boolean>(false);
+
+  useEffect(() => {
+
+    //call function to get data from API
+    async function fetchSwedishFood() {
+      setSwedishErrorFetching(false)
+      setSwedishSearchHasBeenDone(true)
+
+      try {
+        const foodData = await getSLVData();
+        console.log(foodData);
+        } catch (error) {
+        // console.error("This is the error from SearchFood for SLV search: ", error);
+        setSwedishErrorFetching(true);
+        return {};
+      }  
+    }
+    
+    if (swedishFood != "") {
+      console.log("Fetching food from SLV");
+      fetchSwedishFood();
+    }
+
+    //hide loader
+    setIsLoading(false);
+
+    return () => {
+    };
+  }, [swedishFood, setIsLoading]);
+
   return (
     <>
           <StyledHeading>Sök livsmedel</StyledHeading>
@@ -23,10 +54,10 @@ export const SwedishSearch = ({swedishFood, isLoading, searchHasBeenDone, errorF
 
             {isLoading && <StyledLoader></StyledLoader>}
 
-            { searchHasBeenDone && 
+            { swedishSearchHasBeenDone && 
               <StyledArticle> 
                 <p>Du sökte på: {swedishFood}</p> 
-                { errorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p>}
+                { swedishErrorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p>}
               </StyledArticle>
             }
 

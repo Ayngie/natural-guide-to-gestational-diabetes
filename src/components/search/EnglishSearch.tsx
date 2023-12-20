@@ -2,17 +2,49 @@ import { SearchField } from "./SearchField";
 import { StyledSearchSection, StyledArticle } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph } from "../styles/StyledTexts";
 import { StyledLoader } from "../styles/search/StyledLoader";
+import { useState, useEffect } from "react";
+import { getUSData } from "../../services/getUSData";
 
 interface IEnglishSearchProps {
-  englishFood: string;
   isLoading: boolean;
-  searchHasBeenDone: boolean;
-  errorFetching: boolean;
-  setEnglishFood: (text: string) => void;
   setIsLoading: (textInputEntered: boolean) => void;
 }
 
-export const EnglishSearch = ({englishFood, isLoading, searchHasBeenDone, errorFetching, setEnglishFood, setIsLoading}:IEnglishSearchProps) => {
+export const EnglishSearch = ({ isLoading, setIsLoading}:IEnglishSearchProps) => {
+  const [englishFood, setEnglishFood] = useState<string>("");
+  const [englishSearchHasBeenDone, setEnglishSearchHasBeenDone] = useState<boolean>(false);
+  const [englishErrorFetching, setEnglishErrorFetching] = useState<boolean>(false);
+
+  useEffect(() => {
+
+    //call function to get data from API
+    async function fetchEnglishFood(englishFood?: string) {
+      setEnglishErrorFetching(false)
+      setEnglishSearchHasBeenDone(true)
+
+      try {
+        const foodData = await getUSData(englishFood || "");
+        console.log(foodData);
+        } catch (error) {
+        // console.error("This is the error from SearchFood for SLV search: ", error);
+        setEnglishErrorFetching(true);
+        return {};
+      }
+    }
+
+    if (englishFood != "") {
+      console.log("Fetching food from FoodData Central");
+      fetchEnglishFood(englishFood);
+    }
+    
+    //hide loader
+    setIsLoading(false);
+
+    return () => {
+    };
+  }, [englishFood, setIsLoading]);
+
+  
   return (
     <>
           <StyledHeading>Search food</StyledHeading>
@@ -23,10 +55,10 @@ export const EnglishSearch = ({englishFood, isLoading, searchHasBeenDone, errorF
 
             {isLoading && <StyledLoader></StyledLoader>}
 
-            { searchHasBeenDone && 
+            { englishSearchHasBeenDone && 
               <StyledArticle> 
                 <p>You searched for: {englishFood}</p> 
-                { errorFetching && <div><p>Sorry, we couldn't retrieve your data just now, please try again later!</p> <p>(And make sure you searched in english!)</p> </div>}
+                { englishErrorFetching && <div><p>Sorry, we couldn't retrieve your data just now, please try again later!</p> <p>(And make sure you searched in english!)</p> </div>}
               </StyledArticle>
             }
             
