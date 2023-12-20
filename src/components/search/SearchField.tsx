@@ -5,11 +5,12 @@ import { ParagraphWrapper } from "../styles/StyledWrappers";
 
 interface ISearchFieldProps {
   food: string;
+  englishPlaceholder?: string;
   setFood: (text: string) => void;
   setIsLoading: (textInputEntered: boolean) => void;
 }
   
-export const SearchField = ({setFood, food, setIsLoading}: ISearchFieldProps) => {
+export const SearchField = ({food, englishPlaceholder, setFood, setIsLoading}: ISearchFieldProps) => {
     const [userInput, setUserInput] = useState<string>("");
     const [foodAlreadySearched, setFoodAlreadySearched] = useState<boolean>(false);
 
@@ -47,7 +48,7 @@ export const SearchField = ({setFood, food, setIsLoading}: ISearchFieldProps) =>
           name="food"
           value={userInput}
           onChange={handleChange}
-          placeholder="Sök ditt livsmedel här..."/>
+          placeholder={englishPlaceholder ?? "Sök ditt livsmedel här..."}/>
           <StyledButton>Sök</StyledButton>
       </StyledForm>   
       { foodAlreadySearched && <ParagraphWrapper> <Paragraph> <BoldText> Du har redan sökt på: {food}, men sök gärna på ett nytt livsmedel. </BoldText></Paragraph> </ParagraphWrapper> }

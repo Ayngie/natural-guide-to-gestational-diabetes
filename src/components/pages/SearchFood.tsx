@@ -1,14 +1,17 @@
 import { useEffect, useState } from "react";
-import { getData } from "../../services/getData";
-import { SearchField } from "../search/SearchField";
-import { StyledLoader } from "../styles/search/StyledLoader";
-import { StyledArticle, StyledFullSection, StyledSearchSection } from "../styles/StyledWrappers";
-import { StyledHeading, Paragraph } from "../styles/StyledTexts";
+import { getSLVData } from "../../services/getSLVData";
+import { getUSData } from "../../services/getUSData";
+import { SwedishSearch } from "../search/SwedishSearch";
+import { EnglishSearch } from "../search/EnglishSearch";
+import { StyledFullSection } from "../styles/StyledWrappers";
 
 export const SearchFood = () => {
-  const [food, setFood] = useState<string>("");
-  const [searchHasBeenDone, setSearchHasBeenDone] = useState<boolean>(false);
-  const [errorFetching, setErrorFetching] = useState<boolean>(false);
+  const [swedishFood, setSwedishFood] = useState<string>("");
+  const [englishFood, setEnglishFood] = useState<string>("");
+  const [swedishSearchHasBeenDone, setSwedishSearchHasBeenDone] = useState<boolean>(false);
+  const [englishSearchHasBeenDone, setEnglishSearchHasBeenDone] = useState<boolean>(false);
+  const [swedishErrorFetching, setSwedishErrorFetching] = useState<boolean>(false);
+  const [englishErrorFetching, setEnglishErrorFetching] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   
   // console.log("Food: ", food);
@@ -16,22 +19,43 @@ export const SearchFood = () => {
 
   useEffect(() => {
 
-    //call function to get data from API
-    async function fetchFood() {
-      setErrorFetching(false)
-      setSearchHasBeenDone(true)
+    //call functions to get data from API:s
+    
+    async function fetchSwedishFood() {
+      setSwedishErrorFetching(false)
+      setSwedishSearchHasBeenDone(true)
+
       try {
-        const foodData = await getData(food);
+        const foodData = await getSLVData();
         console.log(foodData);
-      } catch (error) {
-        // console.error("This is the error from SearchFood: ", error);
-        setErrorFetching(true);
+        } catch (error) {
+        // console.error("This is the error from SearchFood for SLV search: ", error);
+        setSwedishErrorFetching(true);
+        return {};
+      }  
+    }
+    
+    async function fetchEnglishFood(englishFood?: string) {
+      setEnglishErrorFetching(false)
+      setEnglishSearchHasBeenDone(true)
+
+      try {
+        const foodData = await getUSData(englishFood || "");
+        console.log(foodData);
+        } catch (error) {
+        // console.error("This is the error from SearchFood for SLV search: ", error);
+        setEnglishErrorFetching(true);
         return {};
       }
     }
-    if (food != "") {
+
+    if (swedishFood != "") {
       console.log("Fetching food from SLV");
-      fetchFood();
+      fetchSwedishFood();
+    }
+    else if (englishFood != "") {
+      console.log("Fetching food from FoodData Central");
+      fetchEnglishFood(englishFood);
     }
     
     //hide loader
@@ -39,26 +63,12 @@ export const SearchFood = () => {
 
     return () => {
     };
-  }, [food]);
+  }, [swedishFood, englishFood]);
   
   return (
     <StyledFullSection>
-      <StyledHeading>Sök livsmedel</StyledHeading>
-      <Paragraph>Här kan du söka fram livsmedelsdata från Livsmedelsverket för att se näringsvärden!</Paragraph>
-
-      <StyledSearchSection>
-        <SearchField setFood={setFood} food={food} setIsLoading={setIsLoading}/>
-
-        {isLoading && <StyledLoader></StyledLoader>}
-
-        { searchHasBeenDone && 
-          <StyledArticle> 
-            <p>Du sökte på: {food}</p> 
-            { errorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p>}
-          </StyledArticle>
-        }
-
-      </StyledSearchSection>
+      <SwedishSearch swedishFood={swedishFood} setSwedishFood={setSwedishFood} isLoading={isLoading} searchHasBeenDone={swedishSearchHasBeenDone} errorFetching={swedishErrorFetching} setIsLoading={setIsLoading}></SwedishSearch>
+      <EnglishSearch englishFood={englishFood} setEnglishFood={setEnglishFood} isLoading={isLoading} searchHasBeenDone={englishSearchHasBeenDone} errorFetching={englishErrorFetching} setIsLoading={setIsLoading}></EnglishSearch>
     </StyledFullSection>
   );
 };
