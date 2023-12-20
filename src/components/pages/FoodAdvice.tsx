@@ -1,6 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, UpSymbol, StyledSideNavLinks } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
 
 export const FoodAdvice = () => {
   return (
@@ -29,8 +30,8 @@ export const FoodAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
-
+          <LinkToTop/>
+          
           <StyledArticle id="SammansattningMaltid">
             <h3>Sammansättning av måltid:</h3>
             <ParagraphWrapper>
@@ -39,7 +40,7 @@ export const FoodAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
           <StyledArticle id="FarreKolhydrater">
             <h3>Färre kolhydrater:</h3>
@@ -48,7 +49,7 @@ export const FoodAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
         </StyledSplitSection>
       </StyledGrid>

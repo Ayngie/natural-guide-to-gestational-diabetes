@@ -1,6 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, UpSymbol, StyledSideNavLinks } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
 
 export const TrainingAdvice = () => {
   return (
@@ -30,7 +31,7 @@ export const TrainingAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
           <StyledArticle id="Styrketraning">
             <h3>Styrketräning:</h3>
@@ -39,7 +40,7 @@ export const TrainingAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
           <StyledArticle id="Kondition">
             <h3>Kondition:</h3>
@@ -48,7 +49,7 @@ export const TrainingAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
           <StyledArticle id="Promenader">
             <h3>Promenader:</h3>
@@ -57,7 +58,7 @@ export const TrainingAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
         </StyledSplitSection>
       </StyledGrid>

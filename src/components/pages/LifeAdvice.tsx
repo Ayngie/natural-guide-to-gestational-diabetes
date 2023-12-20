@@ -1,6 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, UpSymbol, StyledSideNavLinks } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
 
 export const LifeAdvice = () => {
   return (
@@ -28,7 +29,7 @@ export const LifeAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
           <StyledArticle id="Stress">
             <h3>Stress:</h3>
@@ -37,7 +38,7 @@ export const LifeAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
           <StyledArticle id="Somn">
             <h3>Sömn:</h3>
@@ -46,7 +47,7 @@ export const LifeAdvice = () => {
             </ParagraphWrapper>
           </StyledArticle>
 
-          <UpSymbol><AnchorLink href="#/">^</AnchorLink></UpSymbol>
+          <LinkToTop/>
 
         </StyledSplitSection>
       </StyledGrid>
