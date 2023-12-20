@@ -14,58 +14,56 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
     setOpen(false);
   };
   return (
-    <>
-      <StyledMenu open={open} aria-hidden={!isHidden}>
-        <Link
-          to={"/natural-guide-to-gestational-diabetes/"}
-          onClick={handleClick}
-          tabIndex={tabIndex}
-          aria-hidden={true}>
-          Start
-        </Link>
-        <Link
-          to={"/natural-guide-to-gestational-diabetes/life"}
-          onClick={handleClick}
-          tabIndex={tabIndex}
-          aria-hidden={true}>
-          Levnadsråd
-        </Link>
-        <Link
-          to={"/natural-guide-to-gestational-diabetes/training"}
-          onClick={handleClick}
-          tabIndex={tabIndex}
-          aria-hidden={true}>
-          Träning
-        </Link>
-        <Link
-          to={"/natural-guide-to-gestational-diabetes/food"}
-          onClick={handleClick}
-          tabIndex={tabIndex}
-          aria-hidden={true}>
-          Kost
-        </Link>
-        <Link
-          to={"/natural-guide-to-gestational-diabetes/recipes"}
-          onClick={handleClick}
-          tabIndex={tabIndex}
-          aria-hidden={true}>
-          Recept
-        </Link>
-        <Link
-          to={"/natural-guide-to-gestational-diabetes/search"}
-          onClick={handleClick}
-          tabIndex={tabIndex}
-          aria-hidden={true}>
-          Sök livsmedel
-        </Link>
-        <Link
-          to={"/natural-guide-to-gestational-diabetes/about"}
-          onClick={handleClick}
-          tabIndex={tabIndex}
-          aria-hidden={true}>
-          Om detta projekt
-        </Link>
-      </StyledMenu>
-    </>
+    <StyledMenu open={open} aria-hidden={!isHidden}>
+      <Link
+        to={"/natural-guide-to-gestational-diabetes/"}
+        onClick={handleClick}
+        tabIndex={tabIndex}
+        aria-hidden={true}>
+        Start
+      </Link>
+      <Link
+        to={"/life"}
+        onClick={handleClick}
+        tabIndex={tabIndex}
+        aria-hidden={true}>
+        Levnadsråd
+      </Link>
+      <Link
+        to={"/training"}
+        onClick={handleClick}
+        tabIndex={tabIndex}
+        aria-hidden={true}>
+        Träning
+      </Link>
+      <Link
+        to={"/food"}
+        onClick={handleClick}
+        tabIndex={tabIndex}
+        aria-hidden={true}>
+        Kost
+      </Link>
+      <Link
+        to={"/recipes"}
+        onClick={handleClick}
+        tabIndex={tabIndex}
+        aria-hidden={true}>
+        Recept
+      </Link>
+      <Link
+        to={"/search"}
+        onClick={handleClick}
+        tabIndex={tabIndex}
+        aria-hidden={true}>
+        Sök livsmedel
+      </Link>
+      <Link
+        to={"/about"}
+        onClick={handleClick}
+        tabIndex={tabIndex}
+        aria-hidden={true}>
+        Om detta projekt
+      </Link>
+    </StyledMenu>
   );
 };
