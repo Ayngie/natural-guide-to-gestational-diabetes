@@ -1,18 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { RouterProvider } from 'react-router'
-// import App from './App.tsx'
-import './index.scss'
-
 import { createBrowserRouter } from "react-router-dom";
+import { RouterProvider } from 'react-router'
 import { Layout } from "./components/layout/Layout";
 import { Home } from "./components/pages/Home";
-import { AboutProject } from "./components/pages/AboutProject";
-import { FoodAdvice } from "./components/pages/FoodAdvice";
 import { LifeAdvice } from "./components/pages/LifeAdvice";
+import { TrainingAdvice } from "./components/pages/TrainingAdvice";
+import { FoodAdvice } from "./components/pages/FoodAdvice";
 import { RecipeTips } from "./components/pages/RecipeTips";
 import { SearchFood } from "./components/pages/SearchFood";
-import { TrainingAdvice } from "./components/pages/TrainingAdvice";
+import { AboutProject } from "./components/pages/AboutProject";
+import './index.scss'
 
 export const router = createBrowserRouter([
   {
