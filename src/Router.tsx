@@ -15,7 +15,7 @@ export const router = createBrowserRouter([
     element: <Layout></Layout>,
     children: [
       {
-        path: "/",
+        path: "/natural-guide-to-gestational-diabetes",
         element: <Home></Home>,
         index: true,
       },
