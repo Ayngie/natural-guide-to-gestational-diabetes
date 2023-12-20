@@ -10,8 +10,7 @@ import { TrainingAdvice } from "./components/pages/TrainingAdvice";
 
 export const router = createBrowserRouter([
   {
-    // @ts-expect-error vs code issue
-    basename: "/natural-guide-to-gestational-diabetes",
+    path: "/natural-guide-to-gestational-diabetes",
     element: <Layout></Layout>,
     children: [
       {
