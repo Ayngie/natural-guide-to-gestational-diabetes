@@ -10,7 +10,7 @@ import { TrainingAdvice } from "./components/pages/TrainingAdvice";
 
 export const router = createBrowserRouter([
   {
-    path: "/natural-guide-to-gestational-diabetes",
+    path: "/",
     element: <Layout></Layout>,
     children: [
       {
