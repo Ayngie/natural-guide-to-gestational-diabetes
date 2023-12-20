@@ -17,49 +17,49 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
     <>
       <StyledMenu open={open} aria-hidden={!isHidden}>
         <Link
-          to={"/"}
+          to={"/natural-guide-to-gestational-diabetes/"}
           onClick={handleClick}
           tabIndex={tabIndex}
           aria-hidden={true}>
           Start
         </Link>
         <Link
-          to={"/life"}
+          to={"/natural-guide-to-gestational-diabetes/life"}
           onClick={handleClick}
           tabIndex={tabIndex}
           aria-hidden={true}>
           Levnadsråd
         </Link>
         <Link
-          to={"/training"}
+          to={"/natural-guide-to-gestational-diabetes/training"}
           onClick={handleClick}
           tabIndex={tabIndex}
           aria-hidden={true}>
           Träning
         </Link>
         <Link
-          to={"/food"}
+          to={"/natural-guide-to-gestational-diabetes/food"}
           onClick={handleClick}
           tabIndex={tabIndex}
           aria-hidden={true}>
           Kost
         </Link>
         <Link
-          to={"/recipes"}
+          to={"/natural-guide-to-gestational-diabetes/recipes"}
           onClick={handleClick}
           tabIndex={tabIndex}
           aria-hidden={true}>
           Recept
         </Link>
         <Link
-          to={"/search"}
+          to={"/natural-guide-to-gestational-diabetes/search"}
           onClick={handleClick}
           tabIndex={tabIndex}
           aria-hidden={true}>
           Sök livsmedel
         </Link>
         <Link
-          to={"/about"}
+          to={"/natural-guide-to-gestational-diabetes/about"}
           onClick={handleClick}
           tabIndex={tabIndex}
           aria-hidden={true}>

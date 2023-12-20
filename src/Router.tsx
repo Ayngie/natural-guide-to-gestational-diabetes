@@ -19,27 +19,27 @@ export const router = createBrowserRouter([
         index: true,
       },
       {
-        path: "/life",
+        path: "/natural-guide-to-gestational-diabetes/life",
         element: <LifeAdvice></LifeAdvice>,
       },
       {
-        path: "/training",
+        path: "/natural-guide-to-gestational-diabetes/training",
         element: <TrainingAdvice></TrainingAdvice>,
       },
       {
-        path: "/food",
+        path: "/natural-guide-to-gestational-diabetes/food",
         element: <FoodAdvice></FoodAdvice>,
       },
       {
-        path: "/recipes",
+        path: "/natural-guide-to-gestational-diabetes/recipes",
         element: <RecipeTips></RecipeTips>,
       },
       {
-        path: "/search",
+        path: "/natural-guide-to-gestational-diabetes/search",
         element: <SearchFood></SearchFood>,
       },
       {
-        path: "/about",
+        path: "/natural-guide-to-gestational-diabetes/about",
         element: <AboutProject></AboutProject>,
       },
     ],

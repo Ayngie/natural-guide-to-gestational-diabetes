@@ -12,8 +12,8 @@ export const Header = () => {
   const menuId = "main-menu";
 
   return (
-    <StyledHeader id="/">
-      <Link to="/" className="logo">      
+    <StyledHeader id="/natural-guide-to-gestational-diabetes/">
+      <Link to="/natural-guide-to-gestational-diabetes/" className="logo">      
         <PageLogo>Din naturliga guide vid graviditetsdiabetes</PageLogo>
       </Link>
       <DesktopNavBar/>
