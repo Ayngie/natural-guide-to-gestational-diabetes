@@ -11,4 +11,13 @@ html, body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   line-height: 1.5;
+
+  #root {
+    max-width: 1280px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: aliceblue; // baby blue
+  }
 }
+
