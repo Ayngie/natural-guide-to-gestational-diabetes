@@ -1,7 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import { StyledButton, StyledForm, StyledInput } from "../styles/search/StyledSearchField";
-import { BoldText, Paragraph } from "../styles/StyledTexts";
-import { ParagraphWrapper } from "../styles/StyledWrappers";
+import { StyledButton, StyledForm, StyledInput } from "../../styles/search/StyledSearchField";
+import { BoldText, Paragraph } from "../../styles/StyledTexts";
+import { ParagraphWrapper } from "../../styles/StyledWrappers";
 
 interface ISearchFieldProps {
   food: string;

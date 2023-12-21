@@ -1,9 +1,9 @@
-import { SearchField } from "./SearchField";
-import { StyledSearchSection, StyledArticle } from "../styles/StyledWrappers";
-import { StyledHeading, Paragraph } from "../styles/StyledTexts";
-import { StyledLoader } from "../styles/search/StyledLoader";
 import { useState, useEffect } from "react";
-import { getUSData } from "../../services/getUSData";
+import { getUSData } from "../../../services/getUSData";
+import { SearchField } from "../searchField/SearchField";
+import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers";
+import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
+import { StyledLoader } from "../../styles/search/StyledLoader";
 
 interface IEnglishSearchProps {
   isLoading: boolean;
@@ -47,23 +47,23 @@ export const EnglishSearch = ({ isLoading, setIsLoading}:IEnglishSearchProps) =>
   
   return (
     <>
-          <StyledHeading>Search food</StyledHeading>
-          <Paragraph>Here you can search foods from FoodData Central!</Paragraph>
+      <StyledHeading>Search food</StyledHeading>
+      <Paragraph>Here you can search foods from FoodData Central!</Paragraph>
 
-          <StyledSearchSection>
-            <SearchField food={englishFood} setFood={setEnglishFood} setIsLoading={setIsLoading} englishPlaceholder="Search your food here..." />
+      <StyledSearchSection>
+        <SearchField food={englishFood} setFood={setEnglishFood} setIsLoading={setIsLoading} englishPlaceholder="Search your food here..." />
 
-            {isLoading && <StyledLoader></StyledLoader>}
+        {isLoading && <StyledLoader></StyledLoader>}
 
-            { englishSearchHasBeenDone && 
-              <StyledArticle> 
-                <p>You searched for: {englishFood}</p> 
-                { englishErrorFetching && <div><p>Sorry, we couldn't retrieve your data just now, please try again later!</p> <p>(And make sure you searched in english!)</p> </div>}
-              </StyledArticle>
-            }
-            
-            <Paragraph> Source: U.S. Department of Agriculture, Agricultural Research Service. FoodData Central, 2019. fdc.nal.usda.gov.</Paragraph>
-          </StyledSearchSection>
+        { englishSearchHasBeenDone && 
+          <StyledArticle> 
+            <p>You searched for: {englishFood}</p> 
+            { englishErrorFetching && <div><p>Sorry, we couldn't retrieve your data just now, please try again later!</p> <p>(And make sure you searched in english!)</p> </div>}
+          </StyledArticle>
+        }
+        
+        <Paragraph> Source: U.S. Department of Agriculture, Agricultural Research Service. FoodData Central, 2019. fdc.nal.usda.gov.</Paragraph>
+      </StyledSearchSection>
     </>
   );
 };

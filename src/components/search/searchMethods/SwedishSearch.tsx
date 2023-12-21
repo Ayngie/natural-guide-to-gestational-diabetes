@@ -1,9 +1,9 @@
-import { SearchField } from "./SearchField";
-import { StyledSearchSection, StyledArticle } from "../styles/StyledWrappers";
-import { StyledHeading, Paragraph } from "../styles/StyledTexts";
-import { StyledLoader } from "../styles/search/StyledLoader";
 import { useState, useEffect } from "react";
-import { getSLVData } from "../../services/getSLVData";
+import { getSLVData } from "../../../services/getSLVData";
+import { SearchField } from "../searchField/SearchField";
+import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers";
+import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
+import { StyledLoader } from "../../styles/search/StyledLoader";
 
 interface IEnglishSearchProps {
   isLoading: boolean;
@@ -46,22 +46,23 @@ export const SwedishSearch = ({ isLoading, setIsLoading}:IEnglishSearchProps) =>
 
   return (
     <>
-          <StyledHeading>Sök livsmedel</StyledHeading>
-          <Paragraph>Här kan du söka fram livsmedelsdata från Livsmedelsverket för att se näringsvärden!</Paragraph>
+      <StyledHeading>Sök livsmedel</StyledHeading>
+      <Paragraph>Här kan du söka fram livsmedelsdata från Livsmedelsverkets öppna API för att se näringsvärden!</Paragraph>
 
-          <StyledSearchSection>
-            <SearchField setFood={setSwedishFood} food={swedishFood} setIsLoading={setIsLoading}/>
+      <StyledSearchSection>
+        <SearchField setFood={setSwedishFood} food={swedishFood} setIsLoading={setIsLoading}/>
 
-            {isLoading && <StyledLoader></StyledLoader>}
+        {isLoading && <StyledLoader></StyledLoader>}
 
-            { swedishSearchHasBeenDone && 
-              <StyledArticle> 
-                <p>Du sökte på: {swedishFood}</p> 
-                { swedishErrorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p>}
-              </StyledArticle>
-            }
+        { swedishSearchHasBeenDone && 
+          <StyledArticle> 
+            <p>Du sökte på: {swedishFood}</p> 
+            { swedishErrorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p>}
+          </StyledArticle>
+        }
 
-          </StyledSearchSection>
+        <Paragraph>Källa: Livsmedelsverkets livsmedelsdatabas version 2023-06-13</Paragraph>        
+      </StyledSearchSection>
     </>
   );
 };
