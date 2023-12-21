@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { SwedishSearch } from "../search/SwedishSearch";
+import { LocalJSONSearch } from "../search/searchMethods/LocalJSONSearch";
+// import { SwedishSearch } from "../search/searchMethods/SwedishSearch";
 // import { EnglishSearch } from "../search/EnglishSearch";
 import { StyledFullSection } from "../styles/StyledWrappers";
 
@@ -8,7 +9,8 @@ export const SearchFood = () => {
     
   return (
     <StyledFullSection>
-      <SwedishSearch isLoading={isLoading} setIsLoading={setIsLoading}></SwedishSearch>
+      <LocalJSONSearch isLoading={isLoading} setIsLoading={setIsLoading}></LocalJSONSearch>
+      {/* <SwedishSearch isLoading={isLoading} setIsLoading={setIsLoading}></SwedishSearch> */}
       {/* <EnglishSearch isLoading={isLoading} setIsLoading={setIsLoading}></EnglishSearch> */}
     </StyledFullSection>
   );
