@@ -21,9 +21,8 @@ export const StyledDesktopNavBar = styled.nav`
       &:hover {
         color: rgb(162, 69, 255);
       }
-    }
-    
-    .active {
+
+      &.active{
         text-decoration: 3px solid underline;
         text-decoration-color: rebeccapurple;
         text-underline-position: under;
@@ -31,7 +30,8 @@ export const StyledDesktopNavBar = styled.nav`
         &:hover {
           text-decoration-color: rgb(162, 69, 255);
         }
-      } 
+      }
+    }
 
     @media screen and (min-width: 1200px) {
       display: flex;
