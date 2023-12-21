@@ -32,6 +32,10 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
     letter-spacing: 0.1rem;
     color: rebeccapurple;
 
+    &:hover {
+      color: rgb(162, 69, 255);
+    }    
+    
     &:active {
       color: hotpink;
     }
