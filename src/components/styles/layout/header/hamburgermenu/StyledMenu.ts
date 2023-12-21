@@ -41,6 +41,8 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
   .active {
         text-decoration: 2px solid underline;
         text-decoration-color: rebeccapurple;
+        text-underline-position: under;
+
         &:hover {
           text-decoration-color: rgb(162, 69, 255);
         }

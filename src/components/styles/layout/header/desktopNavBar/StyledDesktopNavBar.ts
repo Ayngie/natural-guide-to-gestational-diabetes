@@ -26,6 +26,7 @@ export const StyledDesktopNavBar = styled.nav`
     .active {
         text-decoration: 3px solid underline;
         text-decoration-color: rebeccapurple;
+        text-underline-position: under;
         
         &:hover {
           text-decoration-color: rgb(162, 69, 255);
