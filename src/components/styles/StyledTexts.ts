@@ -85,8 +85,11 @@ export const StyledSideNavLinks = styled.li `
       text-shadow: 1px 1px white;
       text-decoration: none;    
       
-      &:hover {
-      color: rgb(162, 69, 255);
+        &:hover {
+            color: rgb(162, 69, 255);
+            text-decoration: 2px solid underline;
+            text-decoration-color: rgb(162, 69, 255);
+            text-underline-position: under;      
         }
     }
 `;
@@ -108,4 +111,3 @@ export const UpSymbol = styled.p `
         text-decoration: none;
     }
 `;
-
