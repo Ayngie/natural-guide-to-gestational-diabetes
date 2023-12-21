@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { StyledDesktopNavBar } from "../../../styles/layout/header/desktopNavBar/StyledDesktopNavBar";
 
 export const DesktopNavBar = () => {
@@ -6,27 +6,28 @@ export const DesktopNavBar = () => {
     <StyledDesktopNavBar>
         <ul className="desktop-nav">
             <li>
-                <Link to={"/natural-guide-to-gestational-diabetes/"}>Start</Link>
+                <NavLink to="/natural-guide-to-gestational-diabetes/" end>Start</NavLink>
             </li>
             <li>
-                <Link to={"/natural-guide-to-gestational-diabetes/life"}>Levnadsråd</Link>
+                <NavLink to="/natural-guide-to-gestational-diabetes/life">Levnadsråd</NavLink>
             </li>
             <li>
-                <Link to={"/natural-guide-to-gestational-diabetes/training"}>Träning</Link>
+                <NavLink to="/natural-guide-to-gestational-diabetes/training">Träning</NavLink>
             </li>
             <li>
-                <Link to={"/natural-guide-to-gestational-diabetes/food"}>Kost</Link>
+                <NavLink to="/natural-guide-to-gestational-diabetes/food">Kost</NavLink>
             </li>
             <li>
-                <Link to={"/natural-guide-to-gestational-diabetes/recipes"}>Recept</Link>
+                <NavLink to="/natural-guide-to-gestational-diabetes/recipes">Recept</NavLink>
             </li>
             <li>
-                <Link to={"/natural-guide-to-gestational-diabetes/search"}>Sök livsmedel</Link>
+                <NavLink to="/natural-guide-to-gestational-diabetes/search">Sök livsmedel</NavLink>
             </li>
             <li>
-                <Link to={"/natural-guide-to-gestational-diabetes/about"}>Om detta projekt</Link>
+                <NavLink to="/natural-guide-to-gestational-diabetes/about">Om detta projekt</NavLink>
             </li>
         </ul>
+
     </StyledDesktopNavBar>
   );
 };

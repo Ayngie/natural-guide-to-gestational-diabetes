@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { StyledMenu } from "../../../styles/layout/header/hamburgermenu/StyledMenu";
 
 interface IMenuProps {
@@ -15,55 +15,56 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
   };
   return (
     <StyledMenu open={open} aria-hidden={!isHidden}>
-      <Link
+      <NavLink
         to={"/natural-guide-to-gestational-diabetes/"}
+        end
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
         Start
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to={"/natural-guide-to-gestational-diabetes/life"}
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
         Levnadsråd
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to={"/natural-guide-to-gestational-diabetes/training"}
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
         Träning
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to={"/natural-guide-to-gestational-diabetes/food"}
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
         Kost
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to={"/natural-guide-to-gestational-diabetes/recipes"}
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
         Recept
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to={"/natural-guide-to-gestational-diabetes/search"}
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
         Sök livsmedel
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to={"/natural-guide-to-gestational-diabetes/about"}
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
         Om detta projekt
-      </Link>
+      </NavLink>
     </StyledMenu>
   );
 };
