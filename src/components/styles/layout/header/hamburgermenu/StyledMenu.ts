@@ -25,6 +25,7 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
   text-transform: uppercase;
 
   a {
+    
     position: relative;
     left: 8%;
     padding: 2%;
@@ -36,6 +37,14 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
       color: hotpink;
     }
   }
+
+  .active {
+        text-decoration: 2px solid underline;
+        text-decoration-color: rebeccapurple;
+        &:hover {
+          text-decoration-color: rgb(162, 69, 255);
+        }
+      } 
 
   @media (max-width: 1200px) {
     width: 100%;

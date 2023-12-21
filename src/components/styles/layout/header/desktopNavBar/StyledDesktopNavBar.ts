@@ -23,6 +23,15 @@ export const StyledDesktopNavBar = styled.nav`
       }
     }
     
+    .active {
+        text-decoration: 3px solid underline;
+        text-decoration-color: rebeccapurple;
+        
+        &:hover {
+          text-decoration-color: rgb(162, 69, 255);
+        }
+      } 
+
     @media screen and (min-width: 1200px) {
       display: flex;
       width: 100%;
