@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter } from "react-router-dom";
-import { RouterProvider } from 'react-router'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout } from "./components/layout/Layout";
 import { Home } from "./components/pages/Home";
 import { LifeAdvice } from "./components/pages/LifeAdvice";
