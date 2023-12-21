@@ -9,8 +9,8 @@ import { FoodAdvice } from "./components/pages/FoodAdvice";
 import { RecipeTips } from "./components/pages/RecipeTips";
 import { SearchFood } from "./components/pages/SearchFood";
 import { AboutProject } from "./components/pages/AboutProject";
-import './index.scss'
 import { ErrorPage404 } from './components/pages/ErrorPage404';
+import './index.scss'
 
 export const router = createBrowserRouter([
   {
