@@ -1,6 +1,6 @@
+import { Link } from "react-router-dom";
 import { StyledFullSection, ParagraphWrapper, StyledArticle } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph, StyledLinks } from "../styles/StyledTexts";
-import { Link } from "react-router-dom";
 
 export const ErrorPage404 = () => {
   return (
