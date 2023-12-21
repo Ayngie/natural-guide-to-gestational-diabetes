@@ -10,11 +10,13 @@ import { RecipeTips } from "./components/pages/RecipeTips";
 import { SearchFood } from "./components/pages/SearchFood";
 import { AboutProject } from "./components/pages/AboutProject";
 import './index.scss'
+import { ErrorPage404 } from './components/pages/ErrorPage404';
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement: <ErrorPage404></ErrorPage404>,
     children: [
       {
         path: "/natural-guide-to-gestational-diabetes",
