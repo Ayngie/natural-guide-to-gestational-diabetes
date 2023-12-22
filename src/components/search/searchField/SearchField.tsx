@@ -23,7 +23,7 @@ export const SearchField = ({food, englishPlaceholder, setFood, setIsLoading}: I
         // console.log("food: ", food, "formattedUSerInput: ", formattedUserInput);
 
         if (food === formattedUserInput) { 
-          console.log("same food"); 
+          // console.log("same food"); 
           setFoodAlreadySearched(true);
         } 
         else {
