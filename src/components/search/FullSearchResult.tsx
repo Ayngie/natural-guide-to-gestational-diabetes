@@ -4,11 +4,11 @@ import { SingleSearchResult } from "./SingleSearchResult";
 import { BoldText } from "../styles/StyledTexts";
 import { ClickableWrapper } from "../styles/StyledWrappers";
 
-interface ISearchResultsProps {
+interface IFullSearchResultProps {
   foodData: IFoodItem[],
 }
 
-export const SearchResults = ({foodData}: ISearchResultsProps) => {
+export const FullSearchResult = ({foodData}: IFullSearchResultProps) => {
   const [showSingleFood, setShowSingleFood] = useState<boolean>(false);
   const [clickedFood, setClickedFood] = useState<IFoodItem>({} as IFoodItem);
 

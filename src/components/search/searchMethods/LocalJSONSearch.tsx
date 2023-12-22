@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getJSONData } from "../../../services/getJSONData";
 import { SearchField } from "../searchField/SearchField";
-import { SearchResults } from "../SearchResults";
+import { FullSearchResult } from "../FullSearchResult";
 import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers";
 import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
 import { StyledLoader } from "../../styles/search/StyledLoader";
@@ -84,7 +84,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
                 <p>Kontrollera din stavning eller sök gärna något annat!</p> 
               </div>}
 
-            { jsonSuccessFetching && <SearchResults foodData={jsonFoodData}></SearchResults> }
+            { jsonSuccessFetching && <FullSearchResult foodData={jsonFoodData}></FullSearchResult> }
             
           </StyledArticle>
         }
