@@ -28,13 +28,10 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
     async function fetchJsonFood() {
       try {
         const foodData = await getJSONData(jsonFood)
-        // console.log("JSON foodData: ", foodData);
 
         //Data found
         if (foodData.length > 0) { 
-          // console.log("JSON foodData: ", foodData);
           setJsonSuccessFetching(true);
-          //handle data here...
           setJsonFoodData(foodData);
         } 
         //No data found:
@@ -43,14 +40,13 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
         }
       } 
       catch (error) {
-        // console.error("This is the error from SearchFood for JSON-data search: ", error);
+        console.error("This is the error from SearchFood for JSON-data search: ", error);
         setJsonErrorFetching(true);
         return {};
       }  
     }
     
     if (jsonFood != "") {
-      // console.log("Fetching food from JSON-file");
       setJsonErrorFetching(false);
       setJsonFoodNotFound(false);
       setJsonSuccessFetching(false);
@@ -79,13 +75,17 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
         { jsonSearchHasBeenDone && 
           <StyledArticle> 
             <p>Du sökte på: {jsonFood}</p> 
+
             { jsonErrorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p> }
+
             { jsonFoodNotFound && 
               <div>
                 <p>Tyvärr fanns inte det du sökte!</p> 
                 <p>Kontrollera din stavning eller sök gärna något annat!</p> 
               </div>}
+
             { jsonSuccessFetching && <SearchResults foodData={jsonFoodData}></SearchResults> }
+            
           </StyledArticle>
         }
         <Paragraph>Källa: Livsmedelsverkets livsmedelsdatabas version 2023-06-13</Paragraph>        
