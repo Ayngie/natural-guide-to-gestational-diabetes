@@ -20,13 +20,13 @@ export const StyledDesktopNavBar = styled.nav`
 
       &:hover {
         color: rgb(162, 69, 255);
-        text-decoration: 3px solid underline;
+        text-decoration: 2px solid underline;
         text-decoration-color: rgb(162, 69, 255);
         text-underline-position: under;
       }
 
       &.active{
-        text-decoration: 3px solid underline;
+        text-decoration: 2px solid underline;
         text-decoration-color: rebeccapurple;
         text-underline-position: under;
         
