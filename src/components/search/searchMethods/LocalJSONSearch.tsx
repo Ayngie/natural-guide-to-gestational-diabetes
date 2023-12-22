@@ -15,9 +15,10 @@ interface IJSONSearchProps {
 
 export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => {
   const [jsonFood, setJsonFood] = useState<string>("");
+  const [jsonFoodData, setJsonFoodData] = useState<IFoodItem[]>([]);
+
   const [jsonSearchHasBeenDone, setJsonSearchHasBeenDone] = useState<boolean>(false);
   const [jsonSuccessFetching, setJsonSuccessFetching] = useState<boolean>(false);
-  const [jsonFoodData, setJsonFoodData] = useState<IFoodItem[]>([]);
   const [jsonFoodNotFound, setJsonFoodNotFound] = useState<boolean>(false);
   const [jsonErrorFetching, setJsonErrorFetching] = useState<boolean>(false);
   
@@ -25,23 +26,19 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
 
     //call function to get data from local JSON-file
     async function fetchJsonFood() {
-      setJsonErrorFetching(false)
-      setJsonSearchHasBeenDone(true)
-
       try {
         const foodData = await getJSONData(jsonFood)
-        console.log("JSON foodData: ", foodData);
+        // console.log("JSON foodData: ", foodData);
 
         //Data found
         if (foodData.length > 0) { 
           console.log("JSON foodData: ", foodData);
-          setJsonSuccessFetching(true)
+          setJsonSuccessFetching(true);
           //handle data here...
-          setJsonFoodData(foodData)
+          setJsonFoodData(foodData);
         } 
         //No data found:
         else { 
-          setJsonSuccessFetching(true)
           setJsonFoodNotFound(true);
         }
       } 
@@ -53,8 +50,13 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
     }
     
     if (jsonFood != "") {
-      console.log("Fetching food from JSON-file");
-      fetchJsonFood()
+      // console.log("Fetching food from JSON-file");
+      setJsonErrorFetching(false);
+      setJsonFoodNotFound(false);
+      setJsonSuccessFetching(false);
+      setJsonSearchHasBeenDone(true);
+
+      fetchJsonFood();
     }
 
     //hide loader
