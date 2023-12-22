@@ -5,12 +5,12 @@ import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers"
 import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
 import { StyledLoader } from "../../styles/search/StyledLoader";
 
-interface IEnglishSearchProps {
+interface ISwedishSearchProps {
   isLoading: boolean;
   setIsLoading: (textInputEntered: boolean) => void;
 }
 
-export const SwedishSearch = ({ isLoading, setIsLoading}:IEnglishSearchProps) => {
+export const SwedishSearch = ({ isLoading, setIsLoading}:ISwedishSearchProps) => {
   const [swedishFood, setSwedishFood] = useState<string>("");
   const [swedishSearchHasBeenDone, setSwedishSearchHasBeenDone] = useState<boolean>(false);
   const [swedishErrorFetching, setSwedishErrorFetching] = useState<boolean>(false);
