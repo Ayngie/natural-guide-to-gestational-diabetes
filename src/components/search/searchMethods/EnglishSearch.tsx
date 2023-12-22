@@ -43,7 +43,6 @@ export const EnglishSearch = ({ isLoading, setIsLoading}:IEnglishSearchProps) =>
     return () => {
     };
   }, [englishFood, setIsLoading]);
-
   
   return (
     <>
