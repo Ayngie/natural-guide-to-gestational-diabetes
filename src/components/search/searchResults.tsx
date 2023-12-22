@@ -20,7 +20,7 @@ export const SearchResults = ({foodData}: ISearchResultsProps) => {
               <p>Energi (kJ): {foodItem["Energi (kJ)"]}</p>
               <p>Fett, totalt (g): {foodItem["Fett, totalt (g)"]}</p>
               <p>Protein (g): {foodItem["Protein (g)"]}</p>
-              <p>Kolhydrater: {foodItem["Kolhydrater, tillgängliga (g)"]}</p>
+              <p>Kolhydrater, tillgängliga (g): {foodItem["Kolhydrater, tillgängliga (g)"]}</p>
               <p>Fibrer (g): {foodItem["Fibrer (g)"]}</p>
               <p>Sockerarter, totalt (g): {foodItem["Sockerarter, totalt (g)"]}</p>
               <p>Monosackarider (g), totalt (g): {foodItem["Monosackarider (g)"]}</p>
