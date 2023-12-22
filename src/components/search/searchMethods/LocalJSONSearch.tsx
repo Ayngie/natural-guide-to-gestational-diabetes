@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { getJSONData } from "../../../services/getJSONData";
 import { SearchField } from "../searchField/SearchField";
-import { SearchResults } from "../searchResults";
+import { SearchResults } from "../SearchResults";
 import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers";
 import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
 import { StyledLoader } from "../../styles/search/StyledLoader";
@@ -32,7 +32,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
 
         //Data found
         if (foodData.length > 0) { 
-          console.log("JSON foodData: ", foodData);
+          // console.log("JSON foodData: ", foodData);
           setJsonSuccessFetching(true);
           //handle data here...
           setJsonFoodData(foodData);
@@ -80,7 +80,11 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
           <StyledArticle> 
             <p>Du sökte på: {jsonFood}</p> 
             { jsonErrorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p> }
-            { jsonFoodNotFound && <p>Tyvärr fanns inte det livsmedlet, sök gärna något annat!</p> }
+            { jsonFoodNotFound && 
+              <div>
+                <p>Tyvärr fanns inte det du sökte!</p> 
+                <p>Kontrollera din stavning eller sök gärna något annat!</p> 
+              </div>}
             { jsonSuccessFetching && <SearchResults foodData={jsonFoodData}></SearchResults> }
           </StyledArticle>
         }
