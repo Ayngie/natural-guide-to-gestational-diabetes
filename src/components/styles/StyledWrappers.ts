@@ -129,3 +129,11 @@ export const StyledSearchSection = styled.section `
     padding: 3em;
     gap: 3em;
 `;
+
+export const StyledFoodItemArticle = styled.article `
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ededfa;
+    background-color: white;
+    text-align: left;
+`;
