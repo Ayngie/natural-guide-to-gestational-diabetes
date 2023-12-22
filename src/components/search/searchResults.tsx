@@ -20,7 +20,7 @@ export const SearchResults = ({foodData}: ISearchResultsProps) => {
   return (
     <article>
       <h3>Search Results:</h3>
-      <section>
+
         {!showSingleFood &&
         <div>
           {foodData.map((foodItem) => (
@@ -31,14 +31,10 @@ export const SearchResults = ({foodData}: ISearchResultsProps) => {
           }
         </div>
         }
-      </section>
 
-      <section>
         {showSingleFood &&
           <SingleSearchResult foodItem={clickedFood}></SingleSearchResult>
         }
-      </section>
-
-  </article>
+    </article>
   );
 };
