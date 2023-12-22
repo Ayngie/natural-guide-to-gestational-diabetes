@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+import { getJSONData } from "../../../services/getJSONData";
 import { SearchField } from "../searchField/SearchField";
 import { SearchResults } from "../searchResults";
 import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers";
 import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
 import { StyledLoader } from "../../styles/search/StyledLoader";
+import { IFoodItem } from "../../../models/IFoodItem";
 
 
 interface IJSONSearchProps {
@@ -15,6 +17,8 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
   const [jsonFood, setJsonFood] = useState<string>("");
   const [jsonSearchHasBeenDone, setJsonSearchHasBeenDone] = useState<boolean>(false);
   const [jsonSuccessFetching, setJsonSuccessFetching] = useState<boolean>(false);
+  const [jsonFoodData, setJsonFoodData] = useState<IFoodItem[]>([]);
+  const [jsonFoodNotFound, setJsonFoodNotFound] = useState<boolean>(false);
   const [jsonErrorFetching, setJsonErrorFetching] = useState<boolean>(false);
   
   useEffect(() => {
@@ -25,11 +29,23 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
       setJsonSearchHasBeenDone(true)
 
       try {
-        const foodData = "...await getJSONData..."
-        console.log(foodData);
+        const foodData = await getJSONData(jsonFood)
+        console.log("JSON foodData: ", foodData);
 
-        setJsonSuccessFetching(true)
-        } catch (error) {
+        //Data found
+        if (foodData.length > 0) { 
+          console.log("JSON foodData: ", foodData);
+          setJsonSuccessFetching(true)
+          //handle data here...
+          setJsonFoodData(foodData)
+        } 
+        //No data found:
+        else { 
+          setJsonSuccessFetching(true)
+          setJsonFoodNotFound(true);
+        }
+      } 
+      catch (error) {
         // console.error("This is the error from SearchFood for JSON-data search: ", error);
         setJsonErrorFetching(true);
         return {};
@@ -62,7 +78,8 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
           <StyledArticle> 
             <p>Du sökte på: {jsonFood}</p> 
             { jsonErrorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p> }
-            { jsonSuccessFetching && <SearchResults></SearchResults> }
+            { jsonFoodNotFound && <p>Tyvärr fanns inte det livsmedlet, sök gärna något annat!</p> }
+            { jsonSuccessFetching && <SearchResults foodData={jsonFoodData}></SearchResults> }
           </StyledArticle>
         }
         <Paragraph>Källa: Livsmedelsverkets livsmedelsdatabas version 2023-06-13</Paragraph>        
