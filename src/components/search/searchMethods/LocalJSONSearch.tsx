@@ -6,6 +6,7 @@ import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers"
 import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
 import { StyledLoader } from "../../styles/search/StyledLoader";
 import { IFoodItem } from "../../../models/IFoodItem";
+import { StyledButton } from "../../styles/search/StyledSearchField";
 
 
 interface IJSONSearchProps {
@@ -21,6 +22,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
   const [jsonSuccessFetching, setJsonSuccessFetching] = useState<boolean>(false);
   const [jsonFoodNotFound, setJsonFoodNotFound] = useState<boolean>(false);
   const [jsonErrorFetching, setJsonErrorFetching] = useState<boolean>(false);
+  const [hideSearchButton, setHideSearchButton] = useState<boolean>(false);
   
   useEffect(() => {
 
@@ -33,6 +35,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
         if (foodData.length > 0) { 
           setJsonSuccessFetching(true);
           setJsonFoodData(foodData);
+          setHideSearchButton(true);
         } 
         //No data found:
         else { 
@@ -62,13 +65,22 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
     };
   }, [jsonFood, setIsLoading]);
     
+  const clickedResetSearch = () => {
+    setJsonFood("");
+    setJsonFoodData([]);
+    setJsonSearchHasBeenDone(false);
+    setJsonSuccessFetching(false);
+    setHideSearchButton(false);
+  };
+
   return (
     <>
       <StyledHeading>Sök livsmedel</StyledHeading>
       <Paragraph>Här kan du söka fram livsmedelsdata från Livsmedelsverket för att se näringsvärden!</Paragraph>
 
       <StyledSearchSection>
-        <SearchField setFood={setJsonFood} food={jsonFood} setIsLoading={setIsLoading}/>
+      {!hideSearchButton && <SearchField setFood={setJsonFood} food={jsonFood} setIsLoading={setIsLoading}/>}
+      {hideSearchButton && <StyledButton onClick={clickedResetSearch}>Sök på nytt</StyledButton>}
 
         { isLoading && <StyledLoader></StyledLoader> }
 
