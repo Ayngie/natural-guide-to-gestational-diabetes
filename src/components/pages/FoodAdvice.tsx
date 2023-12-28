@@ -1,56 +1,49 @@
+import React from 'react';
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import articles from "../../data/articles.json";
+import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
 
 export const FoodAdvice = () => {
+  const articlesData = articles as IArticlesData;
+
+  const sideNavLinksHtml = articlesData.food.map((article) => (
+    <StyledSideNavLinks key={`SideNavLinks-${article.id}`}><AnchorLink href={`#${article.id}`}>{article.title}</AnchorLink></StyledSideNavLinks>
+  ));
+
+  const articleSections = articlesData.food.map((article) => (
+    <React.Fragment key={article.id}>
+      <StyledArticle id={article.id}>
+        <h3>{article.title}</h3>
+
+        <ParagraphWrapper>
+          {article.paragraphList.map((paragraph, index)=>(
+            <Paragraph key={index}>{paragraph}</Paragraph>
+          ))}
+        </ParagraphWrapper>
+      </StyledArticle>
+
+      <LinkToTop/>
+    </React.Fragment>
+  ));
+
   return (
     <section>
       <StyledHeadingMobile>Kostråd för stabilt blodsocker</StyledHeadingMobile>
-
       <StyledGrid>
         <StyledAside>
           <nav>          
             <StyledSideNav>
-                <StyledSideNavLinks><AnchorLink href="#Regelbundenhet">Regelbundenhet</AnchorLink></StyledSideNavLinks>
-                <StyledSideNavLinks><AnchorLink href="#SammansattningMaltid">Sammansättning av måltid</AnchorLink></StyledSideNavLinks>
-                <StyledSideNavLinks><AnchorLink href="#FarreKolhydrater">Färre kolhydrater</AnchorLink></StyledSideNavLinks>
+              {sideNavLinksHtml}
             </StyledSideNav>
           </nav>
         </StyledAside>
 
         <StyledSplitSection>
           <StyledHeadingDesktop>Kostråd för stabilt blodsocker</StyledHeadingDesktop>
-
-          <StyledArticle id="Regelbundenhet">
-            <h3>Regelbundenhet:</h3>
-            <ParagraphWrapper>
-            <Paragraph>Att äta regelbundna måltider har en stor påverkan på blodsockret.</Paragraph>
-            <Paragraph>Ju mer regelbudna måltider och mellanmål, desto mindre risk att äta för mycket på grund av att man annars hunnit bli alltför hungrig. Viktigt är att mellanmålen är stadiga och lagom matiga.</Paragraph>
-            </ParagraphWrapper>
-          </StyledArticle>
-
-          <LinkToTop/>
-          
-          <StyledArticle id="SammansattningMaltid">
-            <h3>Sammansättning av måltid:</h3>
-            <ParagraphWrapper>
-              <Paragraph>Det är inte bara vad du äter som spelar roll, utan även hur du äter det. Om du äter kolhydrater men samtidigt äter fett och protein, så sker matsmältningen på ett annorlunda sätt än om du bara äter kolhydrater. När allt spjälkas samtidigt blir det inte lika hög glukostopp. </Paragraph>
-              <Paragraph>Likaså har man sett att om du äter grönsaker en stund innan du äter dina kolhydrater så har det en skyddande effekt mot glukostoppar.</Paragraph>
-            </ParagraphWrapper>
-          </StyledArticle>
-
-          <LinkToTop/>
-
-          <StyledArticle id="FarreKolhydrater">
-            <h3>Färre kolhydrater:</h3>
-            <ParagraphWrapper>
-              <Paragraph>'Klassiska kolhydrater' som vete, ris, och vitt bröd är något som blir allt svårare för kroppen att klara av insulinbehov till allteftersom graviditeten fortskrider. Därför hjälper det blodsockret att istället för kolhydrater äta mer protein och fett.</Paragraph>
-            </ParagraphWrapper>
-          </StyledArticle>
-
-          <LinkToTop/>
-
+          {articleSections}
         </StyledSplitSection>
       </StyledGrid>
     </section>

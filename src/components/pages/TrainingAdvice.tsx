@@ -1,65 +1,49 @@
+import React from 'react';
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import articles from "../../data/articles.json";
+import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
 
 export const TrainingAdvice = () => {
+  const articlesData = articles as IArticlesData;
+
+  const sideNavLinksHtml = articlesData.training.map((article) => (
+    <StyledSideNavLinks key={`SideNavLinks-${article.id}`}><AnchorLink href={`#${article.id}`}>{article.title}</AnchorLink></StyledSideNavLinks>
+  ));
+
+  const articleSections = articlesData.training.map((article) => (
+    <React.Fragment key={article.id}>
+      <StyledArticle id={article.id}>
+        <h3>{article.title}</h3>
+
+        <ParagraphWrapper>
+          {article.paragraphList.map((paragraph, index)=>(
+            <Paragraph key={index}>{paragraph}</Paragraph>
+          ))}
+        </ParagraphWrapper>
+      </StyledArticle>
+
+      <LinkToTop/>
+    </React.Fragment>
+  ));
+
   return (
     <section>
       <StyledHeadingMobile>Träningstips för stabilare blodsocker</StyledHeadingMobile>
-
       <StyledGrid>
         <StyledAside>
           <nav>
             <StyledSideNav>
-                <StyledSideNavLinks><AnchorLink href="#NarTrana">När ska jag träna</AnchorLink></StyledSideNavLinks>
-                <StyledSideNavLinks><AnchorLink href="#Styrketraning">Styrketräning</AnchorLink></StyledSideNavLinks>
-                <StyledSideNavLinks><AnchorLink href="#Kondition">Kondition</AnchorLink></StyledSideNavLinks>
-                <StyledSideNavLinks><AnchorLink href="#Promenader">Promenader</AnchorLink></StyledSideNavLinks>
+              {sideNavLinksHtml}
             </StyledSideNav>
           </nav>
         </StyledAside>
 
         <StyledSplitSection className="articles-section">
           <StyledHeadingDesktop>Träningstips för stabilare blodsocker</StyledHeadingDesktop>
-
-          <StyledArticle id="NarTrana">
-            <h3>När ska jag träna:</h3>
-            <ParagraphWrapper>
-              <Paragraph>Om du gör någon form av träning direkt efter att du har ätit, kommer du att minska insulintoppen på det du ätit, och så kunna hålla ett bättre blodsockervärde. Man kan få stor effekt på sitt blodsocker av att direkt efter lunchen tex., gå ut på en power-walk. </Paragraph>
-              <Paragraph>Instinkten kan ibland vara att 'vila på maten', eftersom det är lätt att känna sig trött som gravid och framförallt vid graviditetsdiabetes. Man kan dock vinna energi och bättre blodsocker av att röra på sig direkt efter maten.</Paragraph>
-            </ParagraphWrapper>
-          </StyledArticle>
-
-          <LinkToTop/>
-
-          <StyledArticle id="Styrketraning">
-            <h3>Styrketräning:</h3>
-            <ParagraphWrapper>
-              <Paragraph>Ju mer muskler, deste lättare för kroppen att hålla jämnt blodsocker.</Paragraph>
-            </ParagraphWrapper>
-          </StyledArticle>
-
-          <LinkToTop/>
-
-          <StyledArticle id="Kondition">
-            <h3>Kondition:</h3>
-            <ParagraphWrapper>
-              <Paragraph>Konditionsträning kan vara lågintensiva promenader, power-walks, spinning (om ditt bäcken tål det), eller liknande. Som regel gäller att det du kunnat göra och gjort mycket av innan du blev gravid kan du fortsätta med så länge det känns bra.</Paragraph>
-            </ParagraphWrapper>
-          </StyledArticle>
-
-          <LinkToTop/>
-
-          <StyledArticle id="Promenader">
-            <h3>Promenader:</h3>
-            <ParagraphWrapper>
-              <Paragraph>Raska promenader är fantastisk träning - ett tips som ofta kanske inte lyssnas på då det kan kännas för enkelt. Dagliga powerwalksen, om du har möjlighet, kan dock hjälpa dig hålla blodsockret i schack. Kan du inte gå varje dag har forskning visat effekt av att åtminstone gå varannan dag, då viss effekt håller i sig ett dygn efter.</Paragraph>
-            </ParagraphWrapper>
-          </StyledArticle>
-
-          <LinkToTop/>
-
+          {articleSections}
         </StyledSplitSection>
       </StyledGrid>
     </section>
