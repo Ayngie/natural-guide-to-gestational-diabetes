@@ -28,6 +28,7 @@ export const RecipeTips = () => {
         </IngredientsWrapper>
 
         <ParagraphWrapper>
+        <h4>Gör så här:</h4>
           {article.paragraphList.map((paragraph, index)=>(
             <Paragraph key={index}>{paragraph}</Paragraph>
           ))}
