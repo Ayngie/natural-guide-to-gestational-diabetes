@@ -1,0 +1,95 @@
+{
+    "life": [
+        {
+            "title": "Rutiner",
+            "id": "routine",
+            "paragraphList": 
+                [
+                    "Rutiner hjälper kroppen hålla bättre blodsockerbalans. Att äta regelbundna måltider, att somna och vakna vid ungefär samma tid."
+                ]
+        },
+        {
+            "title": "Stress",
+            "id": "stress",
+            "paragraphList": 
+                [
+                    "Stress påverkar blodsockret då kortisolet påverkar insulinresistensen i kroppen. Högre kortisol (som vid stress), ger högre insulinresistens (när kroppen redan har högre insulinbehov iom graviditeten och att man är två), vilket ger högre blodsocker."
+                ]
+        },
+        {
+            "title": "Sömn",
+            "id": "sleep",
+            "paragraphList": 
+                [
+                    "Om du sover för lite får du likaså högre kortisolnivå i kroppen, och högre insulinresistens. Sömnen är svårare som gravid, men det hjälper att göra vad man kan för att sova bättre. Tex. regelbundna läggningstider, sov med en gravidkudde mellan knäna, etc."
+                ]
+        }
+    ],
+
+    "training": [
+        {
+            "title": "När ska jag träna",
+            "id": "when",
+            "paragraphList": 
+                [
+                    "Om du gör någon form av träning direkt efter att du har ätit, kommer du att minska insulintoppen på det du ätit, och så kunna hålla ett bättre blodsockervärde. Man kan få stor effekt på sitt blodsocker av att direkt efter lunchen tex., gå ut på en power-walk.",
+                    "Instinkten kan ibland vara att 'vila på maten', eftersom det är lätt att känna sig trött som gravid och framförallt vid graviditetsdiabetes. Man kan dock vinna energi och bättre blodsocker av att röra på sig direkt efter maten."
+                ]
+        },
+        {
+            "title": "Styrketräning",
+            "id": "weights",
+            "paragraphList": 
+                [
+                    "Ju mer muskler, deste lättare för kroppen att hålla jämnt blodsocker."
+                ]
+        },    
+        {
+            "title": "Kondition",
+            "id": "condition",
+            "paragraphList": 
+                [
+                    "Konditionsträning kan vara lågintensiva promenader, power-walks, spinning (om ditt bäcken tål det), eller liknande. Som regel gäller att det du kunnat göra och gjort mycket av innan du blev gravid kan du fortsätta med så länge det känns bra."
+                ]
+        },
+        {
+            "title": "Promenader",
+            "id": "walks",
+            "paragraphList": 
+                [
+                    "Raska promenader är fantastisk träning - ett tips som ofta kanske inte lyssnas på då det kan kännas för enkelt. Dagliga powerwalksen, om du har möjlighet, kan dock hjälpa dig hålla blodsockret i schack. Kan du inte gå varje dag har forskning visat effekt av att åtminstone gå varannan dag, då viss effekt håller i sig ett dygn efter."
+                ]
+        }
+    
+    ],
+
+    "food": [
+        {
+            "title": "Regelbundenhet",
+            "id": "regularly",
+            "paragraphList": 
+                [
+                    "Att äta regelbundna måltider har en stor påverkan på blodsockret.",
+                    "Ju mer regelbudna måltider och mellanmål, desto mindre risk att äta för mycket på grund av att man annars hunnit bli alltför hungrig. Viktigt är att mellanmålen är stadiga och lagom matiga."
+                ]
+        },
+        {
+            "title": "Sammansättning av måltid",
+            "id": "composition",
+            "paragraphList": 
+                [
+                    "Det är inte bara vad du äter som spelar roll, utan även hur du äter det. Om du äter kolhydrater men samtidigt äter fett och protein, så sker matsmältningen på ett annorlunda sätt än om du bara äter kolhydrater. När allt spjälkas samtidigt blir det inte lika hög glukostopp.",
+                    "Likaså har man sett att om du äter grönsaker en stund innan du äter dina kolhydrater så har det en skyddande effekt mot glukostoppar."
+                ]
+        },
+        {
+            "title": "Färre kolhydrater",
+            "id": "carbs",
+            "paragraphList": 
+                [
+                    "'Klassiska kolhydrater' som vete, ris, och vitt bröd är något som blir allt svårare för kroppen att klara av insulinbehov till allteftersom graviditeten fortskrider. Därför hjälper det blodsockret att istället för kolhydrater äta mer protein och fett."
+                ]
+        }
+    
+    ]
+}
