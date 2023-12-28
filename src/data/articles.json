@@ -91,5 +91,61 @@
                 ]
         }
     
+    ],
+    
+    "recipes": [
+        {
+            "title": "Broccolisoppa",
+            "id": "broccolisoup",
+            "ingredientsList": 
+                [
+                    "ca 500 g broccoli",
+                    "1 st gul lök",
+                    "9 dl vatten",
+                    "2 st buljongtärningar",
+                    "1 tsk vitvinsvinäger",
+                    "1-1,25 dl grädde",
+                    "salt och peppar efter smak"
+                ],
+            "paragraphList": 
+                [
+                    "Skär löken i bitar och dela broccolin i buketter (även finare delar av rotstocken kan användas). Lägg grönsakerna i en stor, tjockbottnad kastrull/gryta. Tillsätt vatten, buljong, vinäger. Låt blandningen få ett uppkok och skruva sedan ned värmen och låt sjuda under lock tills broccolin är mjuk, ca 15 minuter.",
+                    "Fiska upp en tredjedel av brollolin med en hålslev och lägg åt sidan. Tillsätt vatten och grädde i soppan och mixa slät. Smaka av med salt och peppar. Lägg tillbaka de hela buketterna i soppan och värm upp. Om man tycker om en len och tjockare soppa utan hela bitar, kan man mixa i all broccoli."
+                ]
+        },
+        {
+            "title": "Fröknäckemacka",
+            "id": "hardbread",
+            "ingredientsList": 
+                [
+                    "Fröknäcke med lågt kolhydratinnehåll",
+                    "1 st fetaost",
+                    "1 burk tapenade (med lägre kolhydratinnehåll)",
+                    "Extra virgin olivolja",
+                    "Ekologisk torkad oregano",
+                    "salt och peppar efter smak"
+                ],
+            "paragraphList": 
+                [
+                    "Bred ut lite tapenade på en fröknäckeskiva. Dela fetaosten och ta 1/4 och lägg på tapenaden. Ringla lite olivolja över, och strö lite oregano på toppen. Salta och peppra efter smak."
+                ]
+        },
+        {
+            "title": "Smoothie",
+            "id": "smoothie",
+            "ingredientsList": 
+                [
+                    "Mandelmjölk (osockrad)",
+                    "Ett par dl frysta hallon",
+                    "Några buketter fryst broccoli",
+                    "En näve ekologiska sötmandlar",
+                    "3 st ekologiska färska dadlar",
+                    "Ekologisk Ceylonkanel, kardemumma, och bourbonvaniljpulver efter smak"
+                ],
+            "paragraphList": 
+                [
+                    "Mixa alla ingredienser efter tyck och smak. Häll upp i glas och njut!"
+                ]
+        }
     ]
 }
