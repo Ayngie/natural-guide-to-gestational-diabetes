@@ -16,7 +16,7 @@ export const SingleSearchResult = ({foodItem}: ISingleSearchResultProps) => {
           </ParagraphWrapper>
           <h3>{foodItem.Livsmedelsnamn}</h3>
           <section>
-            <p>Kolhydrater, tillgängliga (g): {foodItem["Kolhydrater, tillgängliga (g)"]}</p>
+            <p>Kolhydrater (g): {foodItem["Kolhydrater, tillgängliga (g)"]}</p>
             <p>Varav sockerarter, totalt (g): {foodItem["Sockerarter, totalt (g)"]}</p>
 
             <p><ItalicText>(Vikt/Portion = per 100 g)</ItalicText></p>
