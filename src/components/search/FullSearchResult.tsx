@@ -3,6 +3,7 @@ import { IFoodItem } from "../../models/IFoodItem";
 import { SingleSearchResult } from "./SingleSearchResult";
 import { BoldText } from "../styles/StyledTexts";
 import { ClickableWrapper } from "../styles/StyledWrappers";
+import { LinkToTop } from "../LinkToTop";
 
 interface IFullSearchResultProps {
   foodData: IFoodItem[],
@@ -29,6 +30,9 @@ export const FullSearchResult = ({foodData}: IFullSearchResultProps) => {
             </ClickableWrapper>
           ))
           }
+          
+          <LinkToTop/>
+
         </div>
         }
 
