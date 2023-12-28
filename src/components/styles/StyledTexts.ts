@@ -73,6 +73,12 @@ export const BoldText = styled.span `
     font-weight: 800;
 `;
 
+export const ItalicText = styled.span `
+font-style: italic;
+`;
+
+
+
 /* ----------------------  Link texts  ---------------------- */
 
 export const StyledSideNavLinks = styled.li `
