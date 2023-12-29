@@ -1,4 +1,5 @@
 import { IFoodItem } from "../../models/IFoodItem";
+import { LinkToTop } from "../LinkToTop";
 import { ItalicText } from "../styles/StyledTexts";
 import { ParagraphWrapper, StyledFoodItemArticle } from "../styles/StyledWrappers";
 
@@ -30,6 +31,9 @@ export const SingleSearchResult = ({foodItem}: ISingleSearchResultProps) => {
             <p>Fibrer (g): {foodItem["Fibrer (g)"]}</p>
             <p>Fullkorn totalt (g): {foodItem["Fullkorn totalt (g)"]}</p>
             <p>Tillsatt socker (g): {foodItem["Tillsatt socker (g)"]}</p>
+
+            <ParagraphWrapper> <LinkToTop/></ParagraphWrapper>
+
           </section>
         </StyledFoodItemArticle>
     </div>
