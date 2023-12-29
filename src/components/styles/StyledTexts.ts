@@ -77,9 +77,12 @@ export const StyledLinks = styled.span `
 /* ----------------------  Special symbols  ---------------------- */
 
 export const UpSymbol = styled.p `
+    width: 40px;
     font-weight: 800;
-    font-size: larger;
+    font-size: 1.5em;
     a {
+        display: block;
+        width: 100%;
         color: rebeccapurple;
         text-decoration: none;
     }
