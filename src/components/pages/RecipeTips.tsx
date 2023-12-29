@@ -22,7 +22,12 @@ export const RecipeTips = () => {
           <h4>Ingredienser:</h4>
           <ul>
             {article.ingredientsList.map((ingredient, index)=>(
-              <li key={index}>{ingredient}</li>
+              <li key={index}>
+                <label>
+                  <input type='checkbox'></input>
+                  {ingredient}
+                </label>
+              </li>
             ))}
           </ul>
         </IngredientsWrapper>
