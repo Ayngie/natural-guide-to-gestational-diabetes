@@ -49,3 +49,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+    env:
+        GITHUB_PAGES_URL: https://ayngie.github.io/natural-guide-to-gestational-diabetes/
