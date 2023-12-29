@@ -5,6 +5,7 @@ import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledRecipeArticle, IngredientsWrapper, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
+import { StyledInput } from '../styles/StyledInput';
 
 export const RecipeTips = () => {
   const articlesData = articles as IArticlesData;
@@ -24,7 +25,7 @@ export const RecipeTips = () => {
             {article.ingredientsList.map((ingredient, index)=>(
               <li key={index}>
                 <label>
-                  <input type='checkbox'></input>
+                  <StyledInput type='checkbox'></StyledInput>
                   {ingredient}
                 </label>
               </li>
