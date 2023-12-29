@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { Burger } from "./hamburgerMenu/Burger";
 import { Menu } from "./hamburgerMenu/Menu";
-import { PageLogo } from '../../styles/StyledTexts';
+import { PageLogo } from '../header/PageLogo';
 import { DesktopNavBar } from "./desktopNavBar/DesktopNavBar";
 import { HamburgerMenuWrapper } from "../../styles/layout/header/hamburgermenu/HamburgerMenuWrapper";
 import { StyledHeader } from "../../styles/layout/header/StyledHeader";
@@ -13,9 +12,7 @@ export const Header = () => {
 
   return (
     <StyledHeader id="/natural-guide-to-gestational-diabetes/">
-      <Link to="/natural-guide-to-gestational-diabetes/" className="logo">      
-        <PageLogo>Din naturliga guide vid graviditetsdiabetes</PageLogo>
-      </Link>
+      <PageLogo/>
       <DesktopNavBar/>
       <HamburgerMenuWrapper>
         <Burger open={open} setOpen={setOpen} aria-controls={menuId}></Burger>
