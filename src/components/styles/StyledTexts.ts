@@ -79,7 +79,7 @@ export const StyledLinks = styled.span `
 export const UpSymbol = styled.p `
     width: 40px;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1.7em;
     a {
         display: block;
         width: 100%;
