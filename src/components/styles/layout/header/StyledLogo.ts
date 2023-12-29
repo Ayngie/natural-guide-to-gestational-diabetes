@@ -1,7 +1,4 @@
 import styled from "styled-components";
-import GradientBackground from "/GradientBackground.png"
-
-
 
 export const StyledLogoContainer = styled.div`
     margin: 3%;
@@ -10,10 +7,7 @@ export const StyledLogoContainer = styled.div`
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* background-image: url(${GradientBackground});
-    border-radius: 5px; */
-    /* background-position: center; */
-    
+
     @media screen and (min-width: 900px) {
         margin: 2%;
     }
