@@ -82,7 +82,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
 
       <StyledSearchSection>
       {!hideSearchButton && <SearchField setFood={setJsonFood} food={jsonFood} setIsLoading={setIsLoading}/>}
-      {hideSearchButton && <StyledButton onClick={clickedResetSearch}>Sök på nytt</StyledButton>}
+      {hideSearchButton && <StyledButton onClick={clickedResetSearch} data-cy="search-again-btn"> Sök på nytt </StyledButton>}
 
         { isLoading && <StyledLoader></StyledLoader> }
 

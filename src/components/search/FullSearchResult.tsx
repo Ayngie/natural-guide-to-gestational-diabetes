@@ -21,7 +21,7 @@ export const FullSearchResult = ({foodData, showSingleFood, setShowSingleFood}: 
   };
 
   return (
-    <article data-cy="search-results">
+    <article>
 
         {!showSingleFood &&
         <>

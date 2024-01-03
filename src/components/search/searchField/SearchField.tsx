@@ -49,7 +49,7 @@ export const SearchField = ({food, englishPlaceholder, setFood, setIsLoading}: I
           value={userInput}
           onChange={handleChange}
           placeholder={englishPlaceholder ?? "Sök ditt livsmedel här..."}/>
-          <StyledButton>Sök</StyledButton>
+          <StyledButton data-cy="search-food-btn">Sök</StyledButton>
       </StyledForm>   
       { foodAlreadySearched && <ParagraphWrapper> <Paragraph> <BoldText> Du har redan sökt på: {food}, men sök gärna på ett nytt livsmedel. </BoldText></Paragraph> </ParagraphWrapper> }
     </>
