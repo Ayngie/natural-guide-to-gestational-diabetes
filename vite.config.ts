@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/natural-guide-to-gestational-diabetes/',
   plugins: [react()],
+  server: {
+    host: true,
+    port: 3000,
+  },
 })
