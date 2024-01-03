@@ -37,6 +37,7 @@ Styled Components
 - 🚚 moved: - *moved files*
 - 🔥 deleted: - *deleted files or code*
 - ⏪ revert: - *revert to previous code*
+- ✅ test: - *add or update tests*
 
 ---
 
