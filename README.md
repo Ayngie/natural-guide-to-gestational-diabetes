@@ -28,14 +28,15 @@ Styled Components
 ---
 
 ## Git commit convention:
-- 👷: (build): - *project build-up*
-- 📝: (docs): - *documentation / README*
-- ✨: (feat): - *introduces a new feature to the codebase*
-- ♻️: (refactor): - *refactoring of code*
-- 💄: (style): - *css/scss styling*
-- 🐛: (fix): - *patches a bug in your codebase*
-- 🔥 (delete): - *deleted files or code*
-- ⏪: (revert): - *revert to previous code*
+- 👷 build: - *project build-up*
+- 📝 docs: - *documentation / README*
+- ✨ feat: - *introduces a new feature to the codebase*
+- ♻️ refactor: - *refactoring of code*
+- 💄 style: - *css/scss styling*
+- 🐛 bugfix: - *patches a bug in your codebase*
+- 🚚 moved: - *moved files*
+- 🔥 deleted: - *deleted files or code*
+- ⏪ revert: - *revert to previous code*
 
 ---
 
