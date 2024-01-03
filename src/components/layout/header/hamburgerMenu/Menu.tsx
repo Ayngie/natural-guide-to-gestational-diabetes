@@ -18,6 +18,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/"}
         end
+        data-cy="mobile-nav-home-link"
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
@@ -25,6 +26,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
       </NavLink>
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/life"}
+        data-cy="mobile-nav-life-link"
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
@@ -32,6 +34,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
       </NavLink>
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/training"}
+        data-cy="mobile-nav-training-link"
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
@@ -39,6 +42,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
       </NavLink>
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/food"}
+        data-cy="mobile-nav-food-link"
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
@@ -46,6 +50,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
       </NavLink>
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/recipes"}
+        data-cy="mobile-nav-recipes-link"
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
@@ -53,6 +58,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
       </NavLink>
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/search"}
+        data-cy="mobile-nav-search-link"
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>
@@ -60,6 +66,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
       </NavLink>
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/about"}
+        data-cy="mobile-nav-about-link"
         onClick={handleClick}
         tabIndex={tabIndex}
         aria-hidden={true}>

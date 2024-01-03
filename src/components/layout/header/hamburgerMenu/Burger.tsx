@@ -10,6 +10,7 @@ export const Burger = ({ open, setOpen }: IBurgerProps) => {
 
   return (
     <StyledBurger
+      data-cy="mobile-nav-toggle-menu"
       aria-label="Toggle menu"
       aria-expanded={isExpanded}
       open={open}

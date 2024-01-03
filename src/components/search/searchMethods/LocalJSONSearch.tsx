@@ -24,6 +24,8 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
   const [jsonErrorFetching, setJsonErrorFetching] = useState<boolean>(false);
   const [hideSearchButton, setHideSearchButton] = useState<boolean>(false);
   
+  const [showSingleFood, setShowSingleFood] = useState<boolean>(false);
+
   useEffect(() => {
 
     //call function to get data from local JSON-file
@@ -80,13 +82,14 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
 
       <StyledSearchSection>
       {!hideSearchButton && <SearchField setFood={setJsonFood} food={jsonFood} setIsLoading={setIsLoading}/>}
-      {hideSearchButton && <StyledButton onClick={clickedResetSearch}>Sök på nytt</StyledButton>}
+      {hideSearchButton && <StyledButton onClick={clickedResetSearch} data-cy="search-again-btn"> Sök på nytt </StyledButton>}
 
         { isLoading && <StyledLoader></StyledLoader> }
 
         { jsonSearchHasBeenDone && 
           <StyledArticle> 
-            <p>Du sökte på: {jsonFood}</p> 
+
+            {!showSingleFood && <p>Du sökte på: {jsonFood}</p>} 
 
             { jsonErrorFetching && <p>Tyvärr kunde vi inte hämta din data just nu, försök gärna igen senare!</p> }
 
@@ -96,7 +99,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
                 <p>Kontrollera din stavning eller sök gärna något annat!</p> 
               </div>}
 
-            { jsonSuccessFetching && <FullSearchResult foodData={jsonFoodData}></FullSearchResult> }
+            { jsonSuccessFetching && <FullSearchResult foodData={jsonFoodData} showSingleFood={showSingleFood} setShowSingleFood={setShowSingleFood}></FullSearchResult> }
             
           </StyledArticle>
         }

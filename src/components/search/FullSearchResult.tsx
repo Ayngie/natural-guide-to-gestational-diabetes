@@ -7,10 +7,12 @@ import { LinkToTop } from "../LinkToTop";
 
 interface IFullSearchResultProps {
   foodData: IFoodItem[],
+  showSingleFood: boolean,
+  setShowSingleFood: (textInputEntered: boolean) => void;
+
 }
 
-export const FullSearchResult = ({foodData}: IFullSearchResultProps) => {
-  const [showSingleFood, setShowSingleFood] = useState<boolean>(false);
+export const FullSearchResult = ({foodData, showSingleFood, setShowSingleFood}: IFullSearchResultProps) => {
   const [clickedFood, setClickedFood] = useState<IFoodItem>({} as IFoodItem);
 
   const handleClick = (foodItem: IFoodItem) => {
@@ -20,20 +22,20 @@ export const FullSearchResult = ({foodData}: IFullSearchResultProps) => {
 
   return (
     <article>
-      <h3>Search Results:</h3>
 
         {!showSingleFood &&
-        <div>
-          {foodData.map((foodItem) => (
-            <ClickableWrapper key={foodItem.Livsmedelsnummer} onClick={() => handleClick(foodItem)}>
-              <p><BoldText>{foodItem.Livsmedelsnamn} </BoldText> </p>
-            </ClickableWrapper>
-          ))
-          }
-          
-          <ParagraphWrapper> <LinkToTop/></ParagraphWrapper>
-         
-        </div>
+        <>
+          <h3>Sökresultat:</h3>
+          <div>
+            {foodData.map((foodItem) => (
+              <ClickableWrapper key={foodItem.Livsmedelsnummer} onClick={() => handleClick(foodItem)}>
+                <p><BoldText>{foodItem.Livsmedelsnamn} </BoldText> </p>
+              </ClickableWrapper>
+            ))}
+            
+            <ParagraphWrapper> <LinkToTop/></ParagraphWrapper>
+          </div>
+        </>
         }
 
         {showSingleFood &&
