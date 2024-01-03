@@ -6,25 +6,25 @@ export const DesktopNavBar = () => {
     <StyledDesktopNavBar>
         <ul className="desktop-nav">
             <li>
-                <NavLink to="/natural-guide-to-gestational-diabetes/" end>Start</NavLink>
+                <NavLink to="/natural-guide-to-gestational-diabetes/" end data-cy="desktop-nav-home-link">Start</NavLink>
             </li>
             <li>
-                <NavLink to="/natural-guide-to-gestational-diabetes/life">Levnadsråd</NavLink>
+                <NavLink to="/natural-guide-to-gestational-diabetes/life" data-cy="desktop-nav-life-link">Levnadsråd</NavLink>
             </li>
             <li>
-                <NavLink to="/natural-guide-to-gestational-diabetes/training">Träning</NavLink>
+                <NavLink to="/natural-guide-to-gestational-diabetes/training" data-cy="desktop-nav-training-link">Träning</NavLink>
             </li>
             <li>
-                <NavLink to="/natural-guide-to-gestational-diabetes/food">Kost</NavLink>
+                <NavLink to="/natural-guide-to-gestational-diabetes/food" data-cy="desktop-nav-food-link">Kost</NavLink>
             </li>
             <li>
-                <NavLink to="/natural-guide-to-gestational-diabetes/recipes">Recept</NavLink>
+                <NavLink to="/natural-guide-to-gestational-diabetes/recipes" data-cy="desktop-nav-recipes-link">Recept</NavLink>
             </li>
             <li>
-                <NavLink to="/natural-guide-to-gestational-diabetes/search">Sök livsmedel</NavLink>
+                <NavLink to="/natural-guide-to-gestational-diabetes/search" data-cy="desktop-nav-search-link">Sök livsmedel</NavLink>
             </li>
             <li>
-                <NavLink to="/natural-guide-to-gestational-diabetes/about">Om detta projekt</NavLink>
+                <NavLink to="/natural-guide-to-gestational-diabetes/about" data-cy="desktop-nav-about-link">Om detta projekt</NavLink>
             </li>
         </ul>
 
