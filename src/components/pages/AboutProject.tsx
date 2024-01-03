@@ -1,8 +1,24 @@
+import { useEffect } from "react";
 import { ExternalLink } from "react-external-link";
 import { StyledFullSection, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph, StyledLinks, BoldText } from "../styles/StyledTexts";
 
 export const AboutProject = () => {
+  useEffect(() => {
+    try {
+      setTimeout(() => {
+          window.scroll({
+              top: 0,
+              left: 0,
+              behavior: 'smooth',
+          });
+      }, 0);
+    } catch (error) {
+      // fallback for older browsers
+      window.scrollTo(0, 0);
+    }
+  }, []);
+  
   return (
     <StyledFullSection>
       <StyledHeading>Om detta projekt</StyledHeading>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
@@ -8,6 +8,21 @@ import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink
 import { StyledInput } from '../styles/StyledInput';
 
 export const RecipeTips = () => {
+  useEffect(() => {
+    try {
+      setTimeout(() => {
+          window.scroll({
+              top: 0,
+              left: 0,
+              behavior: 'smooth',
+          });
+      }, 0);
+    } catch (error) {
+      // fallback for older browsers
+      window.scrollTo(0, 0);
+    }
+  }, []);
+  
   const articlesData = articles as IArticlesData;
 
   const sideNavLinksHtml = articlesData.recipes.map((article) => (
