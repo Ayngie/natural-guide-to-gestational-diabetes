@@ -26,10 +26,10 @@ export const FullSearchResult = ({foodData, showSingleFood, setShowSingleFood}: 
         {!showSingleFood &&
         <>
           <h3>Sökresultat:</h3>
-          <div>
+          <div data-cy="searched-food-full-results">
             {foodData.map((foodItem) => (
               <ClickableWrapper key={foodItem.Livsmedelsnummer} onClick={() => handleClick(foodItem)}>
-                <p><BoldText>{foodItem.Livsmedelsnamn} </BoldText> </p>
+                <p data-cy="searched-food-results-listitem"><BoldText>{foodItem.Livsmedelsnamn} </BoldText> </p>
               </ClickableWrapper>
             ))}
             
