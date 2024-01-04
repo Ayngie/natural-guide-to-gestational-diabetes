@@ -9,7 +9,6 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
   top: 0;
   right: 0;
   padding: 2rem;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,8 +25,9 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
 
   a {
     position: relative;
-    left: 8%;
     padding: 2%;
+    width: 85%;
+    text-indent: 30%;
     text-decoration: none;
     letter-spacing: 0.1rem;
     color: rebeccapurple;
