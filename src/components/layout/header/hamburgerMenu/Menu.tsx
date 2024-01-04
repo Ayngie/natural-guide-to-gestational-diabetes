@@ -14,7 +14,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
     setOpen(false);
   };
   return (
-    <StyledMenu open={open} aria-hidden={!isHidden}>
+    <StyledMenu open={open} aria-hidden={!isHidden} data-cy="mobile-nav-menu">
       <NavLink
         to={"/natural-guide-to-gestational-diabetes/"}
         end
