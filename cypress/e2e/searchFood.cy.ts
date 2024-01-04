@@ -28,7 +28,7 @@ describe('<SearchFood/>', () => {
   it('should (in mobile view) be able to write input, click button, and go to search results', () => {
     cy.viewport(400, 720);
 
-    cy.get('[data-cy="mobile-nav-toggle-menu"]').click();
+    cy.get('[data-cy="mobile-nav-burger"]').click();
     cy.get('[data-cy="mobile-nav-search-link"]').click();
 
     cy.get('input').type('Banan');
