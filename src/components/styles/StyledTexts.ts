@@ -73,6 +73,11 @@ export const StyledLinks = styled.span `
     }
 `;
 
+export const TextLink = styled.a `
+    color: rebeccapurple;
+    text-decoration: none;
+`;
+
 /* ----------------------  Special symbols  ---------------------- */
 
 export const UpSymbol = styled.p `
