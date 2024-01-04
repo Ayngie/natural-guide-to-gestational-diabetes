@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { StyledFullSection, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeading, Paragraph, BoldText, TextLink } from "../styles/StyledTexts";
+import { StyledHeading, Paragraph, BoldText, TextLink, MySignature } from "../styles/StyledTexts";
 
 export const AboutProject = () => {
   useEffect(() => {
@@ -41,18 +41,18 @@ export const AboutProject = () => {
         </Paragraph>
 
         <Paragraph>
-          <BoldText>Målet med denna webbplats</BoldText> var att jag ville försöka skapa en webbplats som erbjuder en 
-          överblick av de kunskaper jag lyckades samla på mig, och som hjälpte mig. Min strävan var att 
-          skapa en tydlig och strukturerad webbplats med info för att hjälpa hålla jämnare blodsocker 
-          och på naturlig väg bättre hantera sin graviditetsdiabetes. 
+          <BoldText>Målet med detta projekt</BoldText> var att försöka skapa en tydlig och strukturerad webbplats som 
+          erbjuder naturliga tips och info för att hjälpa hålla jämnare blodsocker och bättre hantera sin 
+          graviditetsdiabetes.            
         </Paragraph>
 
+        <Paragraph> Jag har utgått från de kunskaper och tips som hjälpte mig med min GDM.</Paragraph>
+
         <Paragraph>
-          <BoldText>Obs!</BoldText> Att denna webbplats EJ utger sig för att ge medicinska råd, utan du som läsare är 
+          <BoldText>Obs!</BoldText> Att denna webbplats EJ erbjuder medicinsk rådgivning, utan du som läsare är 
           ansvarig för din egen vård och dina egna beslut. Har du en mer komplicerad sjukdomshistorik, 
           eller kanske en historik av ätstörningar, rekommenderas du att fatta beslut i samråd med din 
-          vårdpersonal. &#9888;&#65039; Denna webbplats erbjuder ej medicinsk rådgivning. Bara en samling av mina 
-          tips som hjälpte mig!
+          vårdpersonal. &#9888;&#65039; 
         </Paragraph>
 
         <Paragraph>
@@ -65,7 +65,8 @@ export const AboutProject = () => {
         </Paragraph>
 
         <Paragraph>Med det sagt, önskar jag trevlig läsning & må så gott! &#128149;</Paragraph>
-        <Paragraph>Bästa hälsningar, Angelica &#128075;</Paragraph>
+        <Paragraph>Bästa hälsningar, </Paragraph>
+        <Paragraph><MySignature>Angelica </MySignature> &#128075;</Paragraph>
       </ParagraphWrapper>
     </StyledFullSection>
   );

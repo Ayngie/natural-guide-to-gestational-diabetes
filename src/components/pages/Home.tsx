@@ -40,7 +40,8 @@ export const Home = () => {
 
         <h3>Vad kan jag själv göra?</h3>
         <Paragraph>
-          Det finns dock mycket vi göra på naturlig väg för att hantera och även förebygga graviditetsdiabetes! Det handlar i stora drag om levnadsfaktorer, träning, och kost. 
+          Det finns dock mycket vi göra på naturlig väg för att hantera och även förebygga 
+          graviditetsdiabetes! Det handlar i stora drag om levnadsfaktorer, träning, och kost. 
         </Paragraph>
 
         <h3>Vem är denna sida för?</h3>
@@ -49,6 +50,8 @@ export const Home = () => {
           hantera en graviditetsdiabetes, vare sig du själv har det, du vill undvika att få det, eller om du 
           söker tips åt en närstående. 
         </Paragraph>
+
+        <Paragraph>Dessa tips är inte menade att ersätta läkemedelsbehandling om sådan krävs, utan informationen på denna webbsida kan ses som hjälpmedel för att förebygga dem, eller även stötta kroppen under tiden man behandlas.</Paragraph>
 
         <Paragraph>                  
           Om du har en annars frisk graviditet och vill ha tips på naturliga hjälpmedel för att hålla stabilare blodsocker, då är detta sidan för dig!
