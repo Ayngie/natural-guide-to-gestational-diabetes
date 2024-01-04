@@ -1,6 +1,14 @@
 {
     "life": [
         {
+            "title": "Allmänt",
+            "id": "general",
+            "paragraphList": 
+                [
+                    "Det är inte bara mat och träning som kan hjälpa dig vid GDM, utan levnadsfaktorer spelar också roll."
+                ]
+        },
+        {
             "title": "Rutiner",
             "id": "routine",
             "paragraphList": 
