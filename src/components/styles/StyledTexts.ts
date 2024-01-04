@@ -30,7 +30,8 @@ export const StyledHeadingDesktop = styled(StyledHeading) `
 export const Paragraph = styled.p `
     margin-top: 0;
     width: 75%;
-
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: large;
     @media screen and (min-width: 1200px) {
         width: 60%;
     }
@@ -44,8 +45,6 @@ export const ItalicText = styled.span `
 font-style: italic;
 `;
 
-
-
 /* ----------------------  Link texts  ---------------------- */
 
 export const StyledSideNavLinks = styled.li `
@@ -54,9 +53,9 @@ export const StyledSideNavLinks = styled.li `
     font-weight: 800;
 
     a {
-      color: hotpink;
-      text-shadow: 1px 1px white;
-      text-decoration: none;    
+        color: #FF4FA7;
+        text-shadow: 1px 1px white;
+        text-decoration: none;    
       
         &:hover {
             color: rgb(162, 69, 255);
