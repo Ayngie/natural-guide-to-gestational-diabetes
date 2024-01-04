@@ -18,8 +18,8 @@ export const StyledFullSection = styled.section `
     height: 100%; //för att det skulle bli blått ända ned i mobile... */
 
     @media screen and (min-width: 1000px) {
-        padding-bottom: 0%;
-        height: 100vh; //för att det skulle bli blått ända ned i desktop... */
+        padding-bottom: 5%;
+        height: 100%; //för att det skulle bli blått ända ned i desktop... */
     }
 `;
 
