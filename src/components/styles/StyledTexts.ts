@@ -45,6 +45,12 @@ export const ItalicText = styled.span `
 font-style: italic;
 `;
 
+export const MySignature = styled.span `
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    font-weight: 600;
+`;
+
 /* ----------------------  Link texts  ---------------------- */
 
 export const StyledSideNavLinks = styled.li `
