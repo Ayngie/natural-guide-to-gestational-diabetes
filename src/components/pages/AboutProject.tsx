@@ -44,5 +44,3 @@ export const AboutProject = () => {
     </StyledFullSection>
   );
 };
-
-
