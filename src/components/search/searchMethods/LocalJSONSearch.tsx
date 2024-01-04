@@ -73,6 +73,8 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
     setJsonSearchHasBeenDone(false);
     setJsonSuccessFetching(false);
     setHideSearchButton(false);
+    setShowSingleFood(false);
+
   };
 
   return (
