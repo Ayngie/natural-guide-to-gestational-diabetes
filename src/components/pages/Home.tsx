@@ -28,17 +28,17 @@ export const Home = () => {
         <h3>Vad är GDM?</h3>
         <Paragraph>
           När kvinnan har en bebis (eller fler) i magen behöver kroppen <TextLink href="https://liu.se/nyhet/digital-plattform-hjalper-gravida-att-halla-blodsockret" target="_blank"> ca 40% mer</TextLink> av hormonet insulin för att  
-          hålla normala blodsockernivåer för mamma och bebis. Ibland blir behovet otillräckligt vilket  
+          hålla normala blodsockernivåer för mamma och bebis, samtidigt som man blir lite <TextLink href="https://www.1177.se/Stockholm/barn--gravid/graviditet/graviditetsbesvar-och-sjukdomar/graviditetsdiabetes--hoga-blodsockervarden-under-graviditet/" target="_blank"> mindre känslig för insulin som gravid</TextLink>. Ibland blir behovet otillräckligt vilket  
           leder till graviditetsdiabetes (GDM). 
         </Paragraph>
 
         <Paragraph>
-          Kvinnan får symptom som trötthet och törst, och bebis kan bli stor vid förlossning samt efter förlossning få svårt efter att kontrollera sitt blodsocker och problem med amning.
+          Kvinnan får symptom som trötthet och törst, och bebis kan få hög födelsevikt samt få svårt att kontrollera sitt blodsocker första tiden efter förlossningen och problem med amning. 
         </Paragraph>
 
         <Paragraph>
           Efter graviditeten återställs allt vanligen för kvinnan, men har hon en gång haft GDM har hon   
-          ökad risk att utveckla diabetes mellitus typ II senare i livet. Har kvinnan en gång haft GDM är  
+          ökad risk att utveckla diabetes mellitus typ II senare i livet. Barnet har <TextLink href="https://mamamia.se/kunskapsbank/graviditetsdiabetes" target="_blank"> ingen</TextLink> ökad risk för att få diabetes. Har kvinnan en gång haft GDM är  
           även risken stor (<TextLink href="https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/SOFIA/SKAS9716-1940753776-142/SURROGATE/Graviditetsdiabetes%20(GDM)%20-%20handl%c3%a4ggning.pdf" target="_blank">50-70% risk</TextLink>) att få det vid framtida graviditeter. 
         </Paragraph>
 
