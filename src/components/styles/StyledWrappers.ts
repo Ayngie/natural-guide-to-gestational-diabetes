@@ -23,6 +23,24 @@ export const StyledFullSection = styled.section `
     }
 `;
 
+export const StyledSearchSection = styled(StyledFullSection) `
+    padding: 3em;
+    gap: 3em;
+    /* height: 100%; //för att det skulle bli blått ända ned i mobile...  */
+
+    @media screen and (min-width: 1000px) { 
+    height: 100vh; //för att det skulle bli blått ända ned i desktop...
+    }
+`;
+
+export const StyledAboutSection = styled(StyledFullSection) `
+    /* height: 100%; //för att det skulle bli blått ända ned i mobile... */
+
+    @media screen and (min-width: 1000px) {
+        height: 100vh; //för att det skulle bli blått ända ned i desktop...
+    }
+`;
+
 
 /* ----------------------  Split page Layout  ---------------------- */
 
@@ -120,20 +138,6 @@ export const IngredientsWrapper = styled.section `
 `;
 
 /* ----------------------  Search  ---------------------- */
-
-export const StyledSearchSection = styled.section `
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3em;
-    gap: 3em;
-    height: 100%; //för att det skulle bli blått ända ned i mobile... */
-
-@media screen and (min-width: 1000px) {
-    height: 100vh; //för att det skulle bli blått ända ned i desktop... */
-}
-
-`;
 
 export const StyledFoodItemArticle = styled.article `
     margin: 5%;

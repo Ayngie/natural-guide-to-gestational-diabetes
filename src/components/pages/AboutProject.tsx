@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { StyledFullSection, ParagraphWrapper } from "../styles/StyledWrappers";
+import { StyledAboutSection, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph, BoldText, TextLink, MySignature } from "../styles/StyledTexts";
 
 export const AboutProject = () => {
@@ -19,7 +19,7 @@ export const AboutProject = () => {
   }, []);
   
   return (
-    <StyledFullSection>
+    <StyledAboutSection>
       <StyledHeading>Om detta projekt</StyledHeading>
       <ParagraphWrapper>
         <Paragraph>
@@ -72,6 +72,6 @@ export const AboutProject = () => {
         <Paragraph>Bästa hälsningar, </Paragraph>
         <Paragraph><MySignature>Angelica </MySignature> &#128075;</Paragraph>
       </ParagraphWrapper>
-    </StyledFullSection>
+    </StyledAboutSection>
   );
 };
