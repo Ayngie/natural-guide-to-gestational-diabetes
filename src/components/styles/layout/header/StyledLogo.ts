@@ -4,27 +4,37 @@ export const StyledLogoContainer = styled.div`
     margin: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 10px;
 
-    @media screen and (min-width: 900px) {
-        margin: 2%;
+    @media screen and (min-width:400px) {
+        justify-content: center;
     }
 `;
 
 export const StyledLogoImg = styled.img`
     height: 100px;
-    /* width: 100px; */
 `;
 
 export const StyledLogoText = styled.span `
-    font-size: 1rem; 
+    font-size: 0.6rem; 
+    width: 40%;
     text-align: left;
     text-transform: uppercase;
     font-weight: bolder;
     color: rebeccapurple;
 
+    @media screen and (min-width: 360px) { //Samsung Galaxy S8+
+        font-size: 0.8rem; 
+        width: auto;
+    }
+    @media screen and (min-width: 375px) { //Iphone SE
+        font-size: 0.85rem; 
+    }
+    @media screen and (min-width: 400px) { //Samsung Galaxy S20 Ultra
+        font-size: 1rem; 
+    }
     @media screen and (min-width: 500px) {
         max-width: 70%;
     }
@@ -36,35 +46,3 @@ export const StyledLogoText = styled.span `
         font-size: 1.5rem;
     }
 `;
-
-export const StyledLogoTextOld = styled.h2 `
-    max-width: 60%;
-    padding-left: 4%;
-    font-size: 1.3rem;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: rebeccapurple;
-
-    @media screen and (min-width: 440px) {
-        font-size: 1.5rem;
-    }    
-    @media screen and (min-width: 500px) {
-        font-size: 1.7rem;
-    }
-    @media screen and (min-width: 600px) {
-        font-size: 1.9rem;
-    }    
-    @media screen and (min-width: 700px) {
-        font-size: 2rem;
-    }
-
-    @media screen and (min-width: 1200px) {
-        max-width: none;
-        padding: 3%;
-        text-align: center;
-        font-size: 2rem;
-        letter-spacing: 1px;
-    }
-`;
-
