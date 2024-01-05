@@ -36,6 +36,14 @@
 
     "training": [
         {
+            "title": "Allmänt",
+            "id": "general",
+            "paragraphList": 
+                [
+                    "Träning är en viktig faktor för att hålla blodsockret i schack vid GDM. Det viktigaste är regelbunden fysisk aktivitet, men andra faktorer som spelar in är också tex. när du tränar."
+                ]
+        },
+        {
             "title": "När ska jag träna",
             "id": "when",
             "paragraphList": 
@@ -68,17 +76,25 @@
                     "Raska promenader är fantastisk träning - ett tips som ofta kanske inte lyssnas på då det kan kännas för enkelt. Dagliga powerwalksen, om du har möjlighet, kan dock hjälpa dig hålla blodsockret i schack. Kan du inte gå varje dag har forskning visat effekt av att åtminstone gå varannan dag, då viss effekt håller i sig ett dygn efter."
                 ]
         }
-    
     ],
 
     "food": [
         {
-            "title": "Regelbundenhet",
-            "id": "regularly",
+            "title": "Allmänt",
+            "id": "general",
             "paragraphList": 
                 [
-                    "Att äta regelbundna måltider har en stor påverkan på blodsockret.",
-                    "Ju mer regelbudna måltider och mellanmål, desto mindre risk att äta för mycket på grund av att man annars hunnit bli alltför hungrig. Viktigt är att mellanmålen är stadiga och lagom matiga."
+                    "Kosten är viktig på många sätt vid GDM, inte bara vad du äter - utan även när och hur. Här är mina samlade tips. Du rekommenderas dock även gå till en dietist."
+                ]
+        },
+        {
+            "title": "Regelbundenhet",
+            "id": "routine",
+            "paragraphList": 
+                [
+                    "Att äta regelbundet har en stor påverkan på blodsockret. Fördela maten jämnt över hela dagen - frukost, lunch och middag samt 1-3 mellanmål är en bra fördelning.",
+                    "Ju mer regelbudna måltider och mellanmål, desto bättre. Du kan äta lagom portioner och undviker att bli jättehungrig (och äta för mycket vid ett tillfälle).",
+                    "Viktigt är att mellanmålen är stadiga och lagom matiga."
                 ]
         },
         {
@@ -97,8 +113,7 @@
                 [
                     "'Klassiska kolhydrater' som vete, ris, och vitt bröd är något som blir allt svårare för kroppen att klara av insulinbehov till allteftersom graviditeten fortskrider. Därför hjälper det blodsockret att istället för kolhydrater äta mer protein och fett."
                 ]
-        }
-    
+        }    
     ],
     
     "recipes": [
