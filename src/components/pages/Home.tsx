@@ -40,21 +40,24 @@ export const Home = () => {
 
         <h3>Vad kan jag själv göra?</h3>
         <Paragraph>
-          Det finns dock mycket vi göra på naturlig väg för att hantera och även förebygga 
-          graviditetsdiabetes! Det handlar i stora drag om levnadsfaktorer, träning, och kost. 
+          Det finns mycket vi göra på naturlig väg för att hantera och även förebygga graviditetsdiabetes.
+          Det handlar i stora drag om levnadsfaktorer, träning, och kost. 
         </Paragraph>
 
         <h3>Vem är denna sida för?</h3>
-        <Paragraph>
+        {/* <Paragraph>
           Denna sida är för alla som vill ha tips på hur man på naturlig väg kan minska risk för eller 
-          hantera en graviditetsdiabetes, vare sig du själv har det, du vill undvika att få det, eller om du 
+          hantera en graviditetsdiabetes - vare sig du själv har det, du vill undvika att få det, eller om du 
           söker tips åt en närstående. 
-        </Paragraph>
-
-        <Paragraph>Dessa tips är inte menade att ersätta läkemedelsbehandling om sådan krävs, utan informationen på denna webbsida kan ses som hjälpmedel för att förebygga dem, eller även stötta kroppen under tiden man behandlas.</Paragraph>
+        </Paragraph> */}
 
         <Paragraph>                  
           Om du har en annars frisk graviditet och vill ha tips på naturliga hjälpmedel för att hålla stabilare blodsocker, då är detta sidan för dig!
+        </Paragraph>
+
+        <Paragraph>
+          Dessa tips är inte menade att ersätta läkemedelsbehandling om sådan krävs. 
+          Informationen på denna webbsida kan ses som hjälpmedel för att förebygga det behovet.
         </Paragraph>
 
         <Paragraph>
@@ -66,7 +69,7 @@ export const Home = () => {
 
         <h3>Vem har gjort denna sida?</h3>
         <Paragraph>
-          En osteopat, frontendutvecklare och två-barnsmamma som själv har haft GDM och sett hur 
+          En osteopat, frontendutvecklare och tvåbarnsmamma som själv har haft GDM och sett hur 
           svårt det är att hitta samlad info på hur man kan hantera den utan att behöva ta insulin. På 
           denna sida erbjuder jag mina samlade lärdomar.
         </Paragraph>
