@@ -4,7 +4,7 @@ import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledRecipeArticle, IngredientsWrapper, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink } from "../styles/StyledTexts";
 import { StyledInput } from '../styles/StyledInput';
 
 export const RecipeTips = () => {
@@ -26,7 +26,7 @@ export const RecipeTips = () => {
   const articlesData = articles as IArticlesData;
 
   const sideNavLinksHtml = articlesData.recipes.map((article) => (
-    <StyledSideNavLinks key={`SideNavLinks-${article.id}`}><AnchorLink href={`#${article.id}`}>{article.title}</AnchorLink></StyledSideNavLinks>
+    <StyledSideNavLink key={`SideNavLink-${article.id}`}><AnchorLink href={`#${article.id}`}>{article.title}</AnchorLink></StyledSideNavLink>
   ));
 
   const articleSections = articlesData.recipes.map((article) => (

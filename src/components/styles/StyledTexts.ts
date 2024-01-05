@@ -53,7 +53,7 @@ export const MySignature = styled.span `
 
 /* ----------------------  Link texts  ---------------------- */
 
-export const StyledSideNavLinks = styled.li `
+export const StyledSideNavLink = styled.li `
     cursor: pointer;
     padding: 10px;
     font-weight: 800;

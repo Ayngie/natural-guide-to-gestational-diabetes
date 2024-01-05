@@ -4,7 +4,7 @@ import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLinks } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink } from "../styles/StyledTexts";
 
 export const TrainingAdvice = () => {
   useEffect(() => {
@@ -25,7 +25,7 @@ export const TrainingAdvice = () => {
   const articlesData = articles as IArticlesData;
 
   const sideNavLinksHtml = articlesData.training.map((article) => (
-    <StyledSideNavLinks key={`SideNavLinks-${article.id}`}><AnchorLink href={`#${article.id}`}>{article.title}</AnchorLink></StyledSideNavLinks>
+    <StyledSideNavLink key={`SideNavLink-${article.id}`}><AnchorLink href={`#${article.id}`}>{article.title}</AnchorLink></StyledSideNavLink>
   ));
 
   const articleSections = articlesData.training.map((article) => (
