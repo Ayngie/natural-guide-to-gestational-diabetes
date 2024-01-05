@@ -41,6 +41,10 @@ export const AboutProject = () => {
         </Paragraph>
 
         <Paragraph>
+          Då jag har jobbat som osteopat med egen klinik i 10 år, har jag en del tidigare allmänna kunskaper inom medicin och hälsa, samt även ett stort intresse för att förebygga problem på naturlig väg. 
+        </Paragraph>
+
+        <Paragraph>
           <BoldText>Målet med detta projekt</BoldText> var att försöka skapa en tydlig och strukturerad webbplats som 
           erbjuder naturliga tips och info för att hjälpa hålla jämnare blodsocker och bättre hantera sin 
           graviditetsdiabetes.            
