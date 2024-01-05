@@ -27,15 +27,19 @@ export const Home = () => {
 
         <h3>Vad är GDM?</h3>
         <Paragraph>
-          När kvinnan har en bebis (eller fler) i magen behöver kroppen mer av hormonet insulin för att  
+          När kvinnan har en bebis (eller fler) i magen behöver kroppen <TextLink href="https://liu.se/nyhet/digital-plattform-hjalper-gravida-att-halla-blodsockret" target="_blank"> ca 40% mer</TextLink> av hormonet insulin för att  
           hålla normala blodsockernivåer för mamma och bebis. Ibland blir behovet otillräckligt vilket  
           leder till graviditetsdiabetes (GDM). 
         </Paragraph>
 
         <Paragraph>
+          Kvinnan får symptom som trötthet och törst, och bebis kan bli stor vid förlossning samt efter förlossning få svårt efter att kontrollera sitt blodsocker och problem med amning.
+        </Paragraph>
+
+        <Paragraph>
           Efter graviditeten återställs allt vanligen för kvinnan, men har hon en gång haft GDM har hon   
-          ökad risk att utveckla diabetes mellitus typ 2 senare i livet. Har kvinnan en gång haft GDM är  
-          även risken stor (50-70% risk -  <TextLink href="https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/SOFIA/SKAS9716-1940753776-142/SURROGATE/Graviditetsdiabetes%20(GDM)%20-%20handl%c3%a4ggning.pdf" target="_blank"> källa </TextLink>) att få det vid framtida graviditeter.         
+          ökad risk att utveckla diabetes mellitus typ II senare i livet. Har kvinnan en gång haft GDM är  
+          även risken stor (<TextLink href="https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/SOFIA/SKAS9716-1940753776-142/SURROGATE/Graviditetsdiabetes%20(GDM)%20-%20handl%c3%a4ggning.pdf" target="_blank">50-70% risk</TextLink>) att få det vid framtida graviditeter. 
         </Paragraph>
 
         <h3>Vad kan jag själv göra?</h3>
@@ -45,11 +49,6 @@ export const Home = () => {
         </Paragraph>
 
         <h3>Vem är denna sida för?</h3>
-        {/* <Paragraph>
-          Denna sida är för alla som vill ha tips på hur man på naturlig väg kan minska risk för eller 
-          hantera en graviditetsdiabetes - vare sig du själv har det, du vill undvika att få det, eller om du 
-          söker tips åt en närstående. 
-        </Paragraph> */}
 
         <Paragraph>                  
           Om du har en annars frisk graviditet och vill ha tips på naturliga hjälpmedel för att hålla stabilare blodsocker, då är detta sidan för dig!
