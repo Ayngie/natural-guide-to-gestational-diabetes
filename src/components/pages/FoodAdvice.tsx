@@ -4,7 +4,7 @@ import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, TextLink } from "../styles/StyledTexts";
 
 export const FoodAdvice = () => {
   useEffect(() => {
@@ -52,6 +52,7 @@ export const FoodAdvice = () => {
           <nav>          
             <StyledSideNav>
               {sideNavLinksHtml}
+              <StyledSideNavLink><AnchorLink href="#links">Länkar</AnchorLink></StyledSideNavLink>
             </StyledSideNav>
           </nav>
         </StyledAside>
@@ -59,6 +60,19 @@ export const FoodAdvice = () => {
         <StyledSplitSection>
           <StyledHeadingDesktop>Kostråd för stabilt blodsocker</StyledHeadingDesktop>
           {articleSections}
+
+          <StyledArticle id="links">
+          <h3>Länkar</h3>
+          <ParagraphWrapper> 
+            <Paragraph>
+              Fler tips om bra mat vid diabetes: 
+                <p><TextLink href="https://www.diabetes.se/contentassets/8458e645a4414f69a592b1b3490631ef/sv_diabetes_typ2_a4_mat.pdf" target="_blank">Diabetes.se</TextLink> (Obs! PDF).</p>
+            </Paragraph>
+          </ParagraphWrapper>
+        </StyledArticle>
+
+        <LinkToTop/>
+
         </StyledSplitSection>
       </StyledGrid>
     </section>
