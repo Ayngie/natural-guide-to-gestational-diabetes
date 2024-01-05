@@ -14,6 +14,8 @@ This application is built in React + TypeScript + Vite.
 
 The project language is swedish.
 
+N.B. As GitHub does not support SPA's (Single Page Applications) - if you refresh any of the 'subpages' (other than the startpage) you will get a 404 from GitHub. If this happens - to fix  this - please go to the startpage url (https://ayngie.github.io/natural-guide-to-gestational-diabetes/) to start again, then navigate with help of the navbar, and do not refresh the page deployed with GitHub Actions :)
+
 ## Techniques used (shields/badges)
 ![React badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB/to/img.png)
 ![React Router badge](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white/to/img.png)
