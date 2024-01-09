@@ -1,4 +1,7 @@
 import { useEffect } from "react";
+import envelopeIcon from "/envelope-heart-fill.svg";
+import linkedInIcon from "/linkedin.svg";
+import gitHubIcon from "/github.svg";
 import { StyledAboutSection, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph, BoldText, TextLink, MySignature } from "../styles/StyledTexts";
 import { StyledIcon } from "../styles/StyledIcon";
@@ -66,7 +69,7 @@ export const AboutProject = () => {
         </Paragraph>
 
         <Paragraph>Vill du komma i kontakt med mig kan du prova att 
-          <TextLink href="mailto:angelica.reutersward@medieinstitutet.se?subject=Angående ditt examensarbete om graviditetsdiabetes&body=Hej Angelica! Jag heter..."> maila mig <StyledIcon src="./public/envelope-heart-fill.svg" alt="Envelope Icon"></StyledIcon> ! </TextLink>
+          <TextLink href="mailto:angelica.reutersward@medieinstitutet.se?subject=Angående ditt examensarbete om graviditetsdiabetes&body=Hej Angelica! Jag heter..."> maila mig <StyledIcon src={envelopeIcon} alt="Envelope Icon"></StyledIcon> ! </TextLink>
         </Paragraph>
 
         <Paragraph>Med det sagt, önskar jag trevlig läsning & må så gott! &#128149;</Paragraph>
@@ -74,9 +77,9 @@ export const AboutProject = () => {
         <Paragraph><MySignature>Angelica </MySignature> &#128075;</Paragraph>
 
         <Paragraph>P.s. Jag finns även på 
-          <TextLink href="https://www.linkedin.com/in/angelicareutersward/" target="_blank" aria-label="Link to go to LinkedIn profile page."> LinkedIn <StyledIcon src="./public/linkedin.svg" alt="LinkedIn Icon"></StyledIcon> </TextLink>
+          <TextLink href="https://www.linkedin.com/in/angelicareutersward/" target="_blank" aria-label="Link to go to LinkedIn profile page."> LinkedIn <StyledIcon src={linkedInIcon} alt="LinkedIn Icon"></StyledIcon> </TextLink>
           , och på
-          <TextLink href="https://github.com/Ayngie" target="_blank" aria-label="Link to go to GitHub page."> GitHub <StyledIcon src="./public/github.svg" alt="GitHub Icon"></StyledIcon> </TextLink>
+          <TextLink href="https://github.com/Ayngie" target="_blank" aria-label="Link to go to GitHub page."> GitHub <StyledIcon src={gitHubIcon} alt="GitHub Icon"></StyledIcon> </TextLink>
           !
         </Paragraph>
 
