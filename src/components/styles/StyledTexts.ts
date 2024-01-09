@@ -59,7 +59,7 @@ export const StyledSideNavLink = styled.li `
     font-weight: 800;
 
     a {
-        color: #FF4FA7;
+        color: rebeccapurple;
         text-shadow: 1px 1px white;
         text-decoration: none;    
       
