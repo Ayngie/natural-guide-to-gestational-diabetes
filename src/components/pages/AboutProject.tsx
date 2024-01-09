@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import envelopeIcon from "/envelope-heart-fill.svg";
 import linkedInIcon from "/linkedin.svg";
 import gitHubIcon from "/github.svg";
+import { LinkToTop } from "../LinkToTop";
 import { StyledAboutSection, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph, BoldText, TextLink, MySignature } from "../styles/StyledTexts";
 import { StyledIcon } from "../styles/StyledIcon";
@@ -83,6 +84,8 @@ export const AboutProject = () => {
           !
         </Paragraph>
 
+        <LinkToTop/>
+        
       </ParagraphWrapper>
     </StyledAboutSection>
   );
