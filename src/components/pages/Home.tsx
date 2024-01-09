@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { LinkToTop } from "../LinkToTop";
 import { StyledFullSection, ParagraphWrapper } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph, BoldText, StyledLinks, TextLink } from "../styles/StyledTexts";
 
@@ -77,6 +78,8 @@ export const Home = () => {
 
         <Paragraph> Läs mer på: <StyledLinks><Link to="/natural-guide-to-gestational-diabetes/about"> 'Om detta projekt' </Link></StyledLinks>.</Paragraph>
         
+        <LinkToTop/>
+
       </ParagraphWrapper>
     </StyledFullSection>
   );
