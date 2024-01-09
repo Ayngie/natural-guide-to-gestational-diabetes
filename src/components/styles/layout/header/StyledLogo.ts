@@ -46,3 +46,7 @@ export const StyledLogoText = styled.span `
         font-size: 1.5rem;
     }
 `;
+
+export const LogoWrapper = styled.div `
+    width: 80%;
+`;
