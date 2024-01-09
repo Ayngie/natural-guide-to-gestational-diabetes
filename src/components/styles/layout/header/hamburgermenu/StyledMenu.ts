@@ -12,6 +12,8 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
+  gap: 1%;
 
   background: #ffeafc;
   border-bottom-left-radius: 15px;
@@ -22,6 +24,8 @@ export const StyledMenu = styled.nav<IStyledMenuProps>`
 
   text-align: center;
   text-transform: uppercase;
+  font-size: larger;
+  font-weight: bold;
 
   a {
     position: relative;
