@@ -71,6 +71,7 @@ export const FoodAdvice = () => {
               <TextLink href="https://apps.apple.com/se/app/t1d/id1532900106" target="_blank"> App Store</TextLink>.
             </Paragraph>
             <Paragraph><TextLink href="https://www.instagram.com/glucosegoddess/?hl=sv" target='_blank'>Glucose goddess på instagram</TextLink>.</Paragraph>
+            <Paragraph><TextLink href="https://chronos.se/diabetes/mat%2Fsotsug%2Fmellanmal" target='_blank'>Mellanmålstips</TextLink>.</Paragraph>            
             <Paragraph><TextLink href="https://www.insulin.se/typ-2-diabetes/kost-vid-diabetes/vad-ska-man-ata" target='_blank'>insulin.se - vad ska man äta</TextLink>.</Paragraph>
             <Paragraph><TextLink href="https://www.insulin.se/typ-1-diabetes/kost-vid-diabetes/vad-ska-man-ata/kolhydrater" target='_blank'>insulin.se - om kolhydrater</TextLink>.</Paragraph>            
             <Paragraph><TextLink href="https://www.diabetes.fi/sv/diabetesforbundet_i_finland/om_diabetes/valj_ratt_kost/kolhydrattabell" target='_blank'>Diabetes.fi kolhydrattabell</TextLink>.</Paragraph>

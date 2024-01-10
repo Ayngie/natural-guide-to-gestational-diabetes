@@ -64,7 +64,7 @@ export const TrainingAdvice = () => {
           <StyledArticle id="links">
           <h3>Länkar</h3>
           <ParagraphWrapper> 
-            <h4>Träning vid diabetes:</h4>
+            <h4>Fler tips om träning för ett stabilare blodsocker:</h4>
             <Paragraph><TextLink href="https://diabetes.nu/diabetes-och-styrketraning/" target="_blank"> Diabetes.nu om styrketräning</TextLink>.</Paragraph>
             <Paragraph><TextLink href="https://www.diabetes.se/diabetes/diabetes-typ-2/traning/" target="_blank"> Svenska Diabetesförbundet om träning</TextLink>.</Paragraph>
             <Paragraph><TextLink href="https://www.fyss.se/wp-content/uploads/2018/01/Diabetes-TYP-2.pdf" target="_blank"> Fysisk aktivitet vid diabetes mellitus typ II</TextLink>(PDF).</Paragraph>

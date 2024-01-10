@@ -24,10 +24,10 @@
             "id": "stress",
             "paragraphList": 
                 [
-                    "Vid stress (inkl. positiv stress - tex spännande upplevelser) utsöndrar binjurarna adrenalin och kortisol, detta leder till att det frisätts mer socker och blodsockret stiger. Kroppen hämtar alltså socker i 'förråden' som sedan stannar i blodet.",
+                    "Vid stress (inkl. positiv stress - tex spännande upplevelser) utsöndrar binjurarna adrenalin, glukagon och kortisol, detta leder till att det frisätts mer socker och blodsockret stiger. Kroppen hämtar alltså socker i 'förråden' som sedan stannar i blodet.",
                     "Stress påverkar även blodsockret genom att stresshormoner motverkar insulinhormonerna vilket gör blodsockret svårare att kontrollera. Högre kortisol ger högre insulinresistens (i ett läge då kroppen redan har högre insulinbehov samt viss ökad insulinresistens pga graviditeten), vilket ger högre blodsocker.",
                     "Är du stressad? Långvarig eller återkommande stress kan vara bra att prata om. Många saker som orsakar stress går ofta att ändra med rätt hjälp. Prata gärna med din barnmorska, dina nära och kära, eller din doula kanske.",
-                    "Finns det något du vet att du kan göra för att minska din stress? Kan du öva på att hantera stressen? Ta hjälp, och försök hitta hjälpmedel i vardagen för att minska din stress. Kan du gå till en osteopat för dina fysiska krämpor? Kan du meditera varje dag för att stilla ditt nervsystem? Se vad som fungerar för dig!",
+                    "Finns det något du vet att du kan göra för att minska din stress? Kan du öva på att hantera stressen? Ta hjälp, och försök hitta hjälpmedel i vardagen för att minska din stress. Kan du gå till en osteopat för dina fysiska krämpor? Hjälper yoga? Kan du meditera varje dag för att stilla ditt nervsystem? Se vad som fungerar för dig!",
                     "Kom ihåg att fysisk aktivitet förbättrar välbefinnande och sömn, minskar stresshormonet kortisol, och har en positiv påverkan på tex endorfiner, serotonin, dopamin och noradrenalin i hjärnans molekylära system, samt motverkar en minskad hippocampusvolym som kan ses vid depression. (Källa: Läkartidningen 2022-09-14)."
                 ]
         },
@@ -140,6 +140,15 @@
                 ]
         },
         {
+            "title": "Nödsnacks",
+            "id": "emergencysnacks",
+            "paragraphList": 
+                [
+                    "Ibland kommer oförutsedda händelser och stör ens dagliga rutiner. Kanske du är iväg och blir försenad och du behöver ett snabbt litet mellanmål för att hålla jämnt blodsocker. . Varmt tips är att alltid ha med lite nödsnacks i handväskan.",
+                    "För mig fungerade det att alltid ha med sig en påse osötade sötmandlar, några BabyBel-ostar , och gärna en påse morotsstavar. Det räddade mig många gånger (och fungerar kanske även för ev. äldre syskon ;) )!"
+                ]
+        },        
+        {
             "title": "Måltidens sammansättning",
             "id": "composition",
             "paragraphList": 
@@ -194,6 +203,25 @@
                 ]
         },
         {
+            "title": "Vatten",
+            "id": "h20",
+            "paragraphList": 
+                [
+                    "Glöm inte att dricka tillräckligt med vatten!",
+                    "Förutom att minska risken för uttorkning, så hjälper vatten spola ut njurarna (som får jobba hårt då vi ska kissa ut allt extra socker). Det finns studier som visar att regelbundet vätskeintag av vatten minskar risken för högt blodsocker.",
+                    "Sista månaderna av min graviditet var vatten dessutom den ENDA dryck jag kunde dricka som inte höjde mitt blodsocker (jag kunde inte ens dricka te utan mjölk)."
+                ]
+        },
+        {
+            "title": "Kanel",
+            "id": "cinnamon",
+            "paragraphList": 
+                [
+                    "Det finns studier som visar att kryddan kanel hjälper öka insulinkänsligheten, vilket alltså är bra för vårt blodsocker! Studier visar även att kanel kan sakta ned spjälkningen av kolhydrater i magsäcken, vilket ger mindre glukostopp.",
+                    "Se till att köpa ceylonkanel (och inte kassiakanel) då det innehåller betydligt lägre halter av kumarin (som är skadligt för levern i mycket höga doser)!"
+                ]
+        },
+        {
             "title": "Kosttillskott",
             "id": "supplements",
             "paragraphList": 
@@ -202,9 +230,10 @@
                     "Jag använde Thorne Alpha-Lipoic Acid 60 kapslar (Obs! Att jag inte har med detta företag att göra, detta var bara mitt val av tillskott för de som kanske undrar).",
                     "Det finns även forskning som tyder på att ALA har andra fördelaktiga skyddande effekter vid graviditet.",
                     "Obs! Du får själv läsa på den forskning du hittar och bestämma om detta är något för dig, eller om du anser att det inte är tryggt att ta detta kosttillskott vid din graviditet. Se några forskningslänkar längst ned på denna sida, och sök gärna mer på egen hand.",
-                    "Ett annat kosttillskott som i forskning haft positiva effekter vid diabetes är Magnesium. Magnesium är även bra mot muskelspänningar. Holistics har ett bra tillskott på Magnesium (Obs! Att jag inte har med detta företag att göra, detta var bara mitt val av tillskott för de som kanske undrar)."
+                    "Ett annat kosttillskott som i forskning haft positiva effekter vid diabetes är Magnesium. Magnesium är även bra mot muskelspänningar. Holistics har ett bra tillskott på Magnesium (Obs! Att jag inte har med detta företag att göra, detta var bara mitt val av tillskott för de som kanske undrar).",
+                    "Probiotika är ett annat tillskott som hjälper vår kropps immunförsvar - och som visat sig förbättra blodsockernivåer enligt vissa studier. Probi mage rekommenderas varmt (Obs! Att jag inte har med detta företag att göra, detta var bara mitt val av tillskott för de som kanske undrar)."
                 ]
-        }            
+        }
     ],
     
     "recipes": [
