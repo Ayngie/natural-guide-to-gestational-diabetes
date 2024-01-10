@@ -78,7 +78,19 @@
             "id": "weights",
             "paragraphList": 
                 [
-                    "Ju mer muskler, deste lättare för kroppen att hålla jämnt blodsocker."
+                    "Styrketräning eller motståndsträning som det även kallas, är bra för mycket! I likhet med konditionsträning kan styrketräning öka insulinkänsligheten. ",
+                    "Ju mer och starkare muskler, desto lättare är det för kroppen att hålla jämnt blodsocker.",
+                    "Är du nybörjare på styrketräning? Kom igång långsamt och öka vartefter, ta gärna hjälp av någon utbildad i mammaträning!"
+                ]
+        },   
+        {
+            "title": "Mammaträning",
+            "id": "momgroups",
+            "paragraphList": 
+                [
+                    "Du vet väl att det finns många både inomhus- & utomhusträningsgrupper för mammor (för både gravida och med bebis utanför magen)?",
+                    "Det är både trevligt, socialt, bra träning, och du får komma ut.",
+                    "Hör med din omgivning om någon har tips på bra mammaträningar eller googla!"
                 ]
         },    
         {
@@ -86,7 +98,9 @@
             "id": "condition",
             "paragraphList": 
                 [
-                    "Konditionsträning kan vara lågintensiva promenader, power-walks, spinning (om ditt bäcken tål det), eller liknande. Som regel gäller att det du kunnat göra och gjort mycket av innan du blev gravid kan du fortsätta med så länge det känns bra."
+                    "Konditionsträning har konsekvent visat sig förbättra blodsockerkontrollen och insulinkänsligheten hos personer med diabetes, och är alltså superbra vid GDM!",
+                    "Konditionsträning kan vara lågintensiva promenader, power-walks, spinning (om ditt bäcken tål det), eller liknande.",
+                    "Som regel gäller att det du kunnat göra och gjort mycket av innan du blev gravid kan du fortsätta med så länge det känns bra."
                 ]
         },
         {
@@ -124,8 +138,20 @@
             "id": "composition",
             "paragraphList": 
                 [
-                    "Det är inte bara vad du äter som spelar roll, utan även hur du äter det. Om du äter kolhydrater men samtidigt äter fett och protein, så sker matsmältningen på ett annorlunda sätt än om du bara äter kolhydrater. När allt spjälkas samtidigt blir det inte lika hög glukostopp.",
-                    "Likaså har man sett att om du äter grönsaker en stund innan du äter dina kolhydrater så har det en skyddande effekt mot glukostoppar."
+                    "Det är inte bara vad du äter som spelar roll, utan även hur du äter det.  När allt spjälkas samtidigt blir det inte lika hög glukostopp.",
+                    "En måltid som innehåller stor mängd eller enbart kolhydrater gör att blodsockret höjs både snabbare och mer än en måltid där det även finns fibrer, fett och protein.",
+                    "Om du äter (helst långsamma) kolhydrater och samtidigt äter fibreer, fett och protein, så sker matsmältningen på ett annorlunda sätt.",
+                    "Då tömmer sig magsäcken långsammare och därför höjs inte blodsockret lika snabbt.",
+                    "Om du äter grönsaker en stund innan du äter dina kolhydrater så har även det en skyddande effekt mot glukostoppar."
+                ]
+        },
+        {
+            "title": "Finfördelning av maten",
+            "id": "puree",
+            "paragraphList": 
+                [
+                    "Hur finfördelad maten är har också påverkan på hur snabbt magsäcken tömmer sig.",
+                    "Tex. är en morot bättre än en riven morot, som i sin tur dock är bättre än morotspuré."
                 ]
         },
         {

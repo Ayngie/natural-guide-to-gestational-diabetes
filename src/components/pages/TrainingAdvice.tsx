@@ -67,6 +67,11 @@ export const TrainingAdvice = () => {
             <h4>Positiva hälsoeffekter av fysisk aktivitet:</h4>
             <Paragraph><TextLink href="https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temaartikel/2022/09/fysisk-aktivitet-kan-ha-omedelbar-effekt-pa-depression-och-angest/" target="_blank"> Fysisk aktivitet kan ha omedelbar effekt på depression och ångest - Träning förbättrar välbefinnande och kognition, minskar stresshormonet kortisol och ökar blodflödet i hjärnan</TextLink>.</Paragraph>
           </ParagraphWrapper>
+          <ParagraphWrapper> 
+            <h4>Träning vid diabetes:</h4>
+            <Paragraph><TextLink href="https://diabetes.nu/diabetes-och-styrketraning/" target="_blank"> Diabetes och styrketräning</TextLink>.</Paragraph>
+          </ParagraphWrapper>
+
           </StyledArticle>
 
           <LinkToTop/>
