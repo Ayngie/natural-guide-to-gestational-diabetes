@@ -149,7 +149,7 @@
                 ]
         },        
         {
-            "title": "Måltidens sammansättning",
+            "title": "Sammansättning",
             "id": "composition",
             "paragraphList": 
                 [
@@ -161,7 +161,7 @@
                 ]
         },
         {
-            "title": "Matens finfördelning",
+            "title": "Finfördelning",
             "id": "puree",
             "paragraphList": 
                 [
@@ -170,7 +170,7 @@
                 ]
         },
         {
-            "title": "Färre kolhydrater",
+            "title": "Kolhydrater",
             "id": "carbs",
             "paragraphList": 
                 [
