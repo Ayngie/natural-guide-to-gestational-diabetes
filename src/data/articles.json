@@ -5,7 +5,8 @@
             "id": "general",
             "paragraphList": 
                 [
-                    "Det är inte bara mat och träning som kan hjälpa dig vid GDM, utan levnadsfaktorer spelar också roll."
+                    "Det är inte bara mat och träning som kan hjälpa dig vid GDM, utan levnadsfaktorer spelar också roll.",
+                    "För mycket socker i blodet kan förutom för lite insulin även bero på tex. stresshormoner."
                 ]
         },
         {
@@ -13,7 +14,9 @@
             "id": "routine",
             "paragraphList": 
                 [
-                    "Rutiner hjälper kroppen hålla bättre blodsockerbalans. Att äta regelbundna måltider, att somna och vakna vid ungefär samma tid."
+                    "Rutiner är en stöttepelare i vår vardag som även hjälper kroppen hålla bättre blodsockerbalans.",
+                    "Försök skapa rutiner som tex att äta regelbundna måltider & mellisar, en läggningsrutin för att varva ned inför sömnen, försök gå och lägga dig och gå upp vid ungefär samma tid, att röra dig fysiskt efter måltider, etc... ",
+                    "Med en regelbunden rutin håller du lättare jämna blodsockernivåer, och du kan se om du avviker från dina rutiner hur det påverkade ditt blodsocker. "
                 ]
         },
         {
@@ -21,7 +24,11 @@
             "id": "stress",
             "paragraphList": 
                 [
-                    "Stress påverkar blodsockret då kortisolet påverkar insulinresistensen i kroppen. Högre kortisol (som vid stress), ger högre insulinresistens (när kroppen redan har högre insulinbehov iom graviditeten och att man är två), vilket ger högre blodsocker."
+                    "Vid stress (inkl. positiv stress - tex spännande upplevelser) utsöndrar binjurarna adrenalin och kortisol, detta leder till att det frisätts mer socker och blodsockret stiger. Kroppen hämtar alltså socker i 'förråden' som sedan stannar i blodet.",
+                    "Stress påverkar även blodsockret genom att stresshormoner motverkar insulinhormonerna vilket gör blodsockret svårare att kontrollera. Högre kortisol ger högre insulinresistens (i ett läge då kroppen redan har högre insulinbehov samt viss ökad insulinresistens pga graviditeten), vilket ger högre blodsocker.",
+                    "Är du stressad? Långvarig eller återkommande stress kan vara bra att prata om. Många saker som orsakar stress går ofta att ändra med rätt hjälp. Prata gärna med din barnmorska, dina nära och kära, eller din doula kanske.",
+                    "Finns det något du vet att du kan göra för att minska din stress? Kan du öva på att hantera stressen? Ta hjälp, och försök hitta hjälpmedel i vardagen för att minska din stress. Kan du gå till en osteopat för dina fysiska krämpor? Kan du meditera varje dag för att stilla ditt nervsystem? Se vad som fungerar för dig!",
+                    "Kom ihåg att fysisk aktivitet förbättrar välbefinnande och sömn, minskar stresshormonet kortisol, och har en positiv påverkan på tex endorfiner, serotonin, dopamin och noradrenalin i hjärnans molekylära system, samt motverkar en minskad hippocampusvolym som kan ses vid depression. (Källa: Läkartidningen 2022-09-14)."
                 ]
         },
         {
@@ -29,7 +36,9 @@
             "id": "sleep",
             "paragraphList": 
                 [
-                    "Om du sover för lite får du likaså högre kortisolnivå i kroppen, och högre insulinresistens. Sömnen är svårare som gravid, men det hjälper att göra vad man kan för att sova bättre. Tex. regelbundna läggningstider, sov med en gravidkudde mellan knäna, etc."
+                    "Om du sover för lite får du högre kortisolnivå i kroppen, och högre insulinresistens.",
+                    "Sömnbrist gör oss även tröttare och mer okoncentrerade, vilket kan leda till att vi får sug efter snabba kolhydrater för snabb energi, vilket ger högre blodsocker.",
+                    "Sömnen är svårare som gravid, men det hjälper att göra vad man kan för att sova bättre. Tex. fysisk rörelse varje dag, regelbundna läggningstider, varva ned (skärmfritt) en stund innan läggning, somna till en meditation (eller dina förlossningsaffirmationer kanske :) ) sov med en gravidkudde mellan knäna, etc."
                 ]
         }
     ],
@@ -84,7 +93,7 @@
             "id": "general",
             "paragraphList": 
                 [
-                    "Kosten är viktig på många sätt vid GDM, inte bara vad du äter - utan även när och hur. Här är mina samlade tips. Du rekommenderas dock även gå till en dietist."
+                    "Kosten är viktig på många sätt vid GDM, inte bara vad du äter - utan även när och hur. Här är mina samlade tips. En dietist kan hjälpa dig med mer info."
                 ]
         },
         {
@@ -93,8 +102,9 @@
             "paragraphList": 
                 [
                     "Att äta regelbundet har en stor påverkan på blodsockret. Fördela maten jämnt över hela dagen - frukost, lunch och middag samt 1-3 mellanmål är en bra fördelning.",
-                    "Ju mer regelbudna måltider och mellanmål, desto bättre. Du kan äta lagom portioner och undviker att bli jättehungrig (och äta för mycket vid ett tillfälle).",
-                    "Viktigt är att mellanmålen är stadiga och lagom matiga."
+                    "Försök hålla samma tider varje dag.",
+                    "Viktigt är att mellanmålen är stadiga och lagom matiga.",
+                    "Detta hjälper dig med att äta lagom portioner och du undviker att bli jättehungrig (och äta för mycket vid ett tillfälle - vilket ger en glukostopp)."
                 ]
         },
         {
@@ -107,13 +117,37 @@
                 ]
         },
         {
-            "title": "Färre kolhydrater",
+            "title": "Protein och fett framför kolhydrater",
             "id": "carbs",
             "paragraphList": 
                 [
-                    "'Klassiska kolhydrater' som vete, ris, och vitt bröd är något som blir allt svårare för kroppen att klara av insulinbehov till allteftersom graviditeten fortskrider. Därför hjälper det blodsockret att istället för kolhydrater äta mer protein och fett."
+                    "'Klassiska kolhydrater' som vete, ris, och vitt bröd är något som blir gradvis svårare för kroppen att klara av insulinbehovet till allteftersom graviditeten fortskrider.",
+                    "Därför hjälper det blodsockret att minska mängden kolhydrater och istället äta mer protein och fett.",
+                    "Tänk grönsaker (sallad, kål, broccoli), baljväxter (tex linser och kikärter), nötter (mandlar är jättebra), och hårdostar (pastöriserade). Inte fett som i feta såser :)"
                 ]
-        }    
+        },
+        {
+            "title": "Kvällsmål mot höga fastevärden",
+            "id": "bedtimesnack",
+            "paragraphList": 
+                [
+                    "Har du höga fastevärden på morgonen? Då kanske du vill prova att lägga in ett litet kvällsmellanmål.",
+                    "Om du blir väldigt hungrig under natten påverkar det dina värden nästa morgon.",
+                    "Testa att ta en näve mandlar, eller en bit hårdost, innan du går och lägger dig och se hur det påverkar dina fastevärden nästa morgon."
+                ]
+        },
+        {
+            "title": "Kosttillskott",
+            "id": "supplements",
+            "paragraphList": 
+                [
+                    "Då jag var gravid researchade jag forskning på Alfa-liponsyra (ALA) - en antioxidant som jag fann hade effekt på att hålla mitt blodsocker mer stabilt.",
+                    "Jag använde Thorne Alpha-Lipoic Acid 60 kapslar (OBS! Att jag inte har med detta företag att göra, detta var bara mitt val av tillskott för de som kanske undrar).",
+                    "Det finns även forskning som tyder på att ALA har andra fördelaktiga skyddande effekter vid graviditet.",
+                    "Obs! Du får själv läsa på den forskning du hittar och bestämma om detta är något för dig, eller om du anser att det inte är tryggt att ta detta kosttillskott vid din graviditet.",
+                    "Se några forskningslänkar längst ned på denna sida, och sök gärna mer på egen hand."
+                ]
+        }            
     ],
     
     "recipes": [

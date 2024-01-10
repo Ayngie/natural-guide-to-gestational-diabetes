@@ -4,7 +4,7 @@ import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, TextLink, BoldText } from "../styles/StyledTexts";
 
 export const LifeAdvice = () => {
   useEffect(() => {
@@ -46,19 +46,34 @@ export const LifeAdvice = () => {
 
   return (
     <section>
-      <StyledHeadingMobile>Levnadsråd för stabilare blodsocker</StyledHeadingMobile>
+      <StyledHeadingMobile>Levnadsråd för ett stabilare blodsocker</StyledHeadingMobile>
       <StyledGrid>
         <StyledAside>
           <nav>          
             <StyledSideNav>
               {sideNavLinksHtml}
+              <StyledSideNavLink><AnchorLink href="#links">Länkar</AnchorLink></StyledSideNavLink>
             </StyledSideNav>
           </nav>
         </StyledAside>
 
         <StyledSplitSection>
-          <StyledHeadingDesktop>Levnadsråd för stabilare blodsocker</StyledHeadingDesktop>
+          <StyledHeadingDesktop>Levnadsråd för ett stabilare blodsocker</StyledHeadingDesktop>
           {articleSections}
+          
+          <StyledArticle id="links">
+          <h3>Länkar</h3>
+          <ParagraphWrapper> 
+            <Paragraph>Mobilappen <BoldText>T1D</BoldText> är en jättebra app för typ I diabetes som gärna kan användas vid andra sorters diabetes enligt min mening. Appen har en superbra sökfunktion för livsmedel och bra allmän info. Rekommenderas varmt!</Paragraph>
+            <Paragraph>Ladda ned här: 
+              <TextLink href="https://play.google.com/store/apps/details?id=se.tad1.t1d&hl=en_US" target="_blank"> T1D (Google Play)</TextLink>, eller här:
+              <TextLink href="https://apps.apple.com/se/app/t1d/id1532900106" target="_blank"> T1D (App Store)</TextLink>.
+            </Paragraph>
+          </ParagraphWrapper>
+        </StyledArticle>
+
+        <LinkToTop/>
+
         </StyledSplitSection>
       </StyledGrid>
     </section>

@@ -46,7 +46,7 @@ export const TrainingAdvice = () => {
 
   return (
     <section>
-      <StyledHeadingMobile>Träningstips för stabilare blodsocker</StyledHeadingMobile>
+      <StyledHeadingMobile>Träningstips för ett stabilare blodsocker</StyledHeadingMobile>
       <StyledGrid>
         <StyledAside>
           <nav>
@@ -57,7 +57,7 @@ export const TrainingAdvice = () => {
         </StyledAside>
 
         <StyledSplitSection className="articles-section">
-          <StyledHeadingDesktop>Träningstips för stabilare blodsocker</StyledHeadingDesktop>
+          <StyledHeadingDesktop>Träningstips för ett stabilare blodsocker</StyledHeadingDesktop>
           {articleSections}
         </StyledSplitSection>
       </StyledGrid>
