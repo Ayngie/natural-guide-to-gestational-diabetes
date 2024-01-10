@@ -84,6 +84,11 @@ export const FoodAdvice = () => {
               <Paragraph><TextLink href="https://pubmed.ncbi.nlm.nih.gov/29028075/" target="_blank">Safety of oral alpha-lipoic acid treatment in pregnant women: a retrospective observational study</TextLink> (studie från 2017).</Paragraph>
           </ParagraphWrapper>
 
+          <ParagraphWrapper> 
+            <h4>Magnesium och graviditet:</h4>
+              <Paragraph><TextLink href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6356710/" target="_blank">The Effects of Oral Magnesium Supplementation on Glycemic Response among Type 2 Diabetes Patients</TextLink> (studie från 2018).</Paragraph>
+          </ParagraphWrapper>
+
         </StyledArticle>
 
         <LinkToTop/>
