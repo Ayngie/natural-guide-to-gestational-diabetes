@@ -4,7 +4,7 @@ import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
 import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink } from "../styles/StyledTexts";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, TextLink } from "../styles/StyledTexts";
 
 export const TrainingAdvice = () => {
   useEffect(() => {
@@ -52,6 +52,7 @@ export const TrainingAdvice = () => {
           <nav>
             <StyledSideNav>
               {sideNavLinksHtml}
+              <StyledSideNavLink><AnchorLink href="#links">Länkar</AnchorLink></StyledSideNavLink>
             </StyledSideNav>
           </nav>
         </StyledAside>
@@ -59,6 +60,17 @@ export const TrainingAdvice = () => {
         <StyledSplitSection className="articles-section">
           <StyledHeadingDesktop>Träningstips för ett stabilare blodsocker</StyledHeadingDesktop>
           {articleSections}
+
+          <StyledArticle id="links">
+          <h3>Länkar</h3>
+          <ParagraphWrapper> 
+            <h4>Positiva hälsoeffekter av fysisk aktivitet:</h4>
+            <Paragraph><TextLink href="https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temaartikel/2022/09/fysisk-aktivitet-kan-ha-omedelbar-effekt-pa-depression-och-angest/" target="_blank"> Fysisk aktivitet kan ha omedelbar effekt på depression och ångest - Träning förbättrar välbefinnande och kognition, minskar stresshormonet kortisol och ökar blodflödet i hjärnan</TextLink>.</Paragraph>
+          </ParagraphWrapper>
+          </StyledArticle>
+
+          <LinkToTop/>
+
         </StyledSplitSection>
       </StyledGrid>
     </section>
