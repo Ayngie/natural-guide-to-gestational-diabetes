@@ -189,8 +189,8 @@
             "paragraphList": 
                 [
                     "Vissa frukter och bär är bättre än andra men det kan vara svårt att veta vilka. Använd gärna sökfunktionen på denna sida, eller ladda ned T1D-appen och använd deras sök, eller hitta någonstans där du kan kolla upp kolhydratmängden i olika frukter och bär.",
-                    "Om du blir väldigt hungrig under natten påverkar det dina värden nästa morgon.",
-                    "Testa att ta en näve mandlar, eller en bit hårdost, innan du går och lägger dig och se hur det påverkar dina fastevärden nästa morgon."
+                    "Hallon är till exempel mycket bättre (lägre innehåll av kolhydrater + sockerarter) än både blåbär och jordgubbar.",
+                    "Frukter som tex banan innehåller mycket socker och bör ätas sparsamt för att undvika glukostoppar."
                 ]
         },
         {
@@ -254,9 +254,10 @@
             "ingredientsList": 
                 [
                     "Mandelmjölk (osockrad)",
-                    "Ett par dl frysta hallon",
+                    "Ett par dl frysta osötade hallon",
                     "Några buketter fryst broccoli",
-                    "En näve ekologiska sötmandlar",
+                    "En näve ekologiska sötmandlar (osötade)",
+                    "En näve frysta grönkålsblad",
                     "3 st ekologiska färska dadlar",
                     "Ekologisk Ceylonkanel, kardemumma, och bourbonvaniljpulver efter smak"
                 ],
