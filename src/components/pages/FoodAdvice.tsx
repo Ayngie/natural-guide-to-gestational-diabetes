@@ -64,13 +64,14 @@ export const FoodAdvice = () => {
           <StyledArticle id="links">
           <h3>Länkar</h3>
           <ParagraphWrapper> 
-            <h4>Fler tips om bra mat vid diabetes:</h4>
+            <h4>Fler tips om bra mat för ett stabilare blodsocker:</h4>
               <Paragraph><TextLink href="https://www.diabetes.se/contentassets/8458e645a4414f69a592b1b3490631ef/sv_diabetes_typ2_a4_mat.pdf" target="_blank">Diabetes.se</TextLink> (Obs! PDF).</Paragraph>
               <Paragraph>
                 Appen T1D - ladda ned:
                 <TextLink href="https://play.google.com/store/apps/details?id=se.tad1.t1d&hl=en_US" target="_blank"> Google Play</TextLink>,
                 <TextLink href="https://apps.apple.com/se/app/t1d/id1532900106" target="_blank"> App Store</TextLink>.
               </Paragraph>
+              <Paragraph><TextLink href="https://www.instagram.com/glucosegoddess/?hl=sv" target='_blank'>Glucose goddess på instagram</TextLink>.</Paragraph>
           </ParagraphWrapper>
 
           <ParagraphWrapper> 
