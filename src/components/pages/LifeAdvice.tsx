@@ -64,7 +64,8 @@ export const LifeAdvice = () => {
           <StyledArticle id="links">
           <h3>Länkar</h3>
           <ParagraphWrapper> 
-            <Paragraph>Mobilappen <BoldText>T1D</BoldText> är en jättebra app för typ I diabetes som gärna kan användas vid andra sorters diabetes enligt min mening. Appen har en superbra sökfunktion för livsmedel och bra allmän info. Rekommenderas varmt!</Paragraph>
+            <h4>Mobilappen T1D:</h4>
+            <Paragraph>Detta är en jättebra app för typ I diabetes som gärna kan användas vid andra sorters diabetes enligt min mening. Appen har en superbra sökfunktion för livsmedel och bra allmän info. Rekommenderas varmt!</Paragraph>
             <Paragraph>Ladda ned här: 
               <TextLink href="https://play.google.com/store/apps/details?id=se.tad1.t1d&hl=en_US" target="_blank"> T1D (Google Play)</TextLink>, eller här:
               <TextLink href="https://apps.apple.com/se/app/t1d/id1532900106" target="_blank"> T1D (App Store)</TextLink>.
