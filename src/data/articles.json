@@ -69,8 +69,9 @@
             "id": "when",
             "paragraphList": 
                 [
-                    "Om du gör någon form av träning direkt efter att du har ätit, kommer du att minska glukostoppen på det du ätit, och så kunna hålla ett bättre blodsockervärde. Man kan få stor effekt på sitt blodsocker av att direkt efter lunchen tex., gå ut på en power-walk.",
-                    "Instinkten kan ibland vara att 'vila på maten', eftersom det är lätt att känna sig trött som gravid och framförallt vid graviditetsdiabetes. Man kan dock vinna energi och bättre blodsocker av att röra på sig direkt efter maten."
+                    "Om du gör någon form av träning direkt efter att du har ätit, kommer du att minska glukostoppen på det du ätit, och så kunna hålla ett bättre blodsockervärde. Man kan få stor effekt på sitt blodsocker av att direkt efter lunchen tex. gå ut på en power-walk.",
+                    "Instinkten kan ibland vara att 'vila på maten', eftersom det är lätt att känna sig trött som gravid och framförallt vid graviditetsdiabetes. Man kan dock vinna energi och bättre blodsocker av att röra på sig direkt efter maten.",
+                    "Träna minst varannan dag! Ett enda träningspass ökar skelettmuskulaturens glukosupptag via insulinberoende mekanismer. Träningspasset innebär en ökad insulinkänslighet på helkroppsnivå - en effekt som kvarstår i mer än 16 timmar, men som avklingar efter 48 timmar. Därför är det viktigt att träna minst varannan dag. Upprepade träningspass gör kroppen mer insulinkänslig (det är bra - det ger oss alltså bättre tillgång till vårt insulin!)."
                 ]
         },
         {
@@ -100,6 +101,7 @@
                 [
                     "Konditionsträning har konsekvent visat sig förbättra blodsockerkontrollen och insulinkänsligheten hos personer med diabetes, och är alltså superbra vid GDM!",
                     "Konditionsträning kan vara lågintensiva promenader, power-walks, spinning (om ditt bäcken tål det), eller liknande.",
+                    "Om du har en träningscykel kan du sätta dig och cykla ett pass varje dag (gärna efter dina måltider). Börja med korta pass och öka sedan längden allteftersom du känner att du mår bra av det (så du inte får ont). Det finns träningscyklar med bred, bekväm sits och ryggstöd, samt en hållare för mobil/platta om du vill titta på något medan du cyklar.",
                     "Som regel gäller att det du kunnat göra och gjort mycket av innan du blev gravid kan du fortsätta med så länge det känns bra."
                 ]
         },
@@ -108,7 +110,11 @@
             "id": "walks",
             "paragraphList": 
                 [
-                    "Raska promenader är fantastisk träning - ett tips som ofta kanske inte lyssnas på då det kan kännas för enkelt. Dagliga powerwalksen, om du har möjlighet, kan dock hjälpa dig hålla blodsockret i schack. Kan du inte gå varje dag har forskning visat effekt av att åtminstone gå varannan dag, då viss effekt håller i sig ett dygn efter."
+                    "Raska promenader är fantastisk träning - ett tips som ofta kanske inte lyssnas på då det kan kännas för enkelt.",
+                    "Det ska dock inte förkastas utan snarare framhävas som träningsform just därför - det är skonsamt, lätt att upprätthålla som rutin (just do it), och kan anpassas efter dagsform (gå långsamt om du är trött, gå fortare om du kan).",
+                    "Under promenaden kan du lyssna på poddar som hjälper dig förbereda din inför förlossningen, eller på något som gör dig glad o kanske får dig att skratta (och öka må-bra hormonet oxytocin i din kropp).",
+                    "Ta gärna en runda som täcker in alla backar du har i ditt område, och när du flåsar upp för backen kan du jobba på din andning inför förlossningen ('breathe in for 4, breathe out for more'...).",
+                    "Dagliga powerwalks, allra helst direkt efter dina måltider, är en supereffektiv fysisk aktivitet som kan verkligen hjälpa dig hålla blodsockret i schack!"
                 ]
         }
     ],
@@ -155,13 +161,16 @@
                 ]
         },
         {
-            "title": "Protein och fett framför kolhydrater",
+            "title": "Färre kolhydrater",
             "id": "carbs",
             "paragraphList": 
                 [
+                    "Kolhydrater råder det en del diskussioner om och delade meningar, och vi är alla olika, men vid min GDM behövde jag allt mer utesluta rena kolhydratsprodukter för att inte få för högt blodsocker.",
                     "'Klassiska kolhydrater' som vete, ris, och vitt bröd är något som blir gradvis svårare för kroppen att klara av insulinbehovet till allteftersom graviditeten fortskrider.",
-                    "Därför hjälper det blodsockret att minska mängden kolhydrater och istället äta mer protein och fett.",
-                    "Tänk grönsaker (sallad, kål, broccoli), baljväxter (tex linser och kikärter), nötter (mandlar är jättebra), och hårdostar (pastöriserade). Inte fett som i feta såser :)"
+                    "Fullkornsprodukter (långsammare kolhydrater - spjälkas långsammare = inte lika mkt socker ut i blodet på samma gång = mindre glukostopp) är bättre än de 'ljusare' alternativen (snabbare kolhydrater - spjälkas fortare = socker fort ut i blodet = större glukostopp).",
+                    "Därför hjälper det blodsockret att minska mängden kolhydrater och istället äta mer protein och fett (och såklart gärna fiberrikt).",
+                    "Tänk grönsaker (tex grönsallad, vitkål, broccoli), baljväxter (tex linser och kikärter), nötter (osötade sötmandlar är jättebra), och hårdostar (pastöriserade). Inte fett som i feta såser :)",
+                    "Kolla gärna kolhydratmängden på dina livsmedel, och se då över andel sockerarter. Det är sockerarterna som höjer blodsockret snabbast och mest. Om mängden sockerarter är över 5g / 100g kanske du ska funder en gång till på det livsmedlet."
                 ]
         },
         {
@@ -170,6 +179,16 @@
             "paragraphList": 
                 [
                     "Har du höga fastevärden på morgonen? Då kanske du vill prova att lägga in ett litet kvällsmellanmål.",
+                    "Om du blir väldigt hungrig under natten påverkar det dina värden nästa morgon.",
+                    "Testa att ta en näve mandlar, eller en bit hårdost, innan du går och lägger dig och se hur det påverkar dina fastevärden nästa morgon."
+                ]
+        },
+        {
+            "title": "Frukter och bär",
+            "id": "fruits",
+            "paragraphList": 
+                [
+                    "Vissa frukter och bär är bättre än andra men det kan vara svårt att veta vilka. Använd gärna sökfunktionen på denna sida, eller ladda ned T1D-appen och använd deras sök, eller hitta någonstans där du kan kolla upp kolhydratmängden i olika frukter och bär.",
                     "Om du blir väldigt hungrig under natten påverkar det dina värden nästa morgon.",
                     "Testa att ta en näve mandlar, eller en bit hårdost, innan du går och lägger dig och se hur det påverkar dina fastevärden nästa morgon."
                 ]

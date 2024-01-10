@@ -64,14 +64,15 @@ export const TrainingAdvice = () => {
           <StyledArticle id="links">
           <h3>Länkar</h3>
           <ParagraphWrapper> 
-            <h4>Positiva hälsoeffekter av fysisk aktivitet:</h4>
-            <Paragraph><TextLink href="https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temaartikel/2022/09/fysisk-aktivitet-kan-ha-omedelbar-effekt-pa-depression-och-angest/" target="_blank"> Fysisk aktivitet kan ha omedelbar effekt på depression och ångest - Träning förbättrar välbefinnande och kognition, minskar stresshormonet kortisol och ökar blodflödet i hjärnan</TextLink>.</Paragraph>
+            <h4>Träning vid diabetes:</h4>
+            <Paragraph><TextLink href="https://diabetes.nu/diabetes-och-styrketraning/" target="_blank"> Diabetes.nu om styrketräning</TextLink>.</Paragraph>
+            <Paragraph><TextLink href="https://www.diabetes.se/diabetes/diabetes-typ-2/traning/" target="_blank"> Svenska Diabetesförbundet om träning</TextLink>.</Paragraph>
+            <Paragraph><TextLink href="https://www.fyss.se/wp-content/uploads/2018/01/Diabetes-TYP-2.pdf" target="_blank"> Fysisk aktivitet vid diabetes mellitus typ II</TextLink>(PDF).</Paragraph>
           </ParagraphWrapper>
           <ParagraphWrapper> 
-            <h4>Träning vid diabetes:</h4>
-            <Paragraph><TextLink href="https://diabetes.nu/diabetes-och-styrketraning/" target="_blank"> Diabetes och styrketräning</TextLink>.</Paragraph>
+            <h4>Positiva hälsoeffekter av fysisk aktivitet:</h4>
+            <Paragraph><TextLink href="https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temaartikel/2022/09/fysisk-aktivitet-kan-ha-omedelbar-effekt-pa-depression-och-angest/" target="_blank"> Läkartidningen artikel</TextLink>.</Paragraph>
           </ParagraphWrapper>
-
           </StyledArticle>
 
           <LinkToTop/>
@@ -81,3 +82,5 @@ export const TrainingAdvice = () => {
     </section>
   );
 };
+
+
