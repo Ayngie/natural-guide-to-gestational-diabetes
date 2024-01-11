@@ -81,6 +81,9 @@ export const StyledLinks = styled.span `
 
 export const TextLink = styled.a `
     color: rebeccapurple;
+`;
+export const IconLink = styled.a `
+    color: rebeccapurple;
     text-decoration: none;
 `;
 
