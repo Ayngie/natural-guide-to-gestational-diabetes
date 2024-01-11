@@ -26,7 +26,7 @@ export const ErrorPage404 = () => {
             <ParagraphWrapper>
                 <h3>Ooops!</h3>
                 <Paragraph>Något gick fel och sidan kunde inte laddas. Kontrollera stavningen i din url eller försök igen senare!</Paragraph>      
-                <Paragraph><StyledLinks><Link to="/natural-guide-to-gestational-diabetes/about">Tillbaka till startsidan</Link></StyledLinks>!</Paragraph>
+                <Paragraph><StyledLinks><Link to="/natural-guide-to-gestational-diabetes/">Tillbaka till startsidan</Link></StyledLinks>!</Paragraph>
             </ParagraphWrapper>
         </StyledArticle>
     </StyledFullSection>
