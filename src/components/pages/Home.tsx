@@ -49,6 +49,7 @@ export const Home = () => {
           Det finns mycket vi göra på naturlig väg för att hantera och även förebygga graviditetsdiabetes.
           Det handlar i stora drag om levnadsfaktorer, träning, och kost. 
         </Paragraph>
+        <Paragraph>Lite förlossningspepp - ju bättre du äter/tränar/lever inför din förlossning, desto starkare kommer du vara när det väl är dags! Förberedelse är halva jobbet ;) Heja dig!</Paragraph>
 
         <h3>Vem är denna sida för?</h3>
 
