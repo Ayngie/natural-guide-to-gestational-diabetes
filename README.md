@@ -24,7 +24,7 @@ N.B. As GitHub does not support SPA's (Single Page Applications) - if you refres
 ![JSON badge](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white/to/img.png)
 ![Vite badge](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E/to/img.png)
 ![Cypress badge](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white/to/img.png)
-![SAP badge](https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white/to/img.png)
+![SPA badge](https://img.shields.io/badge/SPA-0FAAFF?style=for-the-badge&logo=sap&logoColor=white/to/img.png)
 ![Git badge](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white/to/img.png) 
 ![npm badge](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white/to/img.png)
 ![VSCode badge](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white/to/img.png)
