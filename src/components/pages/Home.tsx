@@ -29,9 +29,9 @@ export const Home = () => {
         <h3>Vad är GDM?</h3>
         <Paragraph>
           När kvinnan har en bebis (eller fler) i magen behöver kroppen <TextLink href="https://liu.se/nyhet/digital-plattform-hjalper-gravida-att-halla-blodsockret" target="_blank"> ca 40% mer</TextLink> av hormonet insulin för att  
-          hålla normala blodsockernivåer för mamma och bebis, samtidigt som man blir lite <TextLink href="https://www.1177.se/Stockholm/barn--gravid/graviditet/graviditetsbesvar-och-sjukdomar/graviditetsdiabetes--hoga-blodsockervarden-under-graviditet/" target="_blank"> mindre känslig för insulin som gravid</TextLink>. 
+          hålla normala blodsockernivåer för mamma och bebis, samtidigt som kvinnan blir lite <TextLink href="https://www.1177.se/Stockholm/barn--gravid/graviditet/graviditetsbesvar-och-sjukdomar/graviditetsdiabetes--hoga-blodsockervarden-under-graviditet/" target="_blank"> mindre känslig för insulin som gravid</TextLink>. 
           Cellerna behöver insulin för att kunna ta upp socker ur blodet - annars blir sockret kvar i blodet -  dvs. högt blodsocker.
-          Ibland blir behovet otillräckligt vilket leder till graviditetsdiabetes (GDM). 
+          När kroppen inte klarar att tillverka tillräckligt med insulin gör insulinbristen att halten av socker i blodet blir för hög - du får <BoldText><TextLink href="https://www.1177.se/Stockholm/barn--gravid/graviditet/graviditetsbesvar-och-sjukdomar/graviditetsdiabetes--hoga-blodsockervarden-under-graviditet/" target="_blank"> graviditetsdiabetes (GDM)</TextLink></BoldText>. 
         </Paragraph>
 
         <Paragraph>

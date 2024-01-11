@@ -77,6 +77,14 @@ export const LifeAdvice = () => {
               <TextLink href="https://apps.apple.com/se/app/t1d/id1532900106" target="_blank"> T1D (App Store)</TextLink>.
             </Paragraph>
           </ParagraphWrapper>
+          <ParagraphWrapper> 
+            <h4>Hur du mäter ditt blodsocker - steg för steg:</h4>
+            <Paragraph><TextLink href="https://www.terveyskyla.fi/diabetestalo/sv/egenv%C3%A5rd-av-diabetes/sj%C3%A4lvuppf%C3%B6ljning-av-blodsocker/blodsockerm%C3%A4tning-steg-f%C3%B6r-steg" target='_blank'>Hälsobyn.fi</TextLink>.</Paragraph>
+          </ParagraphWrapper>
+          <ParagraphWrapper> 
+            <h4>Exempel på små lancetter:</h4>
+            <Paragraph><TextLink href="https://swemed.se/168733/forbrukning-medicinsk-material/sjukvardsmaterial/diabetes/blodsocker-ketonmatning/lansett/lansett-wellion-33g-020mm-gul-200-p-200st/?gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wYsSSeu6ZKje1RuMcLZTuRawbOHu2fQXQjCCTMXJGUahZjAPAxc40kaAiK_EALw_wcB" target='_blank'>Lansett Wellion - 33G (0,20mm) gul 200-p - 200 st</TextLink>.</Paragraph>
+          </ParagraphWrapper>
 
         </StyledArticle>
 

@@ -38,7 +38,7 @@
                 [
                     "Om du sover för lite får du högre kortisolnivå i kroppen, och högre insulinresistens.",
                     "Sömnbrist gör oss även tröttare och mer okoncentrerade, vilket kan leda till att vi får sug efter snabba kolhydrater för snabb energi, vilket ger högre blodsocker.",
-                    "Sömnen är svårare som gravid, men det hjälper att göra vad man kan för att sova bättre. Tex. fysisk rörelse varje dag, regelbundna läggningstider, varva ned (skärmfritt) en stund innan läggning, somna till en meditation (eller dina förlossningsaffirmationer kanske :) ) sov med en gravidkudde mellan knäna, etc."
+                    "Sömnen är svårare som gravid, men det hjälper att göra vad man kan för att sova bättre. Tex. fysisk rörelse varje dag, regelbundna läggningstider, varva ned (skärmfritt) en stund innan läggning, somna till en meditation (eller kanske dina förlossningsaffirmationer :) ) sov med en gravidkudde mellan knäna, etc."
                 ]
         },
         {
@@ -46,11 +46,12 @@
             "id": "bloodsample",
             "paragraphList": 
                 [
-                    "Testa att sticka på olika ställen. Det kan göra lite mindre ont att sticka på vissa fingrar, testa dig fram. Vissa föredrar tydligen att sticka i tårna eller på underarmen (det har jag dock inte testat).",
-                    "Ställ in provtagaren på minska möjliga djup som räcker för att få ut en bloddroppe. Jag körde dessutom på de smalaste stickorna som finns att tillgå, de räckte för mig. Testa dig fram. Be din barnmorska om smalare stickor om du vill testa.",
-                    "Byt nål varje gång så du har en ren och skarp nål.",
+                    "Testa att sticka på olika ställen. Det kan göra lite mindre ont att sticka på vissa fingrar (tex tummen och pekfingret), testa dig fram. Det kan kännas lite mindre om man sticker på sidan av fingertoppen. Vissa föredrar tydligen att sticka i tårna eller på underarmen (det har jag dock inte testat).",
+                    "Ställ in provtagaren på minsta möjliga djup som räcker för att få ut en bloddroppe. Jag körde dessutom på de smalaste lancetterna som jag kunde hitta (0.20mm), de räckte för mig. Testa dig fram. Be din barnmorska om smalare lancetter om du vill testa.",
+                    "Byt lancett varje gång så du har en ren och skarp nål.",
                     "Rengör huden innan du sticker så att du inte får felaktiga och missvisande resultat.",
-                    "Det är lättare att få ut en bloddroppe om dina händer är lite varma."
+                    "Det är lättare att få ut en bloddroppe om dina händer är lite varma. Du kan tvätta händerna med varmt vatten innan och massera dem (se till att ha helt torra händer när du ska sticka bara för att undvika missvisande resultat). Eller du kan hålla handen nedåt en stund, knyta den i en knytnäve, skaka den... Testa vad som känns bra för dig.",
+                    "Det kan bli lite ömt om du alltid kör samma stickställe/finger, så försök variera (även om vissa fingrar fungerar bättre), och sköt om dina händer i övrigt - tex smörj in dem innan du går och lägger dig (men inte precis innan du ska mäta blodsockret ;) )."
                 ]
         }
     ],
@@ -144,8 +145,8 @@
             "id": "emergencysnacks",
             "paragraphList": 
                 [
-                    "Ibland kommer oförutsedda händelser och stör ens dagliga rutiner. Kanske du är iväg och blir försenad och du behöver ett snabbt litet mellanmål för att hålla jämnt blodsocker. . Varmt tips är att alltid ha med lite nödsnacks i handväskan.",
-                    "För mig fungerade det att alltid ha med sig en påse osötade sötmandlar, några BabyBel-ostar , och gärna en påse morotsstavar. Det räddade mig många gånger (och fungerar kanske även för ev. äldre syskon ;) )!"
+                    "Ibland kommer oförutsedda händelser och stör ens dagliga rutiner. Kanske du är iväg och blir försenad och du behöver ett snabbt litet mellanmål för att hålla jämnt blodsocker. Varmt tips är att alltid ha med lite nödsnacks i handväskan.",
+                    "För mig fungerade det att alltid ha med sig en påse osötade sötmandlar, några BabyBel-ostar, och gärna en påse morotsstavar. Det räddade mig många gånger (och fungerar kanske även för ev. äldre syskon ;) )!"
                 ]
         },        
         {
