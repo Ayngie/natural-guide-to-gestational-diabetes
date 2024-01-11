@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import logoImg from "/G-logo.png";
-import { StyledLogoContainer, StyledLogoImg, StyledLogoText } from "../../styles/layout/header/StyledLogo";
-import { LogoWrapper } from "../../styles/layout/header/StyledLogo";
+import { LogoWrapper, StyledLogoContainer, StyledLogoImg, StyledLogoText } from "../../styles/layout/header/StyledLogo";
 
 export const PageLogo = () => {
 
