@@ -1,5 +1,9 @@
 # Your Natural Guide To Gestational Diabetes (GDM)
 
+N.B This project exists in an identical copy with a swedish title.
+Were you looking for this projects repo with a swedish title and Readme? Find the [swedish version here](https://github.com/Ayngie/naturlig-guide-till-graviditetsdiabetes).
+
+
 ## Description
 This is a degree project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024).
 
