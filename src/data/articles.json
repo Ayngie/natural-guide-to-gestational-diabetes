@@ -279,6 +279,22 @@
                 ]
         },
         {
+            "title": "Kvarg bowl",
+            "id": "kvarg",
+            "ingredientsList": 
+                [
+                    "Kvarg (naturell)",
+                    "Frysta (osötade) hallon",
+                    "En näve (osötade) sötmandlar",
+                    "Ekologisk ceylonkanel"
+
+                ],
+            "paragraphList": 
+                [
+                    "Lägg lite kvar i en liten skål. Tina upp de frysta hallonen (gärna så de kokar) och häll på kvargen. Strö en näve mandlar i skålen. Pudra över lite ceylonkanel. Njut av en härlig frukost, eller kanske mellis."
+                ]
+        },
+        {
             "title": "Smoothie",
             "id": "smoothie",
             "ingredientsList": 
