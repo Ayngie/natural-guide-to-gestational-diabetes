@@ -17,6 +17,10 @@ html, body {
     padding: 0;
     width: 100%;
     background-color: aliceblue; // baby blue
+
+    @media screen and (min-width: 1500px) {
+      font-size: 1.2rem;
+    }
   }
 }
 

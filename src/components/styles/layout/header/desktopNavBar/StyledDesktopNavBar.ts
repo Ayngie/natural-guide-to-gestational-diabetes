@@ -42,6 +42,11 @@ export const StyledDesktopNavBar = styled.nav`
       justify-content: center;
       width: 100%;
     }
+
+    @media screen and (min-width: 1500px) {
+      font-size: 1.3rem;
+    }
+
   }
 }
 `;
