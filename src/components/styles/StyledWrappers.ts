@@ -8,7 +8,7 @@ export const ParagraphWrapper = styled.div `
     align-items: center;
 `;
 
-export const Breadcrumbs = styled.div `
+export const Breadcrumbs = styled.section `
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -182,6 +182,15 @@ export const IngredientsWrapper = styled.section `
 `;
 
 /* ----------------------  Search  ---------------------- */
+
+export const StyledFullSearchResults = styled(StyledArticle) `
+    padding: 0%;
+    @media screen and (min-width: 1000px) {
+        padding: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+`;
 
 export const StyledFoodItemArticle = styled.article `
     margin: 5%;
