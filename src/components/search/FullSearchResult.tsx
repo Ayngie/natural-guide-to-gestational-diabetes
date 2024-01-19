@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { IFoodItem } from "../../models/IFoodItem";
 import { SingleSearchResult } from "./SingleSearchResult";
-import { BoldText, ItalicText } from "../styles/StyledTexts";
+import { BoldText, ItalicText, RightCenteredText } from "../styles/StyledTexts";
 import { ClickableWrapper, ParagraphWrapper } from "../styles/StyledWrappers";
 import { LinkToTop } from "../LinkToTop";
 
@@ -32,7 +32,8 @@ export const FullSearchResult = ({foodData, showSingleFood, setShowSingleFood}: 
                 <p data-cy="searched-food-results-listitem"><BoldText>{foodItem.Livsmedelsnamn} </BoldText> </p>
                 <p>Kolhydrater (g): {foodItem["Kolhydrater, tillgängliga (g)"]}</p>
                 <p>Varav sockerarter, totalt (g): {foodItem["Sockerarter, totalt (g)"]}</p>
-                <ItalicText>(Vikt/Portion = per 100 g)</ItalicText>
+                <p><ItalicText>(Vikt/Portion = per 100 g)</ItalicText></p>
+                <RightCenteredText>Läs mer...</RightCenteredText>
               </ClickableWrapper>
             ))}
             

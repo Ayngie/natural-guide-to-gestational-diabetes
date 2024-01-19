@@ -37,6 +37,14 @@ export const Paragraph = styled.p `
     }
 `;
 
+export const RightCenteredText = styled.p `
+text-align: right;
+text-decoration: underline;
+color: rebeccapurple;
+padding-right: 15px;
+`;
+
+
 export const BoldText = styled.span `
     font-weight: 800;
 `;
