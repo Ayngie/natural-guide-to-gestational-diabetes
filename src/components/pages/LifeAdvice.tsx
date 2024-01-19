@@ -76,8 +76,9 @@ export const LifeAdvice = () => {
             <Paragraph><TextLink href="https://www.healthline.com/nutrition/14-ways-to-lower-blood-sugar" target='_blank'>Healthline article - lower blood sugar levels naturally</TextLink>.</Paragraph>
           </ParagraphWrapper>
           <ParagraphWrapper>
-          <h4>Osteopati och diabetes:</h4>
-            <Paragraph><TextLink href="https://www.osteopathic-research.com/s/orw/item/3060" target='_blank'></TextLink>Does Osteopathy Influence Diabetes Mellitus Type II?</Paragraph>
+            <h4>Osteopati och hälsa:</h4>
+            <Paragraph>Läs mer om osteopati på: <TextLink href="https://dinosteopat.nu/osteopati/" target='_blank'>DinOsteopat.nu</TextLink></Paragraph>
+            <Paragraph><TextLink href="https://www.osteopathic-research.com/s/orw/item/3060" target='_blank'>Does Osteopathy Influence Diabetes Mellitus Type II?</TextLink></Paragraph>
           </ParagraphWrapper>
           <ParagraphWrapper> 
             <h4>Mobilappen T1D:</h4>
