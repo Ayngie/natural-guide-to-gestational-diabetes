@@ -61,6 +61,7 @@ export const StyledGrid = styled.section `
         /* justify-content: center; */
     }
 `;
+
 export const StyledAside = styled.aside `
     background-color: aliceblue;
     width: 100%;
@@ -75,7 +76,16 @@ export const StyledAside = styled.aside `
         border-bottom-right-radius: 15px;
         border-left: none;
     }
+
+    @media screen and (min-width: 1500px) {
+        padding-left: 4%;
+    }
+    @media screen and (min-width: 2000px) {
+        padding-left: 5%;
+    }
+
 `;
+
 export const StyledSplitSection = styled.section `
     background-color: aliceblue;
     display: flex;
@@ -108,6 +118,15 @@ export const StyledSideNav = styled.ul`
         gap: 0%;
         padding-top: 60%;
         }
+    
+    @media screen and (min-width: 1500px) {
+        padding-top: 45%;
+    }
+
+    @media screen and (min-width: 2000px) {
+        padding-top: 30%;
+    }
+
 `;
 
 
