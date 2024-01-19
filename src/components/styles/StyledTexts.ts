@@ -40,8 +40,9 @@ export const Paragraph = styled.p `
 export const RightCenteredText = styled.p `
 text-align: right;
 text-decoration: underline;
+font-size: smaller;
 color: rebeccapurple;
-padding-right: 15px;
+padding-right: 20px;
 `;
 
 
