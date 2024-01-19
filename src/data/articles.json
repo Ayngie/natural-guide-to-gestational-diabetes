@@ -27,7 +27,7 @@
                     "Vid stress (inkl. positiv stress - tex spännande upplevelser) utsöndrar binjurarna adrenalin, glukagon och kortisol, detta leder till att det frisätts mer socker och blodsockret stiger. Kroppen hämtar alltså socker i 'förråden' som sedan stannar i blodet.",
                     "Stress påverkar även blodsockret genom att stresshormoner motverkar insulinhormonerna vilket gör blodsockret svårare att kontrollera. Högre kortisol ger högre insulinresistens (i ett läge då kroppen redan har högre insulinbehov samt viss ökad insulinresistens pga graviditeten), vilket ger högre blodsocker.",
                     "Är du stressad? Långvarig eller återkommande stress kan vara bra att prata om. Många saker som orsakar stress går ofta att ändra med rätt hjälp. Prata gärna med din barnmorska, dina nära och kära, eller din doula kanske.",
-                    "Finns det något du vet att du kan göra för att minska din stress? Kan du öva på att hantera stressen? Ta hjälp, och försök hitta hjälpmedel i vardagen för att minska din stress. Kan du gå till en osteopat för dina fysiska krämpor? Hjälper yoga? Kan du meditera varje dag för att stilla ditt nervsystem? Se vad som fungerar för dig!",
+                    "Finns det något du vet att du kan göra för att minska din stress? Kan du öva på att hantera stressen? Ta hjälp, och försök hitta hjälpmedel i vardagen för att minska din stress. Kan du gå till en osteopat för dina fysiska krämpor, eller för att balansera din kropp i allmänhet? Hjälper yoga? Kan du meditera varje dag för att stilla ditt nervsystem? Se vad som fungerar för dig!",
                     "Kom ihåg att fysisk aktivitet förbättrar välbefinnande och sömn, minskar stresshormonet kortisol, och har en positiv påverkan på tex endorfiner, serotonin, dopamin och noradrenalin i hjärnans molekylära system, samt motverkar en minskad hippocampusvolym som kan ses vid depression. (Källa: Läkartidningen 2022-09-14)."
                 ]
         },
@@ -39,6 +39,16 @@
                     "Om du sover för lite får du högre kortisolnivå i kroppen, och högre insulinresistens.",
                     "Sömnbrist gör oss även tröttare och mer okoncentrerade, vilket kan leda till att vi får sug efter snabba kolhydrater för snabb energi, vilket ger högre blodsocker.",
                     "Sömnen är svårare som gravid, men det hjälper att göra vad man kan för att sova bättre. Tex. fysisk rörelse varje dag, regelbundna läggningstider, varva ned (skärmfritt) en stund innan läggning, somna till en meditation (eller kanske dina förlossningsaffirmationer :) ) sov med en gravidkudde mellan knäna, etc."
+                ]
+        },
+        {
+            "title": "Osteopati",
+            "id": "osteopathy",
+            "paragraphList": 
+                [
+                    "Osteopatbehandling har många gynnsamma effekter för att hjälpa kroppen till balans.",
+                    "Ju bättre balanserad anatomi och fysiologi, desto bättre kan kroppen fungera - och vi mår bättre!",
+                    "Det finns studier som visar på eventuella samband mellan osteopati och jämnare blodsockernivåer. Det behövs mer studer men helt klart är att en kropp i bättre balans, som kan röra sig smidigare, kan fungera bättre även hormonellt (kom ihåg att insulin är ett hormon)."
                 ]
         },
         {

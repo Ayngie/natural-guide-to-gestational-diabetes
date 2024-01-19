@@ -75,6 +75,10 @@ export const LifeAdvice = () => {
             <Paragraph><TextLink href="https://www.diabetes.se/diabetes/diabetes-typ-1/ovrig-information-om-typ-1-diabetes/graviditet-och-diabetes/bebisen-i-fokus-med-nya-gransvarden/" target='_blank'>Svenska Diabetesförbundet - om gränsvärden för GDM</TextLink>.</Paragraph>
             <Paragraph><TextLink href="https://www.healthline.com/nutrition/14-ways-to-lower-blood-sugar" target='_blank'>Healthline article - lower blood sugar levels naturally</TextLink>.</Paragraph>
           </ParagraphWrapper>
+          <ParagraphWrapper>
+          <h4>Osteopati och diabetes:</h4>
+            <Paragraph><TextLink href="https://www.osteopathic-research.com/s/orw/item/3060" target='_blank'></TextLink>Does Osteopathy Influence Diabetes Mellitus Type II?</Paragraph>
+          </ParagraphWrapper>
           <ParagraphWrapper> 
             <h4>Mobilappen T1D:</h4>
             <Paragraph>Detta är en jättebra app för typ I diabetes som gärna kan användas vid andra sorters diabetes enligt min mening. Appen har en superbra sökfunktion för livsmedel och bra allmän info. Rekommenderas varmt!</Paragraph>
