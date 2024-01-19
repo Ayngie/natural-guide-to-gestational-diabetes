@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { LocalJSONSearch } from "../search/searchMethods/LocalJSONSearch";
 // import { SwedishSearch } from "../search/searchMethods/SwedishSearch";
 // import { EnglishSearch } from "../search/EnglishSearch";
-import { StyledFullSection } from "../styles/StyledWrappers";
+import { ForwardSlash } from "../ForwardSlash";
+import { Breadcrumbs, StyledFullSection } from "../styles/StyledWrappers";
+import { StyledBreadcrumb } from "../styles/StyledTexts";
 
 export const SearchFood = () => {
   useEffect(() => {
@@ -23,10 +25,17 @@ export const SearchFood = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
     
   return (
-    <StyledFullSection>
-      <LocalJSONSearch isLoading={isLoading} setIsLoading={setIsLoading}></LocalJSONSearch>
-      {/* <SwedishSearch isLoading={isLoading} setIsLoading={setIsLoading}></SwedishSearch> */}
-      {/* <EnglishSearch isLoading={isLoading} setIsLoading={setIsLoading}></EnglishSearch> */}
-    </StyledFullSection>
+    <>
+      <Breadcrumbs>
+        <StyledBreadcrumb href="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
+        <p>Sök livsmedel</p> 
+      </Breadcrumbs>
+
+      <StyledFullSection>
+        <LocalJSONSearch isLoading={isLoading} setIsLoading={setIsLoading}></LocalJSONSearch>
+        {/* <SwedishSearch isLoading={isLoading} setIsLoading={setIsLoading}></SwedishSearch> */}
+        {/* <EnglishSearch isLoading={isLoading} setIsLoading={setIsLoading}></EnglishSearch> */}
+      </StyledFullSection>
+    </>
   );
 };

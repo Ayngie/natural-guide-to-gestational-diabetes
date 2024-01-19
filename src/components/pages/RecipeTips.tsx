@@ -3,9 +3,10 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
-import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledRecipeArticle, IngredientsWrapper, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink } from "../styles/StyledTexts";
+import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledRecipeArticle, IngredientsWrapper, ParagraphWrapper, Breadcrumbs } from "../styles/StyledWrappers";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, StyledBreadcrumb } from "../styles/StyledTexts";
 import { StyledInput } from '../styles/StyledInput';
+import { ForwardSlash } from '../ForwardSlash';
 
 export const RecipeTips = () => {
   useEffect(() => {
@@ -62,6 +63,11 @@ export const RecipeTips = () => {
 
   return (
     <section>
+      <Breadcrumbs>
+        <StyledBreadcrumb href="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
+        <p>Recept</p> 
+      </Breadcrumbs>
+
       <StyledHeadingMobile>Recepttips för ett stabilare blodsocker</StyledHeadingMobile>
 
       <StyledGrid>

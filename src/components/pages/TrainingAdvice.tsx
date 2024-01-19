@@ -2,9 +2,10 @@ import React, { useEffect } from 'react';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
+import { ForwardSlash } from '../ForwardSlash';
 import { LinkToTop } from "../LinkToTop";
-import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, TextLink } from "../styles/StyledTexts";
+import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper, Breadcrumbs } from "../styles/StyledWrappers";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, TextLink, StyledBreadcrumb } from "../styles/StyledTexts";
 
 export const TrainingAdvice = () => {
   useEffect(() => {
@@ -46,6 +47,10 @@ export const TrainingAdvice = () => {
 
   return (
     <section>
+      <Breadcrumbs>
+        <StyledBreadcrumb href="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
+        <p>Träning</p> 
+      </Breadcrumbs>
       <StyledHeadingMobile>Träningstips för ett stabilare blodsocker</StyledHeadingMobile>
       <StyledGrid>
         <StyledAside>

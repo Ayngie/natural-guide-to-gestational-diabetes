@@ -8,6 +8,23 @@ export const ParagraphWrapper = styled.div `
     align-items: center;
 `;
 
+export const Breadcrumbs = styled.div `
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    padding: 3%;
+
+    @media screen and (min-width: 1000px) {
+        padding: 1%;
+        width: 50%;
+        justify-content: left;
+        margin-left: 15%;
+
+    }
+
+`;
 /* ----------------------  Full page Layout  ---------------------- */
 
 export const StyledFullSection = styled.section `

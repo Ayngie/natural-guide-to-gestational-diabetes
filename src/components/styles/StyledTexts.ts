@@ -91,6 +91,12 @@ export const StyledLinks = styled.span `
 export const TextLink = styled.a `
     color: rebeccapurple;
 `;
+
+export const StyledBreadcrumb = styled(TextLink) `
+    color: rebeccapurple;
+    padding: 10px;
+`;
+
 export const IconLink = styled.a `
     color: rebeccapurple;
     text-decoration: none;
@@ -108,4 +114,9 @@ export const UpSymbol = styled.p `
         color: rebeccapurple;
         text-decoration: none;
     }
+`;
+
+export const StyledForwardSlash = styled.span `
+    padding-left: 10px;
+    padding-right: 10px;
 `;
