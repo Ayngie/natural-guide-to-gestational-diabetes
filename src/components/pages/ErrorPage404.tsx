@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { StyledFullSection, ParagraphWrapper, StyledArticle } from "../styles/StyledWrappers";
+import { StyledErrorPage, ParagraphWrapper, StyledArticle } from "../styles/StyledWrappers";
 import { StyledHeading, Paragraph, StyledLinks } from "../styles/StyledTexts";
 
 export const ErrorPage404 = () => {
@@ -20,16 +20,16 @@ export const ErrorPage404 = () => {
   }, []);
   
   return (
-    <StyledFullSection>
+    <StyledErrorPage>
         <StyledHeading>Error - 404</StyledHeading>
         <StyledArticle>
             <ParagraphWrapper>
                 <h3>Ooops!</h3>
-                <Paragraph>Något gick fel och sidan kunde inte laddas. Kontrollera stavningen i din url eller försök igen senare!</Paragraph>      
-                <Paragraph><StyledLinks><Link to="/natural-guide-to-gestational-diabetes/">Tillbaka till startsidan</Link></StyledLinks>!</Paragraph>
+                <Paragraph>Åh nej... Något gick fel...! </Paragraph>      
+                <Paragraph><StyledLinks><Link to="/natural-guide-to-gestational-diabetes/">Ta mig tillbaka till startsidan för att börja om</Link></StyledLinks>!</Paragraph>
             </ParagraphWrapper>
         </StyledArticle>
-    </StyledFullSection>
+    </StyledErrorPage>
   );
 };
 

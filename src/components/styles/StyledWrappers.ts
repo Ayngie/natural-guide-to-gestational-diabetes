@@ -41,6 +41,14 @@ export const StyledAboutSection = styled(StyledFullSection) `
     }
 `;
 
+export const StyledErrorPage = styled(StyledFullSection) `
+    height: 100vh;
+
+    /* @media screen and (min-width: 1000px) {
+        height: 100vh; //för att det skulle bli blått ända ned i desktop...
+    } */
+`;
+
 
 /* ----------------------  Split page Layout  ---------------------- */
 
