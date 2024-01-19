@@ -22,9 +22,9 @@ export const Home = () => {
 
   return (
     <StyledFullSection>
-      <StyledHeading>Hej!</StyledHeading>
+      <StyledHeading>Välkommen!</StyledHeading>
       <ParagraphWrapper>
-        <Paragraph>Välkommen till din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
+        <Paragraph>Välkommen till Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
 
         <h3>Vad är GDM?</h3>
         <Paragraph>
@@ -40,7 +40,7 @@ export const Home = () => {
 
         <Paragraph>
           Efter graviditeten återställs allt vanligen för kvinnan, men har hon en gång haft GDM har hon   
-          ökad risk att utveckla diabetes mellitus typ II senare i livet. Barnet har <TextLink href="https://mamamia.se/kunskapsbank/graviditetsdiabetes" target="_blank"> ingen</TextLink> ökad risk för att få diabetes. Har kvinnan en gång haft GDM är  
+          ökad risk att utveckla diabetes mellitus typ II senare i livet. Har kvinnan en gång haft GDM är  
           även risken stor (<TextLink href="https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/SOFIA/SKAS9716-1940753776-142/SURROGATE/Graviditetsdiabetes%20(GDM)%20-%20handl%c3%a4ggning.pdf" target="_blank">50-70% risk</TextLink>) att få det vid framtida graviditeter. 
         </Paragraph>
 
