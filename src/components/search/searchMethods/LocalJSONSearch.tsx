@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getJSONData } from "../../../services/getJSONData";
 import { SearchField } from "../searchField/SearchField";
 import { FullSearchResult } from "../FullSearchResult";
-import { StyledSearchSection, StyledArticle } from "../../styles/StyledWrappers";
+import { StyledSearchSection, StyledFullSearchResults } from "../../styles/StyledWrappers";
 import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
 import { StyledLoader } from "../../styles/search/StyledLoader";
 import { IFoodItem } from "../../../models/IFoodItem";
@@ -89,7 +89,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
         { isLoading && <StyledLoader></StyledLoader> }
 
         { jsonSearchHasBeenDone && 
-          <StyledArticle> 
+          <StyledFullSearchResults> 
 
             {!showSingleFood && <p>Du sökte på: {jsonFood}</p>} 
 
@@ -103,7 +103,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
 
             { jsonSuccessFetching && <FullSearchResult foodData={jsonFoodData} showSingleFood={showSingleFood} setShowSingleFood={setShowSingleFood}></FullSearchResult> }
             
-          </StyledArticle>
+          </StyledFullSearchResults>
         }
         <Paragraph>Källa: Livsmedelsverkets livsmedelsdatabas version 2023-06-13</Paragraph>        
       </StyledSearchSection>

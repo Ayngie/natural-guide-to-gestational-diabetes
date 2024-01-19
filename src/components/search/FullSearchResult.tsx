@@ -22,7 +22,6 @@ export const FullSearchResult = ({foodData, showSingleFood, setShowSingleFood}: 
 
   return (
     <article>
-
         {!showSingleFood &&
         <>
           <h3>Sökresultat:</h3>
