@@ -10,8 +10,8 @@ import { RecipeTips } from "./components/pages/RecipeTips";
 import { SearchFood } from "./components/pages/SearchFood";
 import { AboutProject } from "./components/pages/AboutProject";
 import { ErrorPage404 } from './components/pages/ErrorPage404';
-import './index.scss'
 import { StyledLoader } from './components/styles/search/StyledLoader';
+import './index.scss'
 
 export const router = createBrowserRouter([
   {
