@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logoImg from "/G-logo.png";
-import { LogoWrapper, StyledLogoContainer, StyledLogoImg, StyledLogoText } from "../../styles/layout/header/StyledLogo";
+import { LogoTextContainer, LogoWrapper, StyledLogoContainer, StyledLogoImg, StyledLogoText } from "../../styles/layout/header/StyledLogo";
 
 export const PageLogo = () => {
 
@@ -9,7 +9,10 @@ export const PageLogo = () => {
       <Link to="/natural-guide-to-gestational-diabetes/" className="logo">     
         <StyledLogoContainer>
             <StyledLogoImg alt="G-logotype" src={logoImg}></StyledLogoImg>  
-            <StyledLogoText>Din naturliga guide vid graviditetsdiabetes</StyledLogoText>    
+            <LogoTextContainer>
+              <StyledLogoText>raviditetsdiabetes</StyledLogoText>    
+              <StyledLogoText>appen</StyledLogoText>    
+            </LogoTextContainer>
         </StyledLogoContainer>
       </Link>
     </LogoWrapper>

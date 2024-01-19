@@ -3,14 +3,20 @@ import styled from "styled-components";
 export const StyledLogoContainer = styled.div`
     margin: 3%;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;       
     justify-content: left;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
 
     @media screen and (min-width:400px) {
         justify-content: center;
     }
+`;
+
+export const LogoTextContainer = styled.div`
+    display: flex;
+    flex-direction: row;       
+    flex-wrap: wrap;
 `;
 
 export const StyledLogoImg = styled.img`
@@ -18,35 +24,27 @@ export const StyledLogoImg = styled.img`
 `;
 
 export const StyledLogoText = styled.span `
-    font-size: 0.6rem; 
-    width: 40%;
+    font-size: 0.8em; 
+    width: 52%;
     text-align: left;
-    text-transform: uppercase;
-    font-weight: bolder;
     color: rebeccapurple;
 
     @media screen and (min-width: 360px) { //Samsung Galaxy S8+
-        font-size: 0.8rem; 
+        font-size: 1.3em; 
         width: auto;
     }
-    @media screen and (min-width: 375px) { //Iphone SE
-        font-size: 0.85rem; 
-    }
-    @media screen and (min-width: 400px) { //Samsung Galaxy S20 Ultra
-        font-size: 1rem; 
-    }
     @media screen and (min-width: 500px) {
-        max-width: 70%;
+        max-width: 80%;
     }
     @media screen and (min-width: 700px) {
         max-width: none;
     }
-
-    @media screen and (min-width: 900px) {
-        font-size: 1.5rem;
-    }
 `;
 
 export const LogoWrapper = styled.div `
-    width: 80%;
+    width: 60%;
+    @media screen and (min-width: 1200px) {
+        width: 100%;
+    }
+
 `;
