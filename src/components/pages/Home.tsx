@@ -24,7 +24,7 @@ export const Home = () => {
     <StyledFullSection>
       <StyledHeading>Välkommen!</StyledHeading>
       <ParagraphWrapper>
-        <Paragraph>Välkommen till Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
+        <Paragraph>Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
 
         <h3>Vad är GDM?</h3>
         <Paragraph>
