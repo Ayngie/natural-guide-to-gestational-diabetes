@@ -68,7 +68,7 @@ export const RecipeTips = () => {
         <p>Recept</p> 
       </Breadcrumbs>
 
-      <StyledHeadingMobile>Recepttips för ett stabilare blodsocker</StyledHeadingMobile>
+      <StyledHeadingMobile>Recepttips för bättre blodsocker</StyledHeadingMobile>
 
       <StyledGrid>
         <StyledAside>
@@ -80,7 +80,7 @@ export const RecipeTips = () => {
         </StyledAside>
 
         <StyledSplitSection>
-          <StyledHeadingDesktop>Recepttips för ett stabilare blodsocker</StyledHeadingDesktop>
+          <StyledHeadingDesktop>Recepttips för bättre blodsocker</StyledHeadingDesktop>
             {articleSections}
         </StyledSplitSection>
       </StyledGrid>

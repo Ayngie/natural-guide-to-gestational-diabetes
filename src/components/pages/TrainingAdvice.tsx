@@ -51,7 +51,7 @@ export const TrainingAdvice = () => {
         <StyledBreadcrumb href="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
         <p>Träning</p> 
       </Breadcrumbs>
-      <StyledHeadingMobile>Träningstips för ett stabilare blodsocker</StyledHeadingMobile>
+      <StyledHeadingMobile>Träningstips för bättre blodsocker</StyledHeadingMobile>
       <StyledGrid>
         <StyledAside>
           <nav>
@@ -63,13 +63,13 @@ export const TrainingAdvice = () => {
         </StyledAside>
 
         <StyledSplitSection className="articles-section">
-          <StyledHeadingDesktop>Träningstips för ett stabilare blodsocker</StyledHeadingDesktop>
+          <StyledHeadingDesktop>Träningstips för bättre blodsocker</StyledHeadingDesktop>
           {articleSections}
 
           <StyledArticle id="links">
           <h3>Länkar</h3>
           <ParagraphWrapper> 
-            <h4>Fler tips om träning för ett stabilare blodsocker:</h4>
+            <h4>Fler tips om träning för bättre blodsocker:</h4>
             <Paragraph><TextLink href="https://diabetes.nu/diabetes-och-styrketraning/" target="_blank"> Diabetes.nu om styrketräning</TextLink>.</Paragraph>
             <Paragraph><TextLink href="https://www.diabetes.se/diabetes/diabetes-typ-2/traning/" target="_blank"> Svenska Diabetesförbundet om träning</TextLink>.</Paragraph>
             <Paragraph><TextLink href="https://www.fyss.se/wp-content/uploads/2018/01/Diabetes-TYP-2.pdf" target="_blank"> Fysisk aktivitet vid diabetes mellitus typ II</TextLink>(PDF).</Paragraph>

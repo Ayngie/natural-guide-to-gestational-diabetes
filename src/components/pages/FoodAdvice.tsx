@@ -52,7 +52,7 @@ export const FoodAdvice = () => {
         <p>Kost</p> 
       </Breadcrumbs>
 
-      <StyledHeadingMobile>Kostråd för ett stabilare blodsocker</StyledHeadingMobile>
+      <StyledHeadingMobile>Kostråd för bättre blodsocker</StyledHeadingMobile>
       <StyledGrid>
         <StyledAside>
           <nav>          
@@ -64,13 +64,13 @@ export const FoodAdvice = () => {
         </StyledAside>
 
         <StyledSplitSection>
-          <StyledHeadingDesktop>Kostråd för ett stabilare blodsocker</StyledHeadingDesktop>
+          <StyledHeadingDesktop>Kostråd för bättre blodsocker</StyledHeadingDesktop>
           {articleSections}
 
           <StyledArticle id="links">
           <h3>Länkar</h3>
           <ParagraphWrapper> 
-            <h4>Fler tips om bra mat för ett stabilare blodsocker:</h4>
+            <h4>Fler tips om bra mat för bättre blodsocker:</h4>
             <Paragraph>
               Appen T1D - ladda ned:
               <TextLink href="https://play.google.com/store/apps/details?id=se.tad1.t1d&hl=en_US" target="_blank"> Google Play</TextLink>,
