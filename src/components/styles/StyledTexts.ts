@@ -3,9 +3,11 @@ import styled from "styled-components";
 /* ----------------------  Headings  ---------------------- */
 
 export const StyledHeading = styled.h2 `
+    font-family: 'Philosopher', sans-serif;
+    text-transform: uppercase;
     padding: 1%;
     letter-spacing: 1px;
-    font-size: 2em;
+    font-size: 2.2em;
     color: pink;
     text-shadow: 2px 2px hotpink;
     text-align: center;
