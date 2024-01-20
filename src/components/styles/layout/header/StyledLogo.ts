@@ -42,8 +42,10 @@ export const StyledLogoText = styled.span `
 `;
 
 export const LogoWrapper = styled.div `
+    padding-top: 4%;
     width: 60%;
     @media screen and (min-width: 1200px) {
+        padding: 1%;
         width: 100%;
     }
 
