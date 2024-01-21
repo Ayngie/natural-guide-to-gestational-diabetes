@@ -25,6 +25,7 @@ export const Breadcrumbs = styled.section `
     }
 
 `;
+
 /* ----------------------  Full page Layout  ---------------------- */
 
 export const StyledFullSection = styled.section `
@@ -33,7 +34,6 @@ export const StyledFullSection = styled.section `
     align-items: center;
     padding-bottom: 20%;
     height: 100%; //för att det skulle bli blått ända ned i mobile... */
-
     @media screen and (min-width: 1000px) {
         padding-bottom: 5%;
         height: 100%; //för att det skulle bli blått ända ned i desktop... */
@@ -66,7 +66,6 @@ export const StyledErrorPage = styled(StyledFullSection) `
     } */
 `;
 
-
 /* ----------------------  Split page Layout  ---------------------- */
 
 export const StyledGrid = styled.section `
@@ -93,14 +92,12 @@ export const StyledAside = styled.aside `
         border-bottom-right-radius: 15px;
         border-left: none;
     }
-
     @media screen and (min-width: 1500px) {
         padding-left: 4%;
     }
     @media screen and (min-width: 2000px) {
         padding-left: 5%;
     }
-
 `;
 
 export const StyledSplitSection = styled.section `
@@ -108,7 +105,6 @@ export const StyledSplitSection = styled.section `
     display: flex;
     flex-direction: column;
     align-items: center;
-
 
     @media screen and (min-width: 1000px) {
         width: 85%;
@@ -135,7 +131,6 @@ export const StyledSideNav = styled.ul`
         gap: 0%;
         padding-top: 60%;
         }
-    
     @media screen and (min-width: 1500px) {
         padding-top: 45%;
     }
@@ -143,9 +138,7 @@ export const StyledSideNav = styled.ul`
     @media screen and (min-width: 2000px) {
         padding-top: 30%;
     }
-
 `;
-
 
 /* ----------------------  Articles  ---------------------- */
 
