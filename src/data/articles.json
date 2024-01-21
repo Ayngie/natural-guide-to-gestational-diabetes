@@ -24,10 +24,10 @@
             "id": "stress",
             "paragraphList": 
                 [
-                    "Vid stress (inkl. positiv stress - tex spännande upplevelser) utsöndrar binjurarna adrenalin, glukagon och kortisol, detta leder till att det frisätts mer socker och blodsockret stiger. Kroppen hämtar alltså socker i 'förråden' som sedan stannar i blodet.",
+                    "Vid stress (inkl. positiv stress - tex spännande upplevelser) utsöndrar binjurarna hormonerna adrenalin och kortisol, och bukspottkörteln utsöndrar hormonet glukagon. Effekten av utsöndringen av dessa stresshormoner är att det frisätts mer glukos/socker och blodsockret stiger. Kroppen svarar alltså på stress genom att förbereda sig på ökat energibehov för att ta sig ur den 'farliga situationen', aka sympatiska nervsystemet förbereder sig för 'fight or flight'. Kroppen hämtar alltså socker i 'förråden' som sedan stannar i blodet.",
                     "Stress påverkar även blodsockret genom att stresshormoner motverkar insulinhormonerna vilket gör blodsockret svårare att kontrollera. Högre kortisol ger högre insulinresistens (i ett läge då kroppen redan har högre insulinbehov samt viss ökad insulinresistens pga graviditeten), vilket ger högre blodsocker.",
                     "Är du stressad? Långvarig eller återkommande stress kan vara bra att prata om. Många saker som orsakar stress går ofta att ändra med rätt hjälp. Prata gärna med din barnmorska, dina nära och kära, eller din doula kanske.",
-                    "Finns det något du vet att du kan göra för att minska din stress? Kan du öva på att hantera stressen? Ta hjälp, och försök hitta hjälpmedel i vardagen för att minska din stress. Kan du gå till en osteopat för dina fysiska krämpor, eller för att balansera din kropp i allmänhet? Hjälper yoga? Kan du meditera varje dag för att stilla ditt nervsystem? Se vad som fungerar för dig!",
+                    "Finns det något du vet att du kan göra för att minska din stress? Kan du öva på att hantera stressen? Ta hjälp, och försök hitta hjälpmedel i vardagen för att minska din stress. Kan du gå till en osteopat för dina fysiska krämpor, eller för att balansera din kropp i allmänhet? Hjälper yoga? Kan du meditera varje dag för att stilla ditt nervsystem? Har du provat vagus-andning? Se vad som fungerar för dig!",
                     "Kom ihåg att fysisk aktivitet förbättrar välbefinnande och sömn, minskar stresshormonet kortisol, och har en positiv påverkan på tex endorfiner, serotonin, dopamin och noradrenalin i hjärnans molekylära system, samt motverkar en minskad hippocampusvolym som kan ses vid depression. (Källa: Läkartidningen 2022-09-14)."
                 ]
         },
@@ -48,7 +48,19 @@
                 [
                     "Osteopatbehandling har många gynnsamma effekter för att hjälpa kroppen till balans.",
                     "Ju bättre balanserad anatomi och fysiologi, desto bättre kan kroppen fungera - och vi mår bättre!",
-                    "Det finns studier som visar på eventuella samband mellan osteopati och jämnare blodsockernivåer. Det behövs mer studer men helt klart är att en kropp i bättre balans, som kan röra sig smidigare, kan fungera bättre även hormonellt (kom ihåg att insulin är ett hormon)."
+                    "Det finns studier som visar på samband mellan osteopati och jämnare blodsockernivåer. En kropp i bättre anatomisk och fysiologisk balans, och som kan röra sig smidigare, kan fungera bättre även hormonellt (kom ihåg att insulin är ett hormon).",
+                    "Osteopatisk behandling (tex kraniell osteopati som dessutom är oerhört skonsamt) hjälper även mot stresspåslag i kroppen, och ju mindre stresshormoner - desto bättre blodsocker!"
+                ]
+        },
+        {
+            "title": "Andas/Meditation",
+            "id": "breathe",
+            "paragraphList": 
+                [
+                    "Meditation kanske är nytt för många, men det är ett fantastiskt sätt att jobba med sin kropp och sin andning för att stilla tankarna och stimulera det parasympatiska nervsystemet.",
+                    "Det finns många appar som har enkla, korta (och långa) meditationer att prova utefter tycke och smak.",
+                    "En längre meditation som rekommenderas varmt för de som är nyfikna är Deepak Chopras Chakra-meditationer.",
+                    "Vagus-andning är ett sätt att andas på som är fantastiskt för att stimulera det parasympatiska nervsystemet - aka lugna ned kroppen och minska stresspåslag. Det är även väldigt nyttigt längre fram vid förlossningen! Du kan googla dig fram till guider på vagus-andning men en grundsak med det hela är att andas 'in for four, out for more'. Dvs. andas in på fyra sekunder, pausa gärna 4 sekunder, och andas ut längre än 4 sekunder, pausa fyra sekunder. Så fortsätter du så."
                 ]
         },
         {
@@ -177,7 +189,7 @@
             "paragraphList": 
                 [
                     "Hur finfördelad maten är har också påverkan på hur snabbt magsäcken tömmer sig.",
-                    "Tex. är en morot bättre än en riven morot, som i sin tur dock är bättre än morotspuré."
+                    "Tex. är en hel rå morot bättre än en riven morot, som i sin tur dock är bättre än morotspuré."
                 ]
         },
         {
@@ -210,7 +222,8 @@
                 [
                     "Vissa frukter och bär är bättre än andra men det kan vara svårt att veta vilka. Använd gärna sökfunktionen på denna sida, eller ladda ned T1D-appen och använd deras sök, eller hitta någonstans där du kan kolla upp kolhydratmängden i olika frukter och bär.",
                     "Hallon är till exempel mycket bättre (lägre innehåll av kolhydrater + sockerarter) än både blåbär och jordgubbar.",
-                    "Frukter som tex banan innehåller mycket socker och bör ätas sparsamt för att undvika glukostoppar."
+                    "Frukter som tex banan innehåller mycket socker och bör ätas sparsamt för att undvika glukostoppar.",
+                    "Tänk på att torkad frukt har betydligt högre sockerinnehåll!"
                 ]
         },
         {
