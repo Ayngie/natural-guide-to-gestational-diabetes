@@ -3,7 +3,7 @@ import { getJSONData } from "../../../services/getJSONData";
 import { SearchField } from "../searchField/SearchField";
 import { FullSearchResult } from "../FullSearchResult";
 import { StyledSearchSection, StyledFullSearchResults } from "../../styles/StyledWrappers";
-import { StyledHeading, Paragraph } from "../../styles/StyledTexts";
+import { StyledHeading, Paragraph, ItalicText } from "../../styles/StyledTexts";
 import { StyledLoader } from "../../styles/search/StyledLoader";
 import { IFoodItem } from "../../../models/IFoodItem";
 import { StyledButton } from "../../styles/search/StyledSearchField";
@@ -81,6 +81,7 @@ export const LocalJSONSearch = ({ isLoading, setIsLoading}:IJSONSearchProps) => 
     <>
       <StyledHeading>Sök livsmedel</StyledHeading>
       <Paragraph>Här kan du söka fram livsmedelsdata från Livsmedelsverket för att se näringsvärden!</Paragraph>
+      <Paragraph><ItalicText>Här kan du kolla bl.a. kolhydratmängden på dina livsmedel - titta då även på andel sockerarter. Det är sockerarterna som höjer blodsockret snabbast och mest. Mängden sockerarter får gärna vara max 5g / 100g om möjligt.</ItalicText></Paragraph>
 
       <StyledSearchSection>
       {!hideSearchButton && <SearchField setFood={setJsonFood} food={jsonFood} setIsLoading={setIsLoading}/>}
