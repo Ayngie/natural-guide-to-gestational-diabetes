@@ -48,7 +48,7 @@ export const AboutProject = () => {
           </Paragraph>
           
           <Paragraph>
-            Tack vare mycket efterforskningar och hårt arbete lyckades jag slippa insulinet, ha en hälsosam graviditet, 
+            Tack vare mycket efterforskningar och hårt arbete lyckades jag slippa insulinbehandling, ha en hälsosam graviditet, 
             och fick en fantastiskt hälsosam och fin bebis (som var aldeles lagom stor :). &#129328;  
           </Paragraph>
 
@@ -58,7 +58,7 @@ export const AboutProject = () => {
 
           <Paragraph>
             <BoldText>Målet med detta projekt</BoldText> var att försöka skapa en tydlig och strukturerad webbplats som 
-            erbjuder naturliga tips och info för att hjälpa hålla jämnare blodsocker och bättre hantera sin 
+            erbjuder naturliga tips och information för att hjälpa hålla jämnare blodsocker och bättre hantera sin 
             graviditetsdiabetes.            
           </Paragraph>
 
