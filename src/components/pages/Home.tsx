@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { LinkToTop } from "../LinkToTop";
+import { StyledHero } from "../styles/StyledHero";
 import { StyledFullSection, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeading, Paragraph, BoldText, StyledLinks, TextLink } from "../styles/StyledTexts";
+import { StyledHeading, Paragraph, BoldText, StyledLinks, TextLink, ItalicText } from "../styles/StyledTexts";
 
 export const Home = () => {
   useEffect(() => {
@@ -22,10 +23,13 @@ export const Home = () => {
 
   return (
     <StyledFullSection>
-      <StyledHeading>Välkommen!</StyledHeading>
-      <ParagraphWrapper>
+      <StyledHero>
+        <StyledHeading>Välkommen!</StyledHeading>
         <Paragraph>Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
+        <Paragraph><ItalicText>Läs mer nedan!</ItalicText></Paragraph>
+      </StyledHero>
 
+      <ParagraphWrapper>
         <h3>Vad är GDM?</h3>
         <Paragraph>
           När kvinnan har en bebis (eller fler) i magen behöver kroppen <TextLink href="https://liu.se/nyhet/digital-plattform-hjalper-gravida-att-halla-blodsockret" target="_blank"> ca 40% mer</TextLink> av hormonet insulin för att  
