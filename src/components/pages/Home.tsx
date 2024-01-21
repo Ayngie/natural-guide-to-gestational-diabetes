@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Hero } from "../Hero";
 import { LinkToTop } from "../LinkToTop";
-import { StyledHero } from "../styles/StyledHero";
 import { StyledFullSection, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeading, Paragraph, BoldText, StyledLinks, TextLink, ItalicText } from "../styles/StyledTexts";
+import { Paragraph, BoldText, StyledLinks, TextLink } from "../styles/StyledTexts";
 
 export const Home = () => {
   useEffect(() => {
@@ -23,11 +23,7 @@ export const Home = () => {
 
   return (
     <StyledFullSection>
-      <StyledHero>
-        <StyledHeading>Välkommen!</StyledHeading>
-        <Paragraph>Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
-        <Paragraph><ItalicText>Läs mer nedan!</ItalicText></Paragraph>
-      </StyledHero>
+      <Hero/>
 
       <ParagraphWrapper>
         <h3>Vad är GDM?</h3>
