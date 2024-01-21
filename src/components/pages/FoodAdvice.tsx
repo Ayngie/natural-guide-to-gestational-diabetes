@@ -48,7 +48,7 @@ export const FoodAdvice = () => {
   return (
     <section>
       <Breadcrumbs>
-        <StyledBreadcrumb href="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
+        <StyledBreadcrumb to="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
         <p>Kost</p> 
       </Breadcrumbs>
 

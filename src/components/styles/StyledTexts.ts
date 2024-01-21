@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 /* ----------------------  Headings  ---------------------- */
 
@@ -94,7 +95,7 @@ export const TextLink = styled.a `
     color: rebeccapurple;
 `;
 
-export const StyledBreadcrumb = styled(TextLink) `
+export const StyledBreadcrumb = styled(NavLink) `
     color: rebeccapurple;
     padding: 10px;
 `;

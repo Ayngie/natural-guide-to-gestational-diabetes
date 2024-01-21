@@ -48,7 +48,7 @@ export const TrainingAdvice = () => {
   return (
     <section>
       <Breadcrumbs>
-        <StyledBreadcrumb href="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
+        <StyledBreadcrumb to="/natural-guide-to-gestational-diabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
         <p>Träning</p> 
       </Breadcrumbs>
       <StyledHeadingMobile>Träningstips för bättre blodsocker</StyledHeadingMobile>
