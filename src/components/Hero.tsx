@@ -1,12 +1,15 @@
 import { StyledHero } from "./styles/StyledHero";
 import { StyledHeading, Paragraph, BoldText, ItalicText } from "./styles/StyledTexts";
+import { ParagraphWrapper } from "./styles/StyledWrappers";
 
 
 export const Hero = () => {
     return (
     <StyledHero>
-        <StyledHeading>Välkommen!</StyledHeading>
-        <Paragraph>Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
+        <ParagraphWrapper>
+            <StyledHeading>Välkommen!</StyledHeading>
+            <Paragraph>Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
+        </ParagraphWrapper>
         <Paragraph><ItalicText>Läs mer nedan!</ItalicText></Paragraph>
     </StyledHero>
     );
