@@ -21,7 +21,7 @@ export const StyledHero = styled.section `
         font-size: 1.3rem;
     }
     @media screen and (min-width: 1000px) {
-        height: 70vh;
+        height: 80vh;
         font-size: 2rem;
         margin-bottom: 3%;
     }
