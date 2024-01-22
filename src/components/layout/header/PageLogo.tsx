@@ -11,7 +11,7 @@ export const PageLogo = () => {
             <StyledLogoImg alt="G-logotype" src={logoImg}></StyledLogoImg>  
             <LogoTextContainer>
               <StyledLogoText>raviditetsdiabetes</StyledLogoText>    
-              <StyledLogoText>appen</StyledLogoText>    
+              <StyledLogoText>uiden</StyledLogoText>    
             </LogoTextContainer>
         </StyledLogoContainer>
       </Link>
