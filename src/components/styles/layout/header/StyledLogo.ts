@@ -41,6 +41,10 @@ export const StyledLogoText = styled.span `
     }
 `;
 
+export const LetterG = styled.span `
+//make responsive the letter g
+`;
+
 export const LogoWrapper = styled.div `
     padding-top: 4%;
     width: 60%;
