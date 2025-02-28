@@ -28,12 +28,11 @@ export const ErrorPage404 = () => {
       <StyledHeading>Error - 404</StyledHeading>
       <StyledArticle>
         <ParagraphWrapper>
-          <h3>Ooops!</h3>
-          <Paragraph>Åh nej... Något gick fel...! </Paragraph>
+          <h3>Tyvärr, något gick fel...</h3>
           <Paragraph>
             <StyledLinks>
               <Link to="/">
-                Ta mig tillbaka till startsidan för att börja om
+                Ta mig tillbaka till startsidan för att börja om!
               </Link>
             </StyledLinks>
             !
