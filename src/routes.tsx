@@ -20,7 +20,7 @@ const AboutProject = React.lazy(
 const BASE_PATH = '/natural-guide-to-gestational-diabetes';
 
 const childRoutes: RouteObject[] = [
-  { path: '/', element: <Home />, index: true },
+  { path: '', element: <Home />, index: true },
   { path: 'life', element: <LifeAdvice /> },
   { path: 'training', element: <TrainingAdvice /> },
   { path: 'food', element: <FoodAdvice /> },
