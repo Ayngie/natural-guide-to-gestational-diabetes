@@ -73,13 +73,13 @@ const Home = () => {
         <Paragraph>
           Efter graviditeten återställs allt vanligen för kvinnan, men har hon
           en gång haft GDM har hon ökad risk att utveckla diabetes mellitus typ
-          II senare i livet. Har kvinnan en gång haft GDM är även risken stor (
+          II senare i livet. Har kvinnan en gång haft GDM är även risken stor -
           <TextLink
             href="https://mellanarkiv-offentlig.vgregion.se/alfresco/s/archive/stream/public/v1/source/available/SOFIA/SKAS9716-1940753776-142/SURROGATE/Graviditetsdiabetes%20(GDM)%20-%20handl%c3%a4ggning.pdf"
             target="_blank">
-            50-70% risk
+            50-70% risk (ladda ned PDF)
           </TextLink>
-          ) att få det vid framtida graviditeter.
+          - att få det vid framtida graviditeter.
         </Paragraph>
 
         <h3>Vad kan jag själv göra?</h3>
