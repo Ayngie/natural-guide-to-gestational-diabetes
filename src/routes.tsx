@@ -19,12 +19,12 @@ const AboutProject = React.lazy(
 
 const childRoutes: RouteObject[] = [
   { path: '/', element: <Home />, index: true },
-  { path: 'life', element: <LifeAdvice /> },
-  { path: 'training', element: <TrainingAdvice /> },
-  { path: 'food', element: <FoodAdvice /> },
-  { path: 'recipes', element: <RecipeTips /> },
-  { path: 'search', element: <SearchFood /> },
-  { path: 'about', element: <AboutProject /> },
+  { path: '/life', element: <LifeAdvice /> },
+  { path: '/training', element: <TrainingAdvice /> },
+  { path: '/food', element: <FoodAdvice /> },
+  { path: '/recipes', element: <RecipeTips /> },
+  { path: '/search', element: <SearchFood /> },
+  { path: '/about', element: <AboutProject /> },
 ];
 
 const routes: RouteObject[] = [
