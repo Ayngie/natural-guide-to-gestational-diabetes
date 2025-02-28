@@ -1,8 +1,8 @@
 import axios from "axios";
 // import { IFoodDataset } from "../models/IFoodDataset";
 
-export const getSLVData = async <T>() => {
-// export const getData = async <IFoodDataset>(food: string) => {
+export const getSLVData = async <T> (): Promise <T> => {
+// export const getData = async (food: string): Promise<IFoodDataset> => {
 
     const livsmedelsverket_url = `http://www7.slv.se/apilivsmedel/LivsmedelService.svc/Livsmedel/Naringsvarde/20230613`;
     // console.log("test", axios.get<IFoodDataset>(livsmedelsverket_url));
