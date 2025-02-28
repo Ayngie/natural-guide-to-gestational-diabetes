@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ['refactor-routing']
+    branches: ['main']
   # Allows manual triggering from the Actions tab to run this workflow
   workflow_dispatch:
 
