@@ -1,28 +1,47 @@
 # Your Natural Guide To Gestational Diabetes (GDM)
 
-UPDATE INFORMATION: This application is an older, primitive version, the whole application is being refactored for better structure, accessibility, aesthetics, and SEO (among other things). Link to refactored project will be released here when ready, so stay tuned! 
+_UPDATE INFORMATION: This web application is being completely refactored for better structure, accessibility, aesthetics, and SEO (among other things). 
+Link to refactored project will be released here when ready, so stay tuned!_
 
 ## Description
-### About this application:
-This is a degree project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024).
+This is a Degree Project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024).
 
-I chose to build an app that gives natural advice and info on how to deal with gestational diabetes mellitus (GDM).
-The app also allows the possibility to searh for nutritional info of different foods (info is dynamically retrieved from a JSON-file), the source of this nutritional information is Livsmedelsverket in Sweden.
+### Overview
+The *Natural Guide to Gestational Diabetes* is a web application crafted to provide users with a comprehensive resource for understanding and managing Gestational Diabetes Mellitus (GDM) via a natural and holistic approach . Drawing from personal experiences and authoritative sources, this project aims to educate and empower individuals through accessible, user-friendly content. The app also includes a search function for retrieving the nutritional info of various foods. 
 
+This application is built in React + TypeScript + Vite, with lazy loading.
+
+The search info is dynamically retrieved from a JSON-file, the source of this nutritional information is Livsmedelsverket in Sweden.
+
+The project language is swedish.
+
+**[Visit the Live Site](https://ayngie.github.io/natural-guide-to-gestational-diabetes/)**
+
+### Features
+- **Educational Content**: Combines personal insights with research-backed information from reputable health organizations.
+- **Responsive Design**: Built with HTML5 and Styled Components to ensure seamless usability across desktop and mobile devices.
+- **Interactive Elements**: Utilizes JavaScript/TypeScript for dynamic content delivery and enhanced user engagement.
+- **Clean UI**: Structured with semantic HTML and styled with modern styling techniques for an intuitive user experience.
+
+### Purpose
+This project was developed to share knowledge gained from personal experience with gestational diabetes, supplemented by credible research, in a clean format that is both informative and easy to navigate. It serves as both a learning tool and a showcase of front-end web development skills.
+
+### Future development
 The project is prepared for implementing api-calls to: 
 - Svenska Livsmedelsverket (LSV). However - for this a proxy-server is needed as api-calls from the frontend get access denied due to CORS.
 - FoodCentral API (usda.gov) for adding the feature of searching info on foods in english.
 
-This application is built in React + TypeScript + Vite.
+---
 
-The project language is swedish.
-
+## N.B.
 ### GitHub and SPA's:
-N.B. As GitHub does not support SPA's (Single Page Applications) - if you refresh any of the 'subpages' (other than the startpage) you will get a 404 from GitHub. If this happens - to fix  this - please go to the startpage url (https://ayngie.github.io/natural-guide-to-gestational-diabetes/) to start again, then navigate with help of the navbar, and do not refresh the page deployed with GitHub Actions :)
+As GitHub does not support SPA's (Single Page Applications) - if you refresh any of the 'subpages' (other than the startpage) you will get a 404 from GitHub. If this happens - to fix  this - please revisit the startpage and continue to navigate with help of the navbar (do not refresh the page deployed with GitHub Actions :).
 
 ### Swedish description of project:
-N.B This project exists in an identical copy with a swedish title.
+This project exists in an identical copy with a swedish title.
 Were you looking for this projects repo with a swedish title and Readme? Find the [swedish version here](https://github.com/Ayngie/naturlig-guide-till-graviditetsdiabetes).
+
+---
 
 ## Techniques used (shields/badges)
 ![React badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB/to/img.png)
@@ -69,15 +88,16 @@ Were you looking for this projects repo with a swedish title and Readme? Find th
 
 ---
 
-## Run locally:
+## Installation
+To run this project locally:
 
-Clone the project
+Clone the repository
 
 ```terminal
   git clone https://github.com/Ayngie/natural-guide-to-gestational-diabetes.git
 ```
 
-Go to the project directory
+Navigate to the project directory
 
 ```terminal
   cd natural-guide-to-gestational-diabetes
