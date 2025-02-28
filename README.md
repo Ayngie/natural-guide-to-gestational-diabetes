@@ -7,9 +7,9 @@ Link to refactored project will be released here when ready, so stay tuned!_
 This is a Degree Project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024).
 
 ### Overview
-The *Natural Guide to Gestational Diabetes* is a web application crafted to provide users with a comprehensive resource for understanding and managing Gestational Diabetes Mellitus (GDM) via a natural and holistic approach . Drawing from personal experiences and authoritative sources, this project aims to educate and empower individuals through accessible, user-friendly content. The app also includes a search function for retrieving the nutritional info of various foods. 
+The *Natural Guide to Gestational Diabetes* is a web application crafted to provide users with a comprehensive resource for understanding and managing Gestational Diabetes Mellitus (GDM) via a natural and holistic approach. Drawing from personal experiences and authoritative sources, this project aims to educate and empower individuals through accessible, user-friendly content. The app also includes a search function for retrieving the nutritional info of various foods. 
 
-This application is built in React + TypeScript + Vite, with lazy loading.
+This application is built in React + TypeScript + Vite, and includes lazy loading.
 
 The search info is dynamically retrieved from a JSON-file, the source of this nutritional information is Livsmedelsverket in Sweden.
 
