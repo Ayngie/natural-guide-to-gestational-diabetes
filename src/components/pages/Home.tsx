@@ -133,10 +133,7 @@ const Home = () => {
           {' '}
           Läs mer på:{' '}
           <StyledLinks>
-            <Link to="/natural-guide-to-gestational-diabetes/about">
-              {' '}
-              'Om detta projekt'{' '}
-            </Link>
+            <Link to="/about"> 'Om detta projekt' </Link>
           </StyledLinks>
           .
         </Paragraph>

@@ -27,9 +27,7 @@ const SearchFood = () => {
   return (
     <>
       <Breadcrumbs>
-        <StyledBreadcrumb
-          to="/natural-guide-to-gestational-diabetes/"
-          aria-label="Link to Home">
+        <StyledBreadcrumb to="/" aria-label="Link to Home">
           Start
         </StyledBreadcrumb>{' '}
         <ForwardSlash />

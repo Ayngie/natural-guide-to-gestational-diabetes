@@ -39,9 +39,7 @@ const AboutProject = () => {
   return (
     <>
       <Breadcrumbs>
-        <StyledBreadcrumb
-          to="/natural-guide-to-gestational-diabetes/"
-          aria-label="Link to Home">
+        <StyledBreadcrumb to="/" aria-label="Link to Home">
           Start
         </StyledBreadcrumb>{' '}
         <ForwardSlash />
@@ -54,7 +52,9 @@ const AboutProject = () => {
           <Paragraph>
             Denna webbplats är ett examensarbete gjort av frontendutvecklare{' '}
             <BoldText>Angelica Reuterswärd</BoldText>, på utbildningen{' '}
-            <TextLink href="https://medieinstitutet.se/utbildningar/front-end-developer/">
+            <TextLink
+              target="_blank"
+              href="https://medieinstitutet.se/utbildningar/front-end-developer/">
               {' '}
               Frontend Developer på Medieinstitutet i Stockholm
             </TextLink>
@@ -113,7 +113,7 @@ const AboutProject = () => {
 
           <Paragraph>
             Vill du komma i kontakt med mig kan du prova att
-            <IconLink href="mailto:angelica.reutersward@medieinstitutet.se?subject=Angående ditt examensarbete om graviditetsdiabetes&body=Hej Angelica! Jag heter...">
+            <IconLink href="mailto:angelicareutersward@gmail.com?subject=Angående ditt examensarbete om graviditetsdiabetes&body=Hej Angelica! Jag heter...">
               {' '}
               maila mig{' '}
               <StyledIcon
