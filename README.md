@@ -1,10 +1,9 @@
 # Your Natural Guide To Gestational Diabetes (GDM)
 
-N.B This project exists in an identical copy with a swedish title.
-Were you looking for this projects repo with a swedish title and Readme? Find the [swedish version here](https://github.com/Ayngie/naturlig-guide-till-graviditetsdiabetes).
-
+UPDATE INFORMATION: This application is an older, primitive version, the whole application is being refactored for better structure, accessibility, aesthetics, and SEO (among other things). Link to refactored project will be released here when ready, so stay tuned! 
 
 ## Description
+### About this application:
 This is a degree project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024).
 
 I chose to build an app that gives natural advice and info on how to deal with gestational diabetes mellitus (GDM).
@@ -18,7 +17,12 @@ This application is built in React + TypeScript + Vite.
 
 The project language is swedish.
 
+### GitHub and SPA's:
 N.B. As GitHub does not support SPA's (Single Page Applications) - if you refresh any of the 'subpages' (other than the startpage) you will get a 404 from GitHub. If this happens - to fix  this - please go to the startpage url (https://ayngie.github.io/natural-guide-to-gestational-diabetes/) to start again, then navigate with help of the navbar, and do not refresh the page deployed with GitHub Actions :)
+
+### Swedish description of project:
+N.B This project exists in an identical copy with a swedish title.
+Were you looking for this projects repo with a swedish title and Readme? Find the [swedish version here](https://github.com/Ayngie/naturlig-guide-till-graviditetsdiabetes).
 
 ## Techniques used (shields/badges)
 ![React badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB/to/img.png)
