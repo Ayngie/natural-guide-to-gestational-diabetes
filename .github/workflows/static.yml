@@ -6,10 +6,10 @@ on:
   push:
     branches: ['main']
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows manual triggering from the Actions tab to run this workflow
   workflow_dispatch:
 
-# Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
+# Sets permissions for GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -30,24 +30,32 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Set up Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: 'npm'
+
       - name: Install dependencies
         run: npm install
+
       - name: Build
         run: npm run build
+
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
+        # Ensures this runs only if build succeeds
+        if: success()
+
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist repository
           path: './dist'
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
     env:
-        GITHUB_PAGES_URL: https://ayngie.github.io/natural-guide-to-gestational-diabetes/
+      GITHUB_PAGES_URL: https://ayngie.github.io/natural-guide-to-gestational-diabetes/
