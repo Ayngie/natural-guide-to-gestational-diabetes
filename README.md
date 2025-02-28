@@ -65,7 +65,7 @@ Were you looking for this projects repo with a swedish title and Readme? Find th
 ---
 
 ## Screenshot of project:
-![Demonstration of my degree project](./public/Project-screenshot.png?raw=true "Your Natural Guide to Gestational Diabetes")
+![Demonstration of my degree project](./public/screenshot-of-project.png?raw=true "Your Natural Guide to Gestational Diabetes")
 
 ---
 
