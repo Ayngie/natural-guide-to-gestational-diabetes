@@ -1,45 +1,42 @@
 # Your Natural Guide To Gestational Diabetes (GDM)
 
-_UPDATE INFORMATION: This web application is being completely refactored for better structure, accessibility, aesthetics, and SEO (among other things). 
-Link to refactored project will be released here when ready, so stay tuned!_
-
-## Description
-This is a Degree Project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024).
-
-### Overview
-The *Natural Guide to Gestational Diabetes* is a web application crafted to provide users with a comprehensive resource for understanding and managing Gestational Diabetes Mellitus (GDM) via a natural and holistic approach. Drawing from personal experiences and authoritative sources, this project aims to educate and empower individuals through accessible, user-friendly content. The app also includes a search function for retrieving the nutritional info of various foods. 
-
-This application is built in React + TypeScript + Vite, and includes Styled Components & lazy loading.
-
-The search info is dynamically retrieved from a JSON-file, the source of this nutritional information is Livsmedelsverket in Sweden.
+## Overview
+Degree Project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024). Also a major passion project personally :)
 
 The project language is swedish.
 
-**[Visit the Live Site](https://ayngie.github.io/natural-guide-to-gestational-diabetes/)**
+For information in Swedish visit a [swedish version here](https://github.com/Ayngie/naturlig-guide-till-graviditetsdiabetes).
 
-### Features
-- **Educational Content**: Combines personal insights with research-backed information from reputable health organizations.
-- **Responsive Design**: Built with HTML5 and Styled Components to ensure seamless usability across desktop and mobile devices.
-- **Interactive Elements**: Utilizes JavaScript/TypeScript for dynamic content delivery and enhanced user engagement.
-- **Clean UI**: Structured with semantic HTML and styled with modern styling techniques for an intuitive user experience.
 
-### Purpose
-This project was developed to share knowledge gained from personal experience with gestational diabetes, supplemented by credible research, in a clean format that is both informative and easy to navigate. It serves as both a learning tool and a showcase of front-end web development skills.
+### Description
+The *Natural Guide to Gestational Diabetes* is a web application that aims to educate and empower individuals with Gestational Diabetes Mellitus (GDM) in how to better manage their GDM via natural and holistic remedies. 
+
+The information provided comes from previous knowledge from my time as an osteopath, personal experiences with GDM, and is supplemented by credible research and authoritative sources. 
+
+The app also includes a search function for retrieving the nutritional info of various foods. The source of this nutritional information is Livsmedelsverket in Sweden.
+
+This project serves as both a learning tool and a showcase of front-end web development skills. I have strived to deliver the info in a clean, accessibble format that is both informative and easy to navigate. I.e. simple and user-friendly!
+
+
+### Techniques:
+This application is built in React + TypeScript + Vite, and includes HTML5, Styled Components & Lazy loading.
+
+The search info is dynamically retrieved from a JSON-file.
 
 ### Future development
 The project is prepared for implementing api-calls to: 
 - Svenska Livsmedelsverket (LSV). However - for this a proxy-server is needed as api-calls from the frontend get access denied due to CORS.
 - FoodCentral API (usda.gov) for adding the feature of searching info on foods in english.
+- FIX GitHub 404 issue / Deploy elsewhere as GitHub and 404:s aren't best friends... If you try to refresh on any other url than the startpage you will get a GitHub 404. Please go back to the starting URL and navigate from there if this happens.
 
----
+_UPDATE: This web application is being completely refactored for better structure, accessibility, aesthetics, and SEO (among other things). 
+Stay tuned!_
 
-## N.B.
-### GitHub and SPA's:
-As GitHub does not support SPA's (Single Page Applications) - if you refresh any of the 'subpages' (other than the startpage) you will get a 404 from GitHub. If this happens - to fix  this - please revisit the startpage and continue to navigate with help of the navbar (do not refresh the page deployed with GitHub Actions :).
 
-### Swedish description of project:
-This project exists in an identical copy with a swedish title.
-Were you looking for this projects repo with a swedish title and Readme? Find the [swedish version here](https://github.com/Ayngie/naturlig-guide-till-graviditetsdiabetes).
+### Deployed with GitHub Actions
+Check out the site [here](https://ayngie.github.io/natural-guide-to-gestational-diabetes/)!
+
+Feel free to share it with anyone who you think can benefit from the information! ✨️
 
 ---
 
